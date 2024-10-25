@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729832641.60171 "c:/Users/Jeff Rouzel/Downloads/4th Year 1st Sem/CMSC 198.1/SeaXChange/Documentation/SeaXChange.tex" "SeaXChange.pdf" "SeaXChange" 1729832642.43534 0
+["pdflatex"] 1729854869.1156 "c:/Users/Jeff Rouzel/Downloads/4th Year 1st Sem/CMSC 198.1/SeaXChange/Documentation/SeaXChange.tex" "SeaXChange.pdf" "SeaXChange" 1729854870.07781 0
   "C:/Users/Jeff Rouzel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1729832541 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Jeff Rouzel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1724939558 24268201 98e90cca4baee3f1343d3ee275811423 ""
   "C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -74,10 +74,10 @@
   "C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "SeaXChange.aux" 1729832642 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "SeaXChange.out" 1729832642 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "SeaXChange.tex" 1729832640 789 85a397ab44dfe67b22f4469ea426f42f ""
-  "c:/Users/Jeff Rouzel/Downloads/4th Year 1st Sem/CMSC 198.1/SeaXChange/Documentation/SeaXChange.tex" 1729832640 789 85a397ab44dfe67b22f4469ea426f42f ""
+  "SeaXChange.aux" 1729854869 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "SeaXChange.out" 1729854869 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "SeaXChange.tex" 1729854867 446 a02d2307a95e091ef04861e9394af7a4 ""
+  "c:/Users/Jeff Rouzel/Downloads/4th Year 1st Sem/CMSC 198.1/SeaXChange/Documentation/SeaXChange.tex" 1729854867 446 a02d2307a95e091ef04861e9394af7a4 ""
   (generated)
   "SeaXChange.aux"
   "SeaXChange.log"

@@ -1,2 +1,3 @@
 # SeaXChange
-Blockchain-driven Mobile Application focusing on Tuna Catch
+
+Blockchain-driven Mobile Application focusing on Tuna Supply Chain

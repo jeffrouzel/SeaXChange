@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.29)  6 NOV 2024 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.29)  8 NOV 2024 14:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,11 +330,39 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \linenoamsmath@ams@eqpen=\count299
 LaTeX Info: Redefining \\ on input line 3180.
 ))
+(C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stack
+engine.sty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listo
+fitems.sty
+(C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\lis
+tofitems.tex
+\loi_cnt_foreach_nest=\count300
+\loi_nestcnt=\count301
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count302
+\@boxshift=\skip62
+\stack@tmplength=\skip63
+\temp@stkl=\skip64
+\@stackedboxwidth=\skip65
+\@addedbox=\box59
+\@anchorbox=\box60
+\@insetbox=\box61
+\se@backgroundbox=\box62
+\stackedbox=\box63
+\@centerbox=\box64
+\c@ROWcellindex@=\count303
+)
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count304
+\l__pdf_internal_box=\box65
 )
 
 LaTeX Warning: Unused global option(s):
@@ -344,34 +372,34 @@ LaTeX Warning: Unused global option(s):
 (chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
+\scratchcounter=\count305
 \scratchdimen=\dimen179
-\scratchbox=\box60
-\nofMPsegments=\count302
-\nofMParguments=\count303
+\scratchbox=\box66
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count304
+\MPscratchCnt=\count308
 \MPscratchDim=\dimen180
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks32
 )
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
@@ -402,7 +430,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@maskedRefs=\count307
+\c@maskedRefs=\count311
 
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.a
 pc
@@ -469,7 +497,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (chapter_1.tex
 Chapter 1.
-<figures/DisneyChart.png, id=25, 346.29375pt x 225.84375pt>
+<figures/DisneyChart.png, id=24, 346.29375pt x 225.84375pt>
 File: figures/DisneyChart.png Graphic file (type png)
 <use figures/DisneyChart.png>
 Package pdftex.def Info: figures/DisneyChart.png  used on input line 22.
@@ -518,16 +546,42 @@ Chapter 2.
 
 
 
-])
+]
 
 [7]
+
+[8]
+
+[9]
+
+[10]
+Overfull \hbox (7.75107pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/12 Automated pro-cess of trans-ac-tions is also one of the salie
+nt fea-tures of blockchain
+ []
+
+
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16])
+
+[17]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
 
 
-[8
+[18
 
 
 
@@ -544,21 +598,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 
 )
 
-[9]
+[19]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
 )
 
-[10
+[20
 
 
 
 
 ] (main.bbl)
 
-[11
+[21
 
 
 
@@ -569,7 +623,7 @@ Chapter 4.
 Appendix A.
 )
 
-[12
+[22
 
 
 ]
@@ -579,7 +633,7 @@ Appendix A.
 Appendix B.
 )
 
-[13
+[23
 
 
 
@@ -592,13 +646,13 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6932 strings out of 473899
- 114061 string characters out of 5723632
- 1938960 words of memory out of 5000000
- 29621 multiletter control sequences out of 15000+600000
- 566628 words of font info for 68 fonts, out of 8000000 for 9000
+ 7237 strings out of 473899
+ 119121 string characters out of 5723632
+ 1940960 words of memory out of 5000000
+ 29916 multiletter control sequences out of 15000+600000
+ 566292 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,10n,84p,785b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,84p,2919b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jeff Rouzel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTe
@@ -608,11 +662,12 @@ el/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
 sers/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mr8.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmss8.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Jeff Rouzel/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (19 pages, 154896 bytes).
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jeff Rouzel/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Jeff Rouzel/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (29 pages, 200364 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

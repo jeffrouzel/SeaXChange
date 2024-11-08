@@ -2,6 +2,9 @@
 %   Description : This is the main file for the LaTeX thesis proposal document template.
 \include{preamble}     
 \graphicspath{{figures/}}  %figures is the name of the folder containing images JPG or PNG
+\usepackage{stackengine}
+\newcommand\pesos{%
+	\stackengine{-1.38ex}{P}{\stackengine{-1.2ex}{$-$}{$-$}{O}{c}{F}{F}{S}}{O}{c}{F}{T}{S}}
 
 \begin{document}
 \linenumbers

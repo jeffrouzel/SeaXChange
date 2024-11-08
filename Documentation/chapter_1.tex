@@ -5,78 +5,15 @@
 \section{Overview}
 \label{sec:overview}
 
-This section gives the reader an overview of the real world problem that needs to be solved. It describes the exigency of the proposed solution. The consequences to the affected stakeholders that the problem may bring if it not addressed. Discussion must not be too technical or too detailed.
-   
-\textcolor{red}{This section ends with a discussion on the problem/s faced by or that still exist in the specific
-technology or field (e.g., limitations of existing software or algorithms). 
-The problem statement would lead to the research objectives.}
+The tuna supply chain faces critical issues that affect both the industry and its consumers. It is vulnerable to illegal fishing, overfishing, and lack of traceability, resulting in widespread ethical and environmental concerns. The lack of traceability also contributes to the lack of transparency which results to consumers being compromised by the quality of the product. Through blockchain technology, it can provide solutions to these prevalent challenges by providing a secure and tamper-proof ledger from the tuna's journey from the ocean to plate. This also ensure the compliance of the stakeholders to legal standards.
 
+\noindent Currently, the integration of blockchain with the tuna sector still has its gaps regarding the implementation. This study will help address the industry’s need for transparent and secure tracking of tuna products from ocean to consumer, while assessing the feasibility of implementing blockchain at scale in the seafood sector.
 
-It is   easy to include a figure in JPG or PNG format as shown in the  following example.  
-Make sure that you explain what the figure is all about, and that you refer to your figure.  
-For example, \figref{fig:disneystock} shows a graph of the performance of Disney stock from the 1980s to 2012.
-  
-%--- the following example shows how to include a figure in PNG format
-\begin{figure}[t]                %-- use [t] to place figure at top, [b] to place at the bottom, [h] for here
-   \centering                    %-- use this to center the figure
-   \includegraphics{DisneyChart.png}      %-- include image file named as "disneychart.png" 
-   \caption{This is the figure's caption -- Disney stock chart.
-   	Captions should fully describe the figure in a concise manner  such that there is not need to refer to the text when figuring out the graphic.}
-    \label{fig:disneystock}
-\end{figure}
-
-
-Some notes on citing references.   
-When using APA format, the author-date method of citation is  followed.   
-This means that the author's last name and the year of publication for the source should  appear in the text, and a complete reference should appear in the reference list.
-
-
-Here are some examples on how to do the referencing (note author's name and years are different from commented examples).  
-For APA citation details, refer to \url{http://www.ctan.org/tex-archive/biblio/bibtex/contrib/apacite/}. 
-
-\begin{itemize}
- \item \citeA{kartch:2000:ERA} compared reaction times...
- \item In a recent study of reaction times \cite{kartch:2000:ERA}...
- \item In \citeyearNP{kartch:2000:ERA}, \citeauthor{kartch:2000:ERA} compared reaction times...
- \item \shortciteA{fedkiw:2001:VSO} compared reaction times... 
- \item In a recent study of reaction times \cite{fedkiw:2001:VSO}...
- \item In \citeyearNP{fedkiw:2001:VSO}, \shortciteauthor{fedkiw:2001:VSO}, compared reaction times...
-\end{itemize}
-
-The following are references from journal articles \cite{Park:2006:DSI, Pellacini:2005:LAH, sako:2001:SSB}.
- Here's an MS thesis document \cite{yee:2000:SSA}, and this is from PhD dissertation \cite{kartch:2000:ERA}. 
- For a book, reference is given as  \cite{parke:1996:CFA}. 
- Proceedings from a conference samples are \cite{Jobs95, fedkiw:2001:VSO, levoy:2000:TDM}.  
- The sample bibliography file named \textbf{myreferences.bib} is from the SIGGRAPH \LaTeX{}  template.  
- You can use a text editor to view the contents of the bib file.  
- It is your task to create your own bibliography file.  
- For those who downloaded papers from ACM or IEEE sites, there is a BibTeX link that you can click; thereafter, you just simply need to copy and paste the BibTeX entry into your own bibliography file.
-
-The following shows how to include a program source code (or algorithm).  
-The verbatim environment, as the name suggests, outputs text (including white spaces) as is...
-
-\begin{verbatim}
-               #include <stdio.h>
-               main()
-               {
-                    printf("Hello world!\n");
-               }
-\end{verbatim}
-
-Alternatively, you can also use the \emph{lstlisting} environment from the \textbf{listings} package.
 
 \section{Problem Statement}
-\textcolor{red}{DO NOT FORGET to write the statement of the research problem here, i.e., before the Research Objectives.}
 
-A problem statement is your research problem written explicitly.  
-The problem statement should do four things: 
-\begin{enumerate}
-	\item Specify and describe the problem (with appropriate citations) 
-	\item  Provide evidence of the problem’s existence  
-	\item Explain the consequences of NOT solving the problem  
-	\item 	Identify what is not known about the problem that should be known.
-	\item Subdivide the main problem into several subproblems.
-\end{enumerate}
+Fish is one of the most consumed protein products in the Philippines. Before the COVID-19 pandemic, fish was the most consumed animal protein in the Philippines with annual per capita consumption of 40 kg (Agriculture and Agri-Food Canada, 2022). Although the nation is gifted with an abundance of aquatic resources, the methods of dispersal of the product usually leads to inefficiency in terms of sales, pricing, and overall product quality for the consumers. The problem arises with the introduction of a supply chain from several middlemen between the fish farmer or producer and wholesaler in the coastal and aquatic regions towards the consumers with less access to fresh fish. Consequently, both consumers and suppliers face challenges in ensuring transparent and fair pricing, product tracking, and maintaining the quality of fish products.
+
 
 
 \section{Research Objectives}
@@ -96,13 +33,15 @@ Address the following: Given your research challenge or opportunity, how do you 
 %  \begin{comment} ... \end{comment} is used for multiple lines of comment
 %
 
-This subsection is an elaboration of the general objective.  
-It states the specific steps that must be undertaken to accomplish the general objective.  
-These objectives must be \textbf{S}pecific, \textbf{M}easurable, \textbf{A}ttainable, \textbf{R}ealistic, \textbf{T}ime-bounded. Also, they are manageable and communicable.  
 
-A specific objective start with ``to $<$verb$>$'' for example: to design/survey/review/analyze.
-
-Studying a particular programming language or development tool (e.g., to study Windows/Object-Oriented/Graphics/C++ programming) to  accomplish the general objective is inherent in all thesis and, therefore, must not be included here.
+\begin{enumerate}
+	
+	\item To create suitable use cases for the tuna supply chain roles, namely, fishers, suppliers, retailers, and consumers through primary sources and acquired information from related literature
+	\item To define the system architecture of SeaXChange is also developed in compliance with the necessary blockchain and distributed system architecture to reflect the requirements of the use case
+	\item To implement the application after creating the prerequisites of the software development  
+	\item To deploy the system after the quality is tested to assess its feasibility in real-world applications 
+	\item To discuss the overall results and effectiveness of implementing a blockchain driven application for tuna supply chain in the fourth and fifth chapters of the study
+\end{enumerate}
 
 
 \begin{comment}
@@ -156,19 +95,13 @@ Specific Objective:
 %  The following are example specific objectives; replace them with your own 
 %
 
-\begin{enumerate}
-   \item To compare and contrast existing algorithms (on what problem?);
-   \item To develop a new algorithm (for what purpose?)
-   \item To analyze the algorithm (based on what criteria?)
-\end{enumerate}
-
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
 
 The scope of this study focuses on how blockchain technology can be applied to enhance traceability and transparency within the tuna supply chain. It will involve features such as smart contracts for recording the transactions and user interface for stakeholders. The study will also focus exclusively on whole, caught tuna products in the supply chain, excluding processed forms such as canned or packaged tuna. The research will examine the traceability of whole tuna from capture to market sale, specifically centering on a supplier based in Iloilo. 
 
-This study will only be limited to the supply chain in Iloilo, so findings may not fully represent global practices. Since this will only focus on blockchain’s function in traceability, other functions are outside the scope of this research. 
+\noindent This study will only be limited to the supply chain in Iloilo, so findings may not fully represent global practices. Since this will only focus on blockchain’s function in traceability, other functions are outside the scope of this research. 
 
 
 \begin{comment}

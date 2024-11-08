@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.29)  8 NOV 2024 14:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.8.29)  8 NOV 2024 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,11 +326,21 @@ sep char (CT)
 \@centerbox=\box63
 \c@ROWcellindex@=\count295
 ))
+(C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen174
+\ar@mcellbox=\box64
+\extrarowheight=\dimen175
+\NC@list=\toks30
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box65
+)
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
 nd-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count296
-\l__pdf_internal_box=\box64
+\l__pdf_internal_box=\box66
 )
 
 LaTeX Warning: Unused global option(s):
@@ -359,16 +369,16 @@ LaTeX Font Info:    ... okay on input line 6.
 pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count297
-\scratchdimen=\dimen174
-\scratchbox=\box65
+\scratchdimen=\dimen176
+\scratchbox=\box67
 \nofMPsegments=\count298
 \nofMParguments=\count299
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks31
 \MPscratchCnt=\count300
-\MPscratchDim=\dimen175
+\MPscratchDim=\dimen177
 \MPnumerator=\count301
 \makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks32
 )
 (C:\Users\Jeff Rouzel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
 opdf-base.sty
@@ -465,11 +475,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (chapter_1.tex
 Chapter 1.
-<figures/DisneyChart.png, id=23, 346.29375pt x 225.84375pt>
-File: figures/DisneyChart.png Graphic file (type png)
-<use figures/DisneyChart.png>
-Package pdftex.def Info: figures/DisneyChart.png  used on input line 22.
-(pdftex.def)             Requested size: 346.2929pt x 225.84319pt.
 
 
 [1
@@ -477,58 +482,45 @@ Package pdftex.def Info: figures/DisneyChart.png  used on input line 22.
 
 ]
 
-[2 <./figures/DisneyChart.png>]
-
-[3]
-Overfull \hbox (59.05757pt too wide) in paragraph at lines 103--104
-[]\OT1/cmr/m/n/12 A spe-cific ob-jec-tive start with ``to $\OML/cmm/m/it/12 <$\
-OT1/cmr/m/n/12 verb$\OML/cmm/m/it/12 >$\OT1/cmr/m/n/12 '' for ex-am-ple: to de-
-sign/survey/review/analyze. 
- []
-
-
-Overfull \hbox (2.88484pt too wide) in paragraph at lines 105--106
-\OT1/cmr/m/n/12 study Windows/Object-Oriented/Graphics/C++ pro-gram-ming) to ac
--com-plish the
- []
-
-
-
-[4]
-Overfull \hbox (5.9417pt too wide) in paragraph at lines 198--199
+[2]
+Overfull \hbox (5.9417pt too wide) in paragraph at lines 75--76
 []\OT1/cmr/m/n/12 This study en-hances trans-parency and ac-count-abil-ity whic
 h al-lows stake-
  []
 
-)
 
-[5]
+
+[3])
+
+[4]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
 Chapter 2.
 
 
-[6
+[5
 
 
 
 
 ]
 
+[6]
+
 [7]
 
 [8]
 
 [9]
-
-[10]
 Overfull \hbox (7.75107pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Automated pro-cess of trans-ac-tions is also one of the salie
 nt fea-tures of blockchain
  []
 
 
+
+[10]
 
 [11]
 
@@ -540,47 +532,438 @@ nt fea-tures of blockchain
 
 [15]
 
-[16])
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/cmr/bx/n/12 Technology
+ []
 
-[17]
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/cmr/bx/n/12 Focus
+ []
+
+
+Overfull \hbox (11.70073pt too wide) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/12 Shamsuzzoha
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/12 Blockchain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 (hy-brid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/12 Mobile app
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 (Tracey) for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/12 Demonstrated fea-si-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 cer-ti-fi-ca-tion, trans-
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 parency; high user
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+\OT1/cmr/m/n/12 ac-cept-abil-ity among
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]|\OT1/cmr/m/n/12 Connectivity
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 91--92
+\OT1/cmr/m/n/12 is-sues, tech-nol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\OT1/cmr/m/n/12 ogy us-abil-ity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+\OT1/cmr/m/n/12 in-cen-tives and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Cocco &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 Man-naro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Blockchain,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 IoT (RFID,
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 IPFS), NFC,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Italian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 tra-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 (Carasau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Agri-food
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 sup-ply chain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 trace-abil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Proposed a model
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 com-bin-ing IoT and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmr/m/n/12 blockchain to en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]|\OT1/cmr/m/n/12 High com-plex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 ity; re-quires
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 in-te-gra-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+\OT1/cmr/m/n/12 mul-ti-ple tech-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/12 Kresna et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 tem, RFID,
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/12 Tuna sup-
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 95--95
+[]|\OT1/cmr/m/n/12 Identified weak-nesses
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 in tra-di-tional paper-
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 based sys-tems; pro-
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 posed IT lay-ers for
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 95--95
+\OT1/cmr/m/n/12 com-pre-hen-sive track-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]|\OT1/cmr/m/n/12 Infrastructure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+\OT1/cmr/m/n/12 re-quire-ments
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+\OT1/cmr/m/n/12 (CCTV, GPS,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+\OT1/cmr/m/n/12 RFID); lim-
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 95--96
+\OT1/cmr/m/n/12 ited de-tail on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Tiwari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 (2020) -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 Prove-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Blockchain,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 smart con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Tuna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 track-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 cer-ti-fi-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Provenance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 sys-tem for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 tuna sup-ply
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\OT1/cmr/m/n/12 Enhanced trans-
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 parency, cer-ti-fi-ca-tion
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 97--97
+\OT1/cmr/m/n/12 IUU fish-ing, fraud,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Tiwari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 (2020) -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Blockchain,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 GTIN/UPC
+ []
+
+
+Underfull \hbox (badness 2547) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Food sup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 track-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 prod-uct
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/cmr/m/n/12 Improved trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 parency, ef-fi-ciency;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 en-abled real-time
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+\OT1/cmr/m/n/12 sta-tus, fresh-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]|\OT1/cmr/m/n/12 Focused on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 gen-eral food
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 prod-ucts; high
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+\OT1/cmr/m/n/12 de-pen-dency on
+ []
+
+
+
+[17])
+
+[18]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
 
 
-[18
+[19
 
 
 
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[]\OT1/cmr/m/n/12 Study on Pre-req-ui-site
+[]|\OT1/cmr/m/n/12 Study on Pre-req-ui-site
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\OT1/cmr/m/n/12 Development of Rac-ing
+[]|\OT1/cmr/m/n/12 Development of Rac-ing
  []
 
 )
 
-[19]
+[20]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
 )
 
-[20
-
-
-
-
-] (main.bbl)
-
 [21
+
+
+
+
+] (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+[22
 
 
 
@@ -591,7 +974,7 @@ Chapter 4.
 Appendix A.
 )
 
-[22
+[23
 
 
 ]
@@ -601,7 +984,7 @@ Appendix A.
 Appendix B.
 )
 
-[23
+[24
 
 
 
@@ -614,27 +997,25 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6599 strings out of 473899
- 108015 string characters out of 5723632
- 1938960 words of memory out of 5000000
- 29295 multiletter control sequences out of 15000+600000
+ 6631 strings out of 473899
+ 108219 string characters out of 5723632
+ 1952960 words of memory out of 5000000
+ 29325 multiletter control sequences out of 15000+600000
  565992 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,10n,84p,2919b,255s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,84p,2919b,370s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Jeff Rouzel\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1200.pk><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Jeff Rouzel/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Jeff Rouz
-el/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jeff Rouze
+l/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Jeff Rouzel/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (29 pages, 187548 bytes).
+mti12.pfb><C:/Users/Jeff Rouzel/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (30 pages, 143853 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

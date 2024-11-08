@@ -24,8 +24,12 @@
 
 \usepackage{adjustbox}
 
-\usepackage{lineno}
+% \usepackage{lineno}  % Every line of text numbering
 
+% Philippine Peso Sign
+\usepackage{stackengine}
+\newcommand\pesos{%
+	\stackengine{-1.38ex}{P}{\stackengine{-1.2ex}{$-$}{$-$}{O}{c}{F}{F}{S}}{O}{c}{F}{T}{S}}
 
 %
 %-- set margins,  you may need to edit this for your own printer

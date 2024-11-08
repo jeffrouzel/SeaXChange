@@ -7,13 +7,23 @@
 \contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{6}{}%
-\contentsline {section}{\numberline {2.1}Theme 1 Title}{7}{}%
-\contentsline {section}{\numberline {2.2}Theme 2 Title}{7}{}%
-\contentsline {section}{\numberline {2.3}Chapter Summary}{7}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{8}{}%
-\contentsline {section}{\numberline {3.1}Research Activities}{8}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{9}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{10}{}%
-\contentsline {chapter}{References}{11}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{12}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{13}{}%
+\contentsline {section}{\numberline {2.1}State of Tuna Industry in the Philippines}{6}{}%
+\contentsline {section}{\numberline {2.2}Fishing Regulations in the Philippines}{7}{}%
+\contentsline {section}{\numberline {2.3}Tuna and Fish Supply Chain}{8}{}%
+\contentsline {section}{\numberline {2.4}Tuna Supply Chain Stages and Roles}{9}{}%
+\contentsline {section}{\numberline {2.5}Factors Affecting the Tuna Supply Chain}{10}{}%
+\contentsline {section}{\numberline {2.6}Technology of Blockchain}{11}{}%
+\contentsline {section}{\numberline {2.7}Opportunities of Blockchain Technology for Supply Chain Management}{12}{}%
+\contentsline {section}{\numberline {2.8}Supply Chain Model with Blockchain Technology of Fishing Industry in Indonesia}{14}{}%
+\contentsline {section}{\numberline {2.9}Existing Technology Intended for Traceability and Supply Chain}{14}{}%
+\contentsline {section}{\numberline {2.10}Developing a Traceability System for Tuna Supply Chains}{16}{}%
+\contentsline {section}{\numberline {2.11}Chapter Summary}{17}{}%
+\contentsline {subsection}{\numberline {2.11.1}Gaps}{17}{}%
+\contentsline {subsection}{\numberline {2.11.2}Summary}{17}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{18}{}%
+\contentsline {section}{\numberline {3.1}Research Activities}{18}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{19}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{20}{}%
+\contentsline {chapter}{References}{21}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{22}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{23}{}%

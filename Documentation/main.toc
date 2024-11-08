@@ -18,6 +18,8 @@
 \contentsline {section}{\numberline {2.9}Existing Technology Intended for Traceability and Supply Chain}{14}{}%
 \contentsline {section}{\numberline {2.10}Developing a Traceability System for Tuna Supply Chains}{16}{}%
 \contentsline {section}{\numberline {2.11}Chapter Summary}{17}{}%
+\contentsline {subsection}{\numberline {2.11.1}Gaps}{17}{}%
+\contentsline {subsection}{\numberline {2.11.2}Summary}{17}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{18}{}%
 \contentsline {section}{\numberline {3.1}Research Activities}{18}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{19}{}%

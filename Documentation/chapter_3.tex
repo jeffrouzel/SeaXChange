@@ -45,19 +45,47 @@ one week worth of activity.
 
 
 
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
-\centering
-\caption{Timetable of Activities} \vspace{0.25em}
-\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (2009) & Jan   & Feb & Mar & Apr & May & Jun & Jul \\ \hline
-Study on Prerequisite Knowledge      &   &  & ~~~\weektwo & \weekfour &  &  &  \\ \hline
-Review of Existing Racing Strategies & ~~~\weektwo  & \weekfour & \weekfour & \weekfour &  &  &  \\ \hline
-Identification of Best Features      &   &  &  & \weekfour & \weektwo~~~ &  &  \\ \hline
-Development of Racing Strategies     &   &  &  & ~~~\weektwo & \weekfour & \weektwo~~~ &  \\ \hline
-Simulation of Racing Strategies      &   &  &  & ~~~\weektwo & \weekfour & \weekthree~~ &  \\ \hline
-Analysis and Interpretation of the Results &   &  &  &  & \weekfour & \weekfour & \weekone~~~~~ \\ \hline
-Documentation & ~~~\weektwo  & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo~~~ \\ \hline
-\end{tabular}
-\label{tab:timetableactivities}
+%   Filename    : chapter_4.tex 
+\chapter{Research Methodology}
+In this chapter, it outlines a clear and detailed description of the research methods and processes used in the development and evaluation of SeaExchange: A Blockchain Driven App for Tuna Supply Chain Management. The algorithms, systems, theories, framework and models are described in detail in which this chapter establishes the foundation of this study .This chapter also explains the data collection method used ensuring the validity and reliability of the results.In addition, the chapter discusses the considerations and potential limitations of this study. Overall, this will serve as a guide for the readers in understanding the structured process of developing the SeaXChange.
+
+\section{Research Activities}
+For this study, the researchers opted for an interview because it enables in-depth exploration of stakeholder perspectives and experiences. 
+The identified fisher and supplier client interface will be tested in the perimeters of Jagnee Fishing Corporation in Tiolas, San Joaquin, Iloilo, Philippines. The identified retailers will be the vendors who sourced their tuna products from Jagnee Fishing Corporation. The identified retailer and consumer testers are situated in the Miagao and San Joaquin areas. 
+
+
+
+\section{Calendar of Activities}
+%
+%  the following commands will be used for filling up the bullets in the Gantt chart
+%
+\newcommand{\weekone}{\textbullet}
+\newcommand{\weektwo}{\textbullet \textbullet}
+\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
+\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
+
+%
+%  alternative to bullet is a star 
+%
+
+\begin{table}[H]
+	\centering
+	\caption{Timetable of Activities} \vspace{0.25em}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{|>{\centering\arraybackslash}p{1.5in}|c|c|c|c|c|c|c|c|c|c|c|c|}
+			\hline
+			Activities (2024) & Aug & Sep & Oct & Nov & Dec & Jan & Feb & Mar & Apr & May & Jun \\ \hline
+			Brainstorming and Selection of Topic   & \weekone & \weektwo &  &  &  &  &  &  &  &  &  \\ \hline
+			Review of Related Literature & \weekthree & \weekfour &  &  &  &  &  &  &  &  &  \\ \hline
+			Interview Potential Stakeholders      &  & \weektwo  & \weekfour & \weekone &  &  &  &  &  &  &  \\ \hline
+			Proposal Document Creation in LaTex     &   &  &  & \weekfour & \weekfour &  &  &  &  &  &  \\ \hline
+			Mockups and Prototype      &   &  &  & \weektwo & \weekfour &  &  &  &  &  &  \\ \hline
+			Proposal Presentation &   &  &  &  & \weekone &  &  &  &  &  &  \\ \hline
+			Development and Testing of Software &  &  &  &  &  & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weekone \\ \hline
+			Deployment of Software &  &  &  &  &  &  &  &  &  &  & \weekone \\ \hline
+			Results and Feedback  &  &  &  &  &  &  &  &  &  &  & \weekone \\ \hline
+		\end{tabular}%
+	}
+	\label{tab:timetableactivities}
 \end{table}
 

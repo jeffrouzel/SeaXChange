@@ -23,8 +23,13 @@
 \contentsline {subsection}{\numberline {2.11.3}Summary}{18}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{19}{}%
 \contentsline {section}{\numberline {3.1}Research Activities}{19}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{20}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{21}{}%
-\contentsline {chapter}{References}{22}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{23}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{24}{}%
+\contentsline {subsection}{\numberline {3.1.1}Inquiry}{19}{}%
+\contentsline {subsection}{\numberline {3.1.2}System Design and Development}{20}{}%
+\contentsline {subsection}{\numberline {3.1.3}Algorithm}{21}{}%
+\contentsline {subsection}{\numberline {3.1.4}Models and Architecture}{22}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
+\contentsline {section}{\numberline {3.3}Calendar of Activities}{23}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{24}{}%
+\contentsline {chapter}{References}{25}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{26}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{27}{}%

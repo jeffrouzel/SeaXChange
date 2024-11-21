@@ -6,6 +6,63 @@ In this chapter, it outlines a clear and detailed description of the research me
 For this study, the researchers opted for an interview because it enables in-depth exploration of stakeholder perspectives and experiences. 
 The identified fisher and supplier client interface will be tested in the perimeters of Jagnee Fishing Corporation in Tiolas, San Joaquin, Iloilo, Philippines. The identified retailers will be the vendors who sourced their tuna products from Jagnee Fishing Corporation. The identified retailer and consumer testers are situated in the Miagao and San Joaquin areas. 
 
+\subsection{Inquiry}
+
+\begin{itemize}
+	\item \textbf{Primary Data:} 
+	\begin{itemize}
+		\item Stakeholder(Fishermen and Fishing Corporation, Retailers, and Consumers) interviews to identify the use-case and user requirements, interface usability, and adoption challenges.
+		\item Observations of existing tuna supply chain processes in local settings.
+	\end{itemize}
+	\item \textbf{Secondary Data:} 
+	\begin{itemize}
+		\item Literature review on blockchain applications in supply chain management and product traceability.
+		\item Industry reports and regulatory documents related to tuna fishing and supply chain operations.
+	\end{itemize}
+\end{itemize}
+
+\subsection{System Design and Development}
+
+\begin{enumerate}
+	\item \textbf{Software Development Methodology:} The project follows an Agile methodology to ensure continuous iteration, stakeholder involvement, and flexibility in adapting to feedback.
+	\item \textbf{Technology Stack:} 
+		\begin{itemize}
+			\item Front-end Development: React for creating a secure and user-friendly interface for stakeholders, prioritizing simple and responsive user-interface.
+			\item Back-end Development: Node.js for managing back-end processes and API integration. Docker for containerization of the project and Window Subsystem for Linux (Ubuntu as the Linux distribution) for setting up the network.
+			\item Blockchain Framework: Go language for developing smart contracts and providing an immutable ledger for transaction data.
+		\end{itemize}
+	\item \textbf{Blockchain Development Platform:} 
+		\begin{itemize}
+			\item Hyperledger Fabric for its permissioned nature and scalable architecture.
+			\item The open-sourced resources and timely updates of Hyperledger Fabric components is ideal for creating a distributed ledger for tuna supply chain.
+		\end{itemize}
+\end{enumerate}
+
+\subsection{Algorithm}
+Since SeaXChange is a Hyperledger Fabric project, it also utilized combinations of algorithms to facilitate the work flow of data or asset as well as ensuring high security with encryption and decryption configuration techniques. 
+	\begin{enumerate}
+		\item \textbf{Consensus Algorithm} \\The project follows Raft(Leader-based consensus) for handling organizations or nodes. Raft is intended for managing a replicated log in a blockchain network. Raft is a Crash Fault Tolerant (CFT) protocol, is designed to handle non-malicious node failures (e.g., hardware crashes, network issues) In Raft, one node is elected as the leader, and it coordinates the ordering of transactions. The leader replicates log entries (transactions) to follower nodes, ensuring consistency across the network. 
+		
+		\item \textbf{Cryptographic Algorithm} \\The project employs several cryptographic algorithms to ensure security and privacy. These cryptographic data serves as digital signatures and identity verification for the project. ECDSA (Elliptic Curve Digital Signature Algorithm) is used for generating digital signatures while X.509 certificates are intended for identity management and authentication of participants. For the encryption, AES (Advanced Encryption Standard) is used for encrypting data at rest and in transit. TLS (Transport Layer Security) secures communication between network nodes. SHA-256 (Secure Hash Algorithm-256) ensures data integrity by generating unique hashes for blocks and transactions.
+		
+		\item \textbf{Membership Services Algorithms} \\The implementation of the Membership Service Provider (MSP) requirement involves a set of folders added to the network configuration. These folders define an organization both internally, by specifying its administrators, and externally, by enabling other organizations to verify the authority of entities attempting specific actions. While Certificate Authorities (CAs) are responsible for generating the certificates that represent identities, the MSP includes a list of permitted identities. The MSP specifies which Root CAs and Intermediate CAs are authorized to define members of a trust domain. This is achieved by either listing the identities of their members or identifying the CAs allowed to issue valid identities for those members.
+		
+		\item \textbf{Endorsement Policy} \\Fabric employs endorsement policies to specify which peers must validate a transaction before it's committed. The algorithm involves multi-signature schemes where a transaction is valid if it receives endorsements from the required peers as per the policy.
+		
+		\item \textbf{Chaincode (Smart Contract)} \\The handling and flow of business logic agreed to by members of the tuna supply chain in the blockchain network is executed by a chaincode or smart contract. The chaincode of SeaXChange is written in Go language. Docker container is used for enabling the chaincode to securely run along with the overall hyperledger fabric configurations. Chaincode initializes and manages ledger state through transactions submitted by applications (Hyperledger-Fabricdocs Master Documentation, 2024). The chaincode follows the object-oriented paradigm for creating classes and objects necessary for the tuna supply chain.
+		
+		
+	\end{enumerate}
+
+\subsection{Models and Architecture}
+
+\section{Ethical Considerations}
+
+\begin{itemize}
+	\item \textbf{Data Privacy and Security:} Discuss how you'll protect the privacy and security of participants' data, especially considering the sensitive nature of supply chain information.
+	\item \textbf{Informed Consent:} Explain how you'll obtain informed consent from participants.
+	\item \textbf{Data Sharing and Ownership:} Clarify how you'll handle data ownership and sharing, especially regarding the blockchain data.
+\end{itemize}
 
 
 \section{Calendar of Activities}

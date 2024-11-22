@@ -55,14 +55,33 @@ Since SeaXChange is a Hyperledger Fabric project, it also utilized combinations 
 	\end{enumerate}
 
 \subsection{Models and Architecture}
+The system architecture of the project consists of many nodes that communicate with each other. The chaincode enables the system to run algorithms, particularly, holding state and ledger data, and executes transactions such as asset transfer in the tuna supply chain. 
 
-\section{Ethical Considerations}
+	\begin{itemize}
+		\item \textbf{Blockchain Architecture}
+		\\The project involves peer, ordering services, ledger, and client application to perform various transaction such as tracing the origin and the stop points of a tuna asset. Peers are nodes in the blockchain network that maintain a copy of the distributed ledger and execute chaincode (smart contracts). The ordering service is the central component of the blockchain for ordering transactions and creating blocks to distribute to peers through consensus mechanism. The ledger is the immutable record of all transaction in the tuna supply chain network, stored across all peers. The client application is the interface through which users or tuna supply chain participants interact with the blockchain network.
+		\item \textbf{Use Case}
+		\\The use case shows the outline on how the user will interact with the SeaExchange App. It will follow the major stages or participants in the tuna supply chain. 
+		\begin{enumerate}
+			\item Fishing Vessel
+			\\- Encodes batch I.D. of fish.
+			\\- Encodes the date when the fish was captured.
+			\\- Encodes the location where the fish was captured.
+			\\- Encodes the fishing method used.
+			
+			\item Supplier
+			\\- Encodes when the product was transferred from fishing vessel to supplier.
+			
+			\item Retailer
+			\\- Encodes when the product was retrieved from the supplier.
+			
+			\item Consumer
+			\\- Query the origin and exchange of the tuna asset.
+		
+			
+		\end{enumerate}
+	\end{itemize}
 
-\begin{itemize}
-	\item \textbf{Data Privacy and Security:} Discuss how you'll protect the privacy and security of participants' data, especially considering the sensitive nature of supply chain information.
-	\item \textbf{Informed Consent:} Explain how you'll obtain informed consent from participants.
-	\item \textbf{Data Sharing and Ownership:} Clarify how you'll handle data ownership and sharing, especially regarding the blockchain data.
-\end{itemize}
 
 
 \section{Calendar of Activities}

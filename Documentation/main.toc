@@ -14,21 +14,20 @@
 \contentsline {section}{\numberline {2.5}Factors Affecting the Tuna Supply Chain}{9}{}%
 \contentsline {section}{\numberline {2.6}Technology of Blockchain}{10}{}%
 \contentsline {section}{\numberline {2.7}Opportunities of Blockchain Technology for Supply Chain Management}{11}{}%
-\contentsline {section}{\numberline {2.8}Supply Chain Model with Blockchain Technology of Fishing Industry in Indonesia}{13}{}%
-\contentsline {section}{\numberline {2.9}Existing Technology Intended for Traceability and Supply Chain}{13}{}%
-\contentsline {section}{\numberline {2.10}Developing a Traceability System for Tuna Supply Chains}{15}{}%
-\contentsline {section}{\numberline {2.11}Chapter Summary}{17}{}%
-\contentsline {subsection}{\numberline {2.11.1}Comparison Table of Related Studies}{17}{}%
-\contentsline {subsection}{\numberline {2.11.2}Research Gaps and Problem}{17}{}%
-\contentsline {subsection}{\numberline {2.11.3}Summary}{18}{}%
+\contentsline {section}{\numberline {2.8}Existing Technology Intended for Traceability and Supply Chain}{13}{}%
+\contentsline {section}{\numberline {2.9}Developing a Traceability System for Tuna Supply Chains}{15}{}%
+\contentsline {section}{\numberline {2.10}Chapter Summary}{17}{}%
+\contentsline {subsection}{\numberline {2.10.1}Comparison Table of Related Studies}{17}{}%
+\contentsline {subsection}{\numberline {2.10.2}Research Gaps and Problem}{17}{}%
+\contentsline {subsection}{\numberline {2.10.3}Summary}{18}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{19}{}%
 \contentsline {section}{\numberline {3.1}Research Activities}{19}{}%
 \contentsline {subsection}{\numberline {3.1.1}Inquiry}{19}{}%
 \contentsline {subsection}{\numberline {3.1.2}System Design and Development}{20}{}%
-\contentsline {subsection}{\numberline {3.1.3}Algorithm}{21}{}%
+\contentsline {subsection}{\numberline {3.1.3}Algorithms and Services}{21}{}%
 \contentsline {subsection}{\numberline {3.1.4}Models and Architecture}{22}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{24}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{25}{}%
-\contentsline {chapter}{References}{26}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{27}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{28}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{25}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{26}{}%
+\contentsline {chapter}{References}{27}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{28}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{29}{}%

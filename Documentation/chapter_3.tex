@@ -38,7 +38,7 @@ The identified fisher and supplier client interface will be tested in the perime
 		\end{itemize}
 \end{enumerate}
 
-\subsection{Algorithm}
+\subsection{Algorithms and Services}
 Since SeaXChange is a Hyperledger Fabric project, it also utilized combinations of algorithms to facilitate the work flow of data or asset as well as ensuring high security with encryption and decryption configuration techniques. 
 	\begin{enumerate}
 		\item \textbf{Consensus Algorithm} \\The project follows Raft(Leader-based consensus) for handling organizations or nodes. Raft is intended for managing a replicated log in a blockchain network. Raft is a Crash Fault Tolerant (CFT) protocol, is designed to handle non-malicious node failures (e.g., hardware crashes, network issues) In Raft, one node is elected as the leader, and it coordinates the ordering of transactions. The leader replicates log entries (transactions) to follower nodes, ensuring consistency across the network. 
@@ -46,6 +46,8 @@ Since SeaXChange is a Hyperledger Fabric project, it also utilized combinations 
 		\item \textbf{Cryptographic Algorithm} \\The project employs several cryptographic algorithms to ensure security and privacy. These cryptographic data serves as digital signatures and identity verification for the project. ECDSA (Elliptic Curve Digital Signature Algorithm) is used for generating digital signatures while X.509 certificates are intended for identity management and authentication of participants. For the encryption, AES (Advanced Encryption Standard) is used for encrypting data at rest and in transit. TLS (Transport Layer Security) secures communication between network nodes. SHA-256 (Secure Hash Algorithm-256) ensures data integrity by generating unique hashes for blocks and transactions.
 		
 		\item \textbf{Membership Services Algorithms} \\The implementation of the Membership Service Provider (MSP) requirement involves a set of folders added to the network configuration. These folders define an organization both internally, by specifying its administrators, and externally, by enabling other organizations to verify the authority of entities attempting specific actions. While Certificate Authorities (CAs) are responsible for generating the certificates that represent identities, the MSP includes a list of permitted identities. The MSP specifies which Root CAs and Intermediate CAs are authorized to define members of a trust domain. This is achieved by either listing the identities of their members or identifying the CAs allowed to issue valid identities for those members.
+		
+		\item \textbf{Ordering Service} \\ The ordering service in SeaXChange plays a crucial role in maintaining the integrity and functionality of the blockchain network. Its primary responsibilities include ensuring that transactions are processed in the correct sequence (transaction ordering), grouping transactions into blocks based on configurable parameters like size or timeout (block creation), and distributing these ordered blocks to peers for validation and commitment (block distribution). Additionally, the ordering service provides fault tolerance to ensure the network remains operational even in the presence of node failures through Raft.
 		
 		\item \textbf{Endorsement Policy} \\Fabric employs endorsement policies to specify which peers must validate a transaction before it's committed. The algorithm involves multi-signature schemes where a transaction is valid if it receives endorsements from the required peers as per the policy.
 		
@@ -64,35 +66,42 @@ The system architecture of the project consists of many nodes that communicate w
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=0.8\textwidth]{SeaXChange_model.png}
-			\caption{SeaXChange : Blockchain Architecture}
+			\caption{Blockchain Architecture of SeaXChange}
 			\label{fig:blockchain_model}
 		\end{figure}
+		
 		
 		
 		\item \textbf{Use Case}
 		\\The use case shows the outline on how the user will interact with the SeaExchange App. It will follow the major stages or participants in the tuna supply chain. 
 		\begin{enumerate}
-			\item Fishing Vessel
+			\item \textbf{Fishing Vessel}
 			\\- Encodes batch I.D. of fish.
 			\\- Encodes the date when the fish was captured.
 			\\- Encodes the location where the fish was captured.
 			\\- Encodes the fishing method used.
 			
-			\item Supplier
+			\item \textbf{Supplier}
 			\\- Encodes when the product was transferred from fishing vessel to supplier.
 			
-			\item Retailer
+			\item \textbf{Retailer}
 			\\- Encodes when the product was retrieved from the supplier.
 			
-			\item Consumer
+			\item \textbf{Consumer}
 			\\- Query the origin and exchange of the tuna asset.
 		
+			\begin{figure}[h]  
+				\centering
+				\includegraphics[width=0.8\textwidth]{UseCase.png}
+				\caption{Use case diagram for SeaXchange.}
+				\label{fig:usecase}  
+			\end{figure}
 			
 		\end{enumerate}
 	\end{itemize}
 
-
-
+\clearpage
+\newpage
 \section{Calendar of Activities}
 %
 %  the following commands will be used for filling up the bullets in the Gantt chart

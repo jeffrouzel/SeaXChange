@@ -24,7 +24,7 @@
 \contentsline {section}{\numberline {3.1}Research Activities}{19}{}%
 \contentsline {subsection}{\numberline {3.1.1}Inquiry}{19}{}%
 \contentsline {subsection}{\numberline {3.1.2}System Design and Development}{20}{}%
-\contentsline {subsection}{\numberline {3.1.3}Algorithms and Services}{21}{}%
+\contentsline {subsection}{\numberline {3.1.3}Algorithms and Services}{20}{}%
 \contentsline {subsection}{\numberline {3.1.4}Models and Architecture}{22}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{25}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{26}{}%

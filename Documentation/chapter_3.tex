@@ -6,7 +6,7 @@ In this chapter, it outlines a clear and detailed description of the research me
 For this study, the researchers opted for an interview because it enables in-depth exploration of stakeholder perspectives and experiences. 
 The identified fisher and supplier client interface will be tested in the perimeters of Jagnee Fishing Corporation in Tiolas, San Joaquin, Iloilo, Philippines. The identified retailers will be the vendors who sourced their tuna products from Jagnee Fishing Corporation. The identified retailer and consumer testers are situated in the Miagao and San Joaquin areas. 
 
-\subsection{Inquiry}
+\subsection{Data Gathering}
 
 \begin{itemize}
 	\item \textbf{Primary Data:} 
@@ -21,7 +21,7 @@ The identified fisher and supplier client interface will be tested in the perime
 	\end{itemize}
 \end{itemize}
 
-\subsection{System Design and Development}
+\subsection{Designing and Developing the System}
 
 \begin{enumerate}
 	\item \textbf{Software Development Methodology:} The project follows an Agile methodology to ensure continuous iteration, stakeholder involvement, and flexibility in adapting to feedback.
@@ -38,14 +38,14 @@ The identified fisher and supplier client interface will be tested in the perime
 		\end{itemize}
 \end{enumerate}
 
-\subsection{Algorithms and Services}
+\subsection{Implementing Algorithms and Services}
 The system for this study is built on top of a Hyperledger Fabric project, it also utilized combinations of algorithms to facilitate the work flow of data or asset as well as ensuring high security with encryption and decryption configuration techniques. 
 	\begin{enumerate}
 		\item \textbf{Consensus Algorithm} \\The project follows Raft(Leader-based consensus) for handling organizations or nodes. Raft is intended for managing a replicated log in a blockchain network. Raft is a Crash Fault Tolerant (CFT) protocol, is designed to handle non-malicious node failures (e.g., hardware crashes, network issues) In Raft, one node is elected as the leader, and it coordinates the ordering of transactions. The leader replicates log entries (transactions) to follower nodes, ensuring consistency across the network. 
 		
 		\item \textbf{Cryptographic Algorithm} \\The project employs several cryptographic algorithms to ensure security and privacy. These cryptographic data serves as digital signatures and identity verification for the project. ECDSA (Elliptic Curve Digital Signature Algorithm) is used for generating digital signatures while X.509 certificates are intended for identity management and authentication of participants. For the encryption, AES (Advanced Encryption Standard) is used for encrypting data at rest and in transit. TLS (Transport Layer Security) secures communication between network nodes. SHA-256 (Secure Hash Algorithm-256) ensures data integrity by generating unique hashes for blocks and transactions.
 		
-		\item \textbf{Membership Services Algorithms} \\The implementation of the Membership Service Provider (MSP) requirement involves a set of folders added to the network configuration. These folders define an organization both internally, by specifying its administrators, and externally, by enabling other organizations to verify the authority of entities attempting specific actions. While Certificate Authorities (CAs) are responsible for generating the certificates that represent identities, the MSP includes a list of permitted identities. The MSP specifies which Root CAs and Intermediate CAs are authorized to define members of a trust domain. This is achieved by either listing the identities of their members or identifying the CAs allowed to issue valid identities for those members.
+		\item \textbf{Membership Service} \\The implementation of the Membership Service Provider (MSP) requirement involves a set of folders added to the network configuration. These folders define an organization both internally, by specifying its administrators, and externally, by enabling other organizations to verify the authority of entities attempting specific actions. While Certificate Authorities (CAs) are responsible for generating the certificates that represent identities, the MSP includes a list of permitted identities. The MSP specifies which Root CAs and Intermediate CAs are authorized to define members of a trust domain. This is achieved by either listing the identities of their members or identifying the CAs allowed to issue valid identities for those members.
 		
 		\item \textbf{Ordering Service} \\ The ordering service in this study plays a crucial role in maintaining the integrity and functionality of the blockchain network. Its primary responsibilities include ensuring that transactions are processed in the correct sequence (transaction ordering), grouping transactions into blocks based on configurable parameters like size or timeout (block creation), and distributing these ordered blocks to peers for validation and commitment (block distribution). Additionally, the ordering service provides fault tolerance to ensure the network remains operational even in the presence of node failures through Raft.
 		
@@ -56,7 +56,7 @@ The system for this study is built on top of a Hyperledger Fabric project, it al
 		
 	\end{enumerate}
 
-\subsection{Models and Architecture}
+\subsection{Modeling the System Architecture}
 The system architecture of the project consists of many nodes that communicate with each other. The chaincode enables the system to run algorithms, particularly, holding state and ledger data, and executes transactions such as asset transfer in the tuna supply chain. 
 
 	\begin{itemize}

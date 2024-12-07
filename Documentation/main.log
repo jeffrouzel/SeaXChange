@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  5 DEC 2024 15:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  7 DEC 2024 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -458,394 +458,398 @@ Chapter 2.
 
 
 
-] [6] [7] [8] [9]
-Overfull \hbox (7.75107pt too wide) in paragraph at lines 48--49
+] [6] [7] [8]
+
+LaTeX Warning: Citation `rrl-FATS6' undefined on input line 38.
+
+[9]
+Overfull \hbox (7.75107pt too wide) in paragraph at lines 47--48
 []\OT1/cmr/m/n/12 Automated pro-cess of trans-ac-tions is also one of the salie
 nt fea-tures of blockchain
  []
 
 [10] [11] [12] [13] [14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []|\OT1/cmr/bx/n/12 Technology
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 []|\OT1/cmr/bx/n/12 Focus
  []
 
 
-Overfull \hbox (11.70073pt too wide) in paragraph at lines 88--88
+Overfull \hbox (11.70073pt too wide) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/12 Shamsuzzoha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/12 Blockchain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 (hy-brid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/12 Mobile app
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 (Tracey) for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 []|\OT1/cmr/m/n/12 Demonstrated fea-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 cer-ti-fi-ca-tion, trans-
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 88--88
+Underfull \hbox (badness 6236) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 parency; high user
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 \OT1/cmr/m/n/12 ac-cept-abil-ity among
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 []|\OT1/cmr/m/n/12 Connectivity
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 88--89
+Underfull \hbox (badness 4120) in paragraph at lines 90--91
 \OT1/cmr/m/n/12 is-sues, tech-nol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \OT1/cmr/m/n/12 ogy us-abil-ity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 \OT1/cmr/m/n/12 in-cen-tives and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []|\OT1/cmr/m/n/12 Cocco &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 \OT1/cmr/m/n/12 Man-naro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 []|\OT1/cmr/m/n/12 Blockchain,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 IoT (RFID,
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 IPFS), NFC,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\OT1/cmr/m/n/12 Italian
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 tra-di-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 (Carasau
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\OT1/cmr/m/n/12 Agri-food
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 sup-ply chain
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 trace-abil-ity
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]|\OT1/cmr/m/n/12 Proposed a model
- []
-
-
-Underfull \hbox (badness 6691) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 com-bin-ing IoT and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\OT1/cmr/m/n/12 blockchain to en-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-[]|\OT1/cmr/m/n/12 High com-plex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\OT1/cmr/m/n/12 ity; re-quires
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\OT1/cmr/m/n/12 in-te-gra-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-\OT1/cmr/m/n/12 mul-ti-ple tech-
- []
-
-
-Underfull \hbox (badness 5036) in paragraph at lines 92--92
-[]|\OT1/cmr/m/n/12 Kresna et
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 IoT (RFID,
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 IPFS), NFC,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/12 Italian
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 tra-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 (Carasau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/12 Agri-food
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 sup-ply chain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 trace-abil-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/12 Proposed a model
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 com-bin-ing IoT and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+\OT1/cmr/m/n/12 blockchain to en-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]|\OT1/cmr/m/n/12 High com-plex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\OT1/cmr/m/n/12 ity; re-quires
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\OT1/cmr/m/n/12 in-te-gra-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\OT1/cmr/m/n/12 mul-ti-ple tech-
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 94--94
+[]|\OT1/cmr/m/n/12 Kresna et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 tem, RFID,
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 92--92
+Underfull \hbox (badness 1603) in paragraph at lines 94--94
 []|\OT1/cmr/m/n/12 Tuna sup-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 92--92
+Underfull \hbox (badness 1931) in paragraph at lines 94--94
 []|\OT1/cmr/m/n/12 Identified weak-nesses
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 92--92
+Underfull \hbox (badness 1226) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 in tra-di-tional paper-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 92--92
+Underfull \hbox (badness 2020) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 based sys-tems; pro-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 92--92
+Underfull \hbox (badness 2452) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 posed IT lay-ers for
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 92--92
+Underfull \hbox (badness 2073) in paragraph at lines 94--94
 \OT1/cmr/m/n/12 com-pre-hen-sive track-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 []|\OT1/cmr/m/n/12 Infrastructure
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 \OT1/cmr/m/n/12 re-quire-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 \OT1/cmr/m/n/12 (CCTV, GPS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 \OT1/cmr/m/n/12 RFID); lim-
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 92--93
+Underfull \hbox (badness 7907) in paragraph at lines 94--95
 \OT1/cmr/m/n/12 ited de-tail on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Tiwari
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 (2020) -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 Prove-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Blockchain,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 smart con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Tuna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 track-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 cer-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Provenance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 sys-tem for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 tuna sup-ply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Enhanced trans-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 94--94
+Underfull \hbox (badness 2096) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 parency, cer-ti-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 94--94
+Underfull \hbox (badness 5893) in paragraph at lines 96--96
 \OT1/cmr/m/n/12 IUU fish-ing, fraud,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Tiwari
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 (2020) -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Blockchain,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 GTIN/UPC
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 96--96
+Underfull \hbox (badness 2547) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Food sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 track-ing,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 prod-uct
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Improved trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 parency, ef-fi-ciency;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 en-abled real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \OT1/cmr/m/n/12 sta-tus, fresh-ness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 []|\OT1/cmr/m/n/12 Focused on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 \OT1/cmr/m/n/12 gen-eral food
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 96--97
+Underfull \hbox (badness 5533) in paragraph at lines 98--99
 \OT1/cmr/m/n/12 prod-ucts; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 \OT1/cmr/m/n/12 de-pen-dency on
  []
 
@@ -888,25 +892,196 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (chapter_4.tex
 Chapter 4.
-) [26
+<figures/invoke step 2.png, id=111, 1927.2pt x 307.1475pt>
+File: figures/invoke step 2.png Graphic file (type png)
+<use figures/invoke step 2.png>
+Package pdftex.def Info: figures/invoke step 2.png  used on input line 9.
+(pdftex.def)             Requested size: 332.44325pt x 52.98299pt.
+[26
 
-
-
-
-] (main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [27
 
 
 
 ]
+<figures/invoke step 3.png, id=115, 1927.2pt x 180.675pt>
+File: figures/invoke step 3.png Graphic file (type png)
+<use figures/invoke step 3.png>
+Package pdftex.def Info: figures/invoke step 3.png  used on input line 16.
+(pdftex.def)             Requested size: 332.44325pt x 31.16646pt.
+<figures/invoke step 4.png, id=116, 1927.2pt x 182.6825pt>
+File: figures/invoke step 4.png Graphic file (type png)
+<use figures/invoke step 4.png>
+Package pdftex.def Info: figures/invoke step 4.png  used on input line 23.
+(pdftex.def)             Requested size: 332.44325pt x 31.51276pt.
+<figures/invoke step 5.png, id=117, 1927.2pt x 165.61874pt>
+File: figures/invoke step 5.png Graphic file (type png)
+<use figures/invoke step 5.png>
+Package pdftex.def Info: figures/invoke step 5.png  used on input line 30.
+(pdftex.def)             Requested size: 332.44325pt x 28.56926pt.
+<figures/invoke step 6.png, id=118, 1927.2pt x 220.825pt>
+File: figures/invoke step 6.png Graphic file (type png)
+<use figures/invoke step 6.png>
+Package pdftex.def Info: figures/invoke step 6.png  used on input line 37.
+(pdftex.def)             Requested size: 332.44325pt x 38.09235pt.
+<figures/invoke step 7.png, id=119, 1927.2pt x 174.6525pt>
+File: figures/invoke step 7.png Graphic file (type png)
+<use figures/invoke step 7.png>
+Package pdftex.def Info: figures/invoke step 7.png  used on input line 44.
+(pdftex.def)             Requested size: 332.44325pt x 30.12758pt.
+<figures/invoke step 8.png, id=120, 1927.2pt x 234.8775pt>
+File: figures/invoke step 8.png Graphic file (type png)
+<use figures/invoke step 8.png>
+Package pdftex.def Info: figures/invoke step 8.png  used on input line 51.
+(pdftex.def)             Requested size: 332.44325pt x 40.5164pt.
+<figures/invoke step 9.png, id=121, 1927.2pt x 397.485pt>
+File: figures/invoke step 9.png Graphic file (type png)
+<use figures/invoke step 9.png>
+Package pdftex.def Info: figures/invoke step 9.png  used on input line 58.
+(pdftex.def)             Requested size: 332.44325pt x 68.56622pt.
+) [27 <./figures/invoke step 2.png> <./figures/invoke step 3.png> <./figures/in
+voke step 4.png> <./figures/invoke step 5.png> <./figures/invoke step 6.png> <.
+/figures/invoke step 7.png> <./figures/invoke step 8.png>] [28 <./figures/invok
+e step 9.png>] (main.bbl
+Underfull \hbox (badness 1009) in paragraph at lines 310--324
+\OT1/cmr/m/it/12 pelamis) in par-tido dis-trict, ca-mari-nes-sur, philip-pines.
+  $\OT1/cmtt/m/n/12 https :// www []
+ []
+
+[29
+
+
+
+]
+Underfull \hbox (badness 1939) in paragraph at lines 398--413
+[]\OT1/cmr/m/n/12 Hugos, M. H.  (2024).  \OT1/cmr/m/it/12 Es-sen-tials of sup-p
+ly chain man-age-ment \OT1/cmr/m/n/12 (Edi-
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 398--413
+\OT1/cmr/m/n/12 tion Num-ber (5) ed.[]).  Hobo-ken, New Jer-sey: Wi-ley.  Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--413
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// books [] .google [] .c
+om [] .ph / books [] ?hl = en&lr =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--413
+\OT1/cmtt/m/n/12 &id = zpz0EAAAQBAJ&oi = fnd&pg = PP7&dq = supply + chain + &ot
+s =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--413
+\OT1/cmtt/m/n/12 jAuHDxF99j&sig = zl0Tue18LKtl3pIQWcr2uZT4pRw&redir [] []esc = 
+y # v =
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 606--620
+[]\OT1/cmr/m/n/12 Mercogliano, R., & San-ton-i-cola, S.  (2019).  \OT1/cmr/m/it
+/12 Scom-broid fish poi-son-
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 606--620
+\OT1/cmr/m/it/12 ing: Fac-tors in-flu-enc-ing the pro-duc-tion of his-tamine in
+ tuna sup-ply
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--680
+\OT1/cmtt/m/n/12 Abundance [] , % 20Distribution [] , % 20and % 20Diversity % 2
+0of % 20Tuna %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--680
+\OT1/cmtt/m/n/12 20Larvae % 20(Family % 20Scombridae ) %20in % 20the % 20Philip
+pine %
+ []
+
+[30]
+Underfull \hbox (badness 1668) in paragraph at lines 692--711
+[]\OT1/cmr/m/n/12 Obura, D. O., Aeby, G., Amorn-tham-marong, N., Ap-peltans, W.
+, Bax,
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 692--711
+\OT1/cmr/m/n/12 N., Bishop, J., ... Wong-busarakum, S.  (2019).  \OT1/cmr/m/it/
+12 Coral reef
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 692--711
+\OT1/cmr/m/it/12 mon-i-tor-ing, reef as-sess-ment tech-nolo-gies, and ecosystem
+-based man-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 692--711
+\OT1/cmr/m/it/12 age-ment.  $\OT1/cmtt/m/n/12 https :// www [] .frontiersin [] 
+.org / journals / marine [] -science /
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 727--744
+\OT1/cmr/m/it/12 Risk as-sess-ment and risk mit-i-ga-tion in a sus-tain-able tu
+na sup-
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 727--744
+\OT1/cmr/m/it/12 ply chain.  $\OT1/cmtt/m/n/12 https :// www [] .actalogistica 
+[] .eu / issues / 2022 / I [] []2022 [] []06 []
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 759--775
+\OT1/cmr/m/it/12 ment.  $\OT1/cmtt/m/n/12 https :// himolde [] .brage [] .unit 
+[] .no / himolde [] -xmlui / bitstream /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 759--775
+\OT1/cmtt/m/n/12 handle / 11250 / 3052893 / Cristin [] -id [] []1318891 [] []en
+gelseth [] .pdf [] ?sequence =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--923
+\OT1/cmtt/m/n/12 books [] .google [] .com [] .ph / books [] ?hl = en&lr = &id =
+ sJSaDwAAQBAJ&oi = fnd&pg =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--923
+\OT1/cmtt/m/n/12 PR21&dq = supply + chain + &ots = IDNDcy0t37&sig = ssnh [] -6I
+DRAi1JzBRpohxT []
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 960--974
+[]\OT1/cmr/m/n/12 Verkhivker, Y., & Alt-mann, E.  (2018).  \OT1/cmr/m/it/12 In-
+flu-ence pa-ram-e-ters of stor-
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 960--974
+\OT1/cmr/m/it/12 age on pro-cess of for-ma-tion the his-tamine in fish and fish
+ prod-
+ []
+
+[31]) [32]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [28
+) [33
 
 
 ]
@@ -914,7 +1089,7 @@ Appendix A.
 
  (appendix_B.tex
 Appendix B.
-) [29
+) [34
 
 
 
@@ -925,15 +1100,19 @@ apter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 6729 strings out of 474486
- 109618 string characters out of 5743755
+ 6890 strings out of 474486
+ 112965 string characters out of 5743755
  1951542 words of memory out of 5000000
- 28832 multiletter control sequences out of 15000+600000
- 565992 words of font info for 65 fonts, out of 8000000 for 9000
+ 28992 multiletter control sequences out of 15000+600000
+ 566328 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,11n,84p,2919b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,84p,2961b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Zyrex\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -942,9 +1121,9 @@ type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Zyrex/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Zyrex/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (35 pages, 198823 bytes).
+Output written on main.pdf (40 pages, 660641 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

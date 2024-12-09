@@ -1,73 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-%
-}{%
-%
-}{%
-{\protect \APACyear {2017}}%
-{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
-rrl-OBTSCM6}
-\APACinsertmetastar {%
-rrl-OBTSCM6}%
-\begin{APACrefauthors}%
-%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017{\protect \BCnt {1}}}{}{}.
-\newblock
-\APACrefbtitle {---.} {---.}
-\newblock
-\APAChowpublished {\url{}}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-%
-}{%
-%
-}{%
-{\protect \APACyear {2017}}%
-{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
-rrl-DTSTSC1}
-\APACinsertmetastar {%
-rrl-DTSTSC1}%
-\begin{APACrefauthors}%
-%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2017{\protect \BCnt {2}}}{}{}.
-\newblock
-\APACrefbtitle {---.} {---.}
-\newblock
-\APAChowpublished {\url{}}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-%
-}{%
-%
-}{%
-{\protect \APACyear {2018}}%
-}]{%
-rrl-ToB2}
-\APACinsertmetastar {%
-rrl-ToB2}%
-\begin{APACrefauthors}%
-%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-\APACrefbtitle {--.} {--.}
-\newblock
-\APAChowpublished
-  {\url{https://www.academia.edu/download/60715489/Understanding_Blockchain_Technology20190926-26770-147v9qi.pdf}}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ahamed%
 , Karthikeyan%
 , Anandaraj%
@@ -385,6 +318,33 @@ Grantham, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hackius%
+\ \BBA {} Petersen%
+}{%
+Hackius%
+\ \BBA {} Petersen%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+rrl-OBTSCM6}
+\APACinsertmetastar {%
+rrl-OBTSCM6}%
+\begin{APACrefauthors}%
+Hackius, N.%
+\BCBT {}\ \BBA {} Petersen, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Blockchain in Logistics and Supply Chain: Trick or Treat?}
+  {Blockchain in logistics and supply chain: Trick or treat?}
+\newblock
+\APAChowpublished
+  {\url{https://www.researchgate.net/publication/318724655_Blockchain_in_Logistics_and_Supply_Chain_Trick_or_Treat}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Hugos%
 }{%
 Hugos%
@@ -467,6 +427,34 @@ Khan, S\BPBI N.%
   future trends.}
 \newblock
 \APAChowpublished {\url{https://doi.org/10.1007/s12083-021-01127-0}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kresna%
+, Seminar%
+\BCBL {}\ \BBA {} Marimin%
+}{%
+Kresna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+rrl-DTSTSC1}
+\APACinsertmetastar {%
+rrl-DTSTSC1}%
+\begin{APACrefauthors}%
+Kresna, B\BPBI A.%
+, Seminar, K\BPBI B.%
+\BCBL {}\ \BBA {} Marimin, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Developing a Traceability System for Tuna Supply Chains.}
+  {Developing a traceability system for tuna supply chains.}
+\newblock
+\APAChowpublished
+  {\url{http://ijis-scm.bsne.ch/ojs.excelingtech.co.uk/index.php/IJSCM/article/view/1584/0.html}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -710,6 +698,35 @@ Obura, D\BPBI O.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pacoma%
+\ \BBA {} Yap-Dejeto%
+}{%
+Pacoma%
+\ \BBA {} Yap-Dejeto%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+rrl-FATSC6}
+\APACinsertmetastar {%
+rrl-FATSC6}%
+\begin{APACrefauthors}%
+Pacoma, A\BPBI U.%
+\BCBT {}\ \BBA {} Yap-Dejeto, L\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Health Risk Assessment: Total Mercury in Canned Tuna and in
+  Yellowfin and Frigate Tuna Caught from Leyte Gulf and Philippine Sea.}
+  {Health risk assessment: Total mercury in canned tuna and in yellowfin and
+  frigate tuna caught from leyte gulf and philippine sea.}
+\newblock
+\APAChowpublished
+  {\url{https://www.researchgate.net/publication/340827869_Health_Risk_Assessment_Total_Mercury_in_Canned_Tuna_and_in_Yellowfin_and_Frigate_Tuna_Caught_from_Leyte_Gulf_and_Philippine_Sea}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Paillin%
 , Tupan%
 , Paillin%
@@ -830,6 +847,30 @@ Pomeroy, R.%
 \newblock
 \APAChowpublished
   {\url{https://sci-hub.st/https://doi.org/10.1016/j.marpol.2018.05.030}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarmah%
+}{%
+Sarmah%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+rrl-ToB2}
+\APACinsertmetastar {%
+rrl-ToB2}%
+\begin{APACrefauthors}%
+Sarmah, S\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Understanding Blockchain Technology.} {Understanding blockchain
+  technology.}
+\newblock
+\APAChowpublished
+  {\url{http://article.sapub.org/10.5923.j.computer.20180802.02.html}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

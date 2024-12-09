@@ -30,7 +30,10 @@
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{25}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{26}{}%
 \contentsline {section}{\numberline {4.1}Overview}{26}{}%
-\contentsline {section}{\numberline {4.2}Screenshots of Results}{27}{}%
-\contentsline {chapter}{References}{29}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{33}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{34}{}%
+\contentsline {section}{\numberline {4.2}Smart Contract Deployment and Installation}{26}{}%
+\contentsline {subsection}{\numberline {4.2.1}Hyperledger Fabric Prerequisites}{26}{}%
+\contentsline {subsection}{\numberline {4.2.2}Invoking the Blockchain System}{28}{}%
+\contentsline {section}{\numberline {4.3}Discussion}{31}{}%
+\contentsline {chapter}{References}{32}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{36}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{37}{}%

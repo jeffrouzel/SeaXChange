@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  7 DEC 2024 09:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  9 DEC 2024 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,21 +418,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-])
+] [3])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [3] (main.lof)
+ [4] (main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [4
+ [5
 
 ] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [5
+ [6
 
 ]
 \openout2 = `chapter_1.aux'.
@@ -458,11 +458,7 @@ Chapter 2.
 
 
 
-] [6] [7] [8]
-
-LaTeX Warning: Citation `rrl-FATS6' undefined on input line 38.
-
-[9]
+] [6] [7] [8] [9]
 Overfull \hbox (7.75107pt too wide) in paragraph at lines 47--48
 []\OT1/cmr/m/n/12 Automated pro-cess of trans-ac-tions is also one of the salie
 nt fea-tures of blockchain
@@ -870,13 +866,13 @@ Overfull \hbox (15.01521pt too wide) in paragraph at lines 30--31
  []
 
 [20] [21]
-<SeaXChange_model.png, id=93, 932.48375pt x 489.83pt>
+<SeaXChange_model.png, id=96, 932.48375pt x 489.83pt>
 File: SeaXChange_model.png Graphic file (type png)
 <use SeaXChange_model.png>
 Package pdftex.def Info: SeaXChange_model.png  used on input line 68.
 (pdftex.def)             Requested size: 332.44325pt x 174.62706pt.
  [22]
-<figures/UseCase.png, id=98, 380.92313pt x 429.10312pt>
+<figures/UseCase.png, id=101, 380.92313pt x 429.10312pt>
 File: figures/UseCase.png Graphic file (type png)
 <use figures/UseCase.png>
 Package pdftex.def Info: figures/UseCase.png  used on input line 95.
@@ -892,196 +888,238 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  (chapter_4.tex
 Chapter 4.
-<figures/invoke step 2.png, id=111, 1927.2pt x 307.1475pt>
-File: figures/invoke step 2.png Graphic file (type png)
-<use figures/invoke step 2.png>
-Package pdftex.def Info: figures/invoke step 2.png  used on input line 9.
-(pdftex.def)             Requested size: 332.44325pt x 52.98299pt.
 [26
 
 
 
 
 ]
-<figures/invoke step 3.png, id=115, 1927.2pt x 180.675pt>
+Overfull \hbox (3.06215pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/bx/n/12 Fabric Sam-ples: \OT1/cmr/m/n/12 Clone the of-fi-cial Hy-per
+-ledger Fab-ric's fabric-samples
+ []
+
+
+Overfull \hbox (7.04724pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/12 After start-ing the net-work to docker in the same di-rec-tor
+y (test-network),
+ []
+
+[27]
+Overfull \hbox (53.3971pt too wide) in paragraph at lines 66--66
+ []   \OT1/cmtt/m/n/12 /peerOrganizations/org1.example.com/peers/peer0.org1.exa
+mple.com[] 
+ []
+
+<figures/invoke step 2.png, id=121, 1927.2pt x 307.1475pt>
+File: figures/invoke step 2.png Graphic file (type png)
+<use figures/invoke step 2.png>
+Package pdftex.def Info: figures/invoke step 2.png  used on input line 86.
+(pdftex.def)             Requested size: 332.44325pt x 52.98299pt.
+<figures/invoke step 3.png, id=122, 1927.2pt x 180.675pt>
 File: figures/invoke step 3.png Graphic file (type png)
 <use figures/invoke step 3.png>
-Package pdftex.def Info: figures/invoke step 3.png  used on input line 16.
+Package pdftex.def Info: figures/invoke step 3.png  used on input line 97.
 (pdftex.def)             Requested size: 332.44325pt x 31.16646pt.
-<figures/invoke step 4.png, id=116, 1927.2pt x 182.6825pt>
+[28 <./figures/invoke step 2.png>]
+<figures/invoke step 4.png, id=127, 1927.2pt x 182.6825pt>
 File: figures/invoke step 4.png Graphic file (type png)
 <use figures/invoke step 4.png>
-Package pdftex.def Info: figures/invoke step 4.png  used on input line 23.
+Package pdftex.def Info: figures/invoke step 4.png  used on input line 107.
 (pdftex.def)             Requested size: 332.44325pt x 31.51276pt.
-<figures/invoke step 5.png, id=117, 1927.2pt x 165.61874pt>
+<figures/invoke step 5.png, id=128, 1927.2pt x 165.61874pt>
 File: figures/invoke step 5.png Graphic file (type png)
 <use figures/invoke step 5.png>
-Package pdftex.def Info: figures/invoke step 5.png  used on input line 30.
+Package pdftex.def Info: figures/invoke step 5.png  used on input line 117.
 (pdftex.def)             Requested size: 332.44325pt x 28.56926pt.
-<figures/invoke step 6.png, id=118, 1927.2pt x 220.825pt>
+<figures/invoke step 6.png, id=129, 1927.2pt x 220.825pt>
 File: figures/invoke step 6.png Graphic file (type png)
 <use figures/invoke step 6.png>
-Package pdftex.def Info: figures/invoke step 6.png  used on input line 37.
+Package pdftex.def Info: figures/invoke step 6.png  used on input line 127.
 (pdftex.def)             Requested size: 332.44325pt x 38.09235pt.
-<figures/invoke step 7.png, id=119, 1927.2pt x 174.6525pt>
+ [29 <./figures/invoke step 3.png> <./figures/invoke step 4.png> <./figures/inv
+oke step 5.png> <./figures/invoke step 6.png>]
+<figures/invoke step 7.png, id=137, 1927.2pt x 174.6525pt>
 File: figures/invoke step 7.png Graphic file (type png)
 <use figures/invoke step 7.png>
-Package pdftex.def Info: figures/invoke step 7.png  used on input line 44.
+Package pdftex.def Info: figures/invoke step 7.png  used on input line 137.
 (pdftex.def)             Requested size: 332.44325pt x 30.12758pt.
-<figures/invoke step 8.png, id=120, 1927.2pt x 234.8775pt>
+<figures/invoke step 8.png, id=138, 1927.2pt x 234.8775pt>
 File: figures/invoke step 8.png Graphic file (type png)
 <use figures/invoke step 8.png>
-Package pdftex.def Info: figures/invoke step 8.png  used on input line 51.
+Package pdftex.def Info: figures/invoke step 8.png  used on input line 147.
 (pdftex.def)             Requested size: 332.44325pt x 40.5164pt.
-<figures/invoke step 9.png, id=121, 1927.2pt x 397.485pt>
+
+Overfull \hbox (3.06955pt too wide) in paragraph at lines 152--154
+\OT1/cmr/m/n/12 The fi-nal step in-volves query-ing the smart con-tract to get 
+a com-plete overview
+ []
+
+<figures/invoke step 9.png, id=139, 1927.2pt x 397.485pt>
 File: figures/invoke step 9.png Graphic file (type png)
 <use figures/invoke step 9.png>
-Package pdftex.def Info: figures/invoke step 9.png  used on input line 58.
+Package pdftex.def Info: figures/invoke step 9.png  used on input line 157.
 (pdftex.def)             Requested size: 332.44325pt x 68.56622pt.
-) [27 <./figures/invoke step 2.png> <./figures/invoke step 3.png> <./figures/in
-voke step 4.png> <./figures/invoke step 5.png> <./figures/invoke step 6.png> <.
-/figures/invoke step 7.png> <./figures/invoke step 8.png>] [28 <./figures/invok
-e step 9.png>] (main.bbl
-Underfull \hbox (badness 1009) in paragraph at lines 310--324
+) [30 <./figures/invoke step 7.png> <./figures/invoke step 8.png> <./figures/in
+voke step 9.png>] [31] (main.bbl
+Underfull \hbox (badness 1009) in paragraph at lines 243--257
 \OT1/cmr/m/it/12 pelamis) in par-tido dis-trict, ca-mari-nes-sur, philip-pines.
   $\OT1/cmtt/m/n/12 https :// www []
  []
 
-[29
+[32
 
 
 
 ]
-Underfull \hbox (badness 1939) in paragraph at lines 398--413
+Underfull \hbox (badness 1052) in paragraph at lines 333--346
+\OT1/cmr/m/it/12 or treat?  $\OT1/cmtt/m/n/12 https :// www [] .researchgate []
+ .net / publication / 318724655 []
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 358--373
 []\OT1/cmr/m/n/12 Hugos, M. H.  (2024).  \OT1/cmr/m/it/12 Es-sen-tials of sup-p
 ly chain man-age-ment \OT1/cmr/m/n/12 (Edi-
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 398--413
+Underfull \hbox (badness 4995) in paragraph at lines 358--373
 \OT1/cmr/m/n/12 tion Num-ber (5) ed.[]).  Hobo-ken, New Jer-sey: Wi-ley.  Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--413
+Underfull \hbox (badness 10000) in paragraph at lines 358--373
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// books [] .google [] .c
 om [] .ph / books [] ?hl = en&lr =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--413
+Underfull \hbox (badness 10000) in paragraph at lines 358--373
 \OT1/cmtt/m/n/12 &id = zpz0EAAAQBAJ&oi = fnd&pg = PP7&dq = supply + chain + &ot
 s =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--413
+Underfull \hbox (badness 10000) in paragraph at lines 358--373
 \OT1/cmtt/m/n/12 jAuHDxF99j&sig = zl0Tue18LKtl3pIQWcr2uZT4pRw&redir [] []esc = 
 y # v =
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 606--620
+Underfull \hbox (badness 3229) in paragraph at lines 594--608
 []\OT1/cmr/m/n/12 Mercogliano, R., & San-ton-i-cola, S.  (2019).  \OT1/cmr/m/it
 /12 Scom-broid fish poi-son-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 606--620
+Underfull \hbox (badness 1178) in paragraph at lines 594--608
 \OT1/cmr/m/it/12 ing: Fac-tors in-flu-enc-ing the pro-duc-tion of his-tamine in
  tuna sup-ply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--680
+Underfull \hbox (badness 10000) in paragraph at lines 652--668
 \OT1/cmtt/m/n/12 Abundance [] , % 20Distribution [] , % 20and % 20Diversity % 2
 0of % 20Tuna %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--680
+Underfull \hbox (badness 10000) in paragraph at lines 652--668
 \OT1/cmtt/m/n/12 20Larvae % 20(Family % 20Scombridae ) %20in % 20the % 20Philip
 pine %
  []
 
-[30]
-Underfull \hbox (badness 1668) in paragraph at lines 692--711
+[33]
+Underfull \hbox (badness 1668) in paragraph at lines 680--699
 []\OT1/cmr/m/n/12 Obura, D. O., Aeby, G., Amorn-tham-marong, N., Ap-peltans, W.
 , Bax,
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 692--711
+Underfull \hbox (badness 4416) in paragraph at lines 680--699
 \OT1/cmr/m/n/12 N., Bishop, J., ... Wong-busarakum, S.  (2019).  \OT1/cmr/m/it/
 12 Coral reef
  []
 
 
-Underfull \hbox (badness 3302) in paragraph at lines 692--711
+Underfull \hbox (badness 3302) in paragraph at lines 680--699
 \OT1/cmr/m/it/12 mon-i-tor-ing, reef as-sess-ment tech-nolo-gies, and ecosystem
 -based man-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 692--711
+Underfull \hbox (badness 1365) in paragraph at lines 680--699
 \OT1/cmr/m/it/12 age-ment.  $\OT1/cmtt/m/n/12 https :// www [] .frontiersin [] 
 .org / journals / marine [] -science /
  []
 
 
-Underfull \hbox (badness 6316) in paragraph at lines 727--744
+Underfull \hbox (badness 10000) in paragraph at lines 713--728
+\OT1/cmtt/m/n/12 340827869 [] []Health [] []Risk [] []Assessment [] []Total [] 
+[]Mercury [] []in [] []Canned [] []Tuna []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--728
+[]\OT1/cmtt/m/n/12 and [] []in [] []Yellowfin [] []and [] []Frigate [] []Tuna [
+] []Caught [] []from [] []Leyte [] []Gulf [] []and []
+ []
+
+
+Underfull \hbox (badness 6316) in paragraph at lines 744--761
 \OT1/cmr/m/it/12 Risk as-sess-ment and risk mit-i-ga-tion in a sus-tain-able tu
 na sup-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 727--744
+Underfull \hbox (badness 3746) in paragraph at lines 744--761
 \OT1/cmr/m/it/12 ply chain.  $\OT1/cmtt/m/n/12 https :// www [] .actalogistica 
 [] .eu / issues / 2022 / I [] []2022 [] []06 []
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 759--775
+Underfull \hbox (badness 3138) in paragraph at lines 776--792
 \OT1/cmr/m/it/12 ment.  $\OT1/cmtt/m/n/12 https :// himolde [] .brage [] .unit 
 [] .no / himolde [] -xmlui / bitstream /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 759--775
+Underfull \hbox (badness 10000) in paragraph at lines 776--792
 \OT1/cmtt/m/n/12 handle / 11250 / 3052893 / Cristin [] -id [] []1318891 [] []en
 gelseth [] .pdf [] ?sequence =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--923
+Underfull \hbox (badness 10000) in paragraph at lines 948--964
 \OT1/cmtt/m/n/12 books [] .google [] .com [] .ph / books [] ?hl = en&lr = &id =
  sJSaDwAAQBAJ&oi = fnd&pg =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--923
+Underfull \hbox (badness 10000) in paragraph at lines 948--964
 \OT1/cmtt/m/n/12 PR21&dq = supply + chain + &ots = IDNDcy0t37&sig = ssnh [] -6I
 DRAi1JzBRpohxT []
  []
 
-
-Underfull \hbox (badness 1377) in paragraph at lines 960--974
+[34]
+Underfull \hbox (badness 1377) in paragraph at lines 1001--1015
 []\OT1/cmr/m/n/12 Verkhivker, Y., & Alt-mann, E.  (2018).  \OT1/cmr/m/it/12 In-
 flu-ence pa-ram-e-ters of stor-
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 960--974
+Underfull \hbox (badness 2894) in paragraph at lines 1001--1015
 \OT1/cmr/m/it/12 age on pro-cess of for-ma-tion the his-tamine in fish and fish
  prod-
  []
 
-[31]) [32]
+) [35]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [33
+) [36
 
 
 ]
@@ -1089,7 +1127,7 @@ Appendix A.
 
  (appendix_B.tex
 Appendix B.
-) [34
+) [37
 
 
 
@@ -1100,16 +1138,12 @@ apter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 6890 strings out of 474486
- 112965 string characters out of 5743755
+ 6894 strings out of 474486
+ 113049 string characters out of 5743755
  1951542 words of memory out of 5000000
- 28992 multiletter control sequences out of 15000+600000
+ 28996 multiletter control sequences out of 15000+600000
  566328 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,11n,84p,2961b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1121,9 +1155,9 @@ type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Zyrex/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Zyrex/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (40 pages, 660641 bytes).
+Output written on main.pdf (44 pages, 670910 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 203 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

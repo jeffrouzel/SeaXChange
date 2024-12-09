@@ -34,87 +34,46 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
-Warning--I didn't find a database entry for "rrl-FATS6"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5062 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5066 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5066 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5068 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5068 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5072 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5075 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5076 of file apacite.bst
-There is no name in "" for entry rrl-OBTSCM6
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-OBTSCM6
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-OBTSCM6
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-DTSTSC1
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-DTSTSC1
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-DTSTSC1
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-ToB2
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-ToB2
-while executing---line 5079 of file apacite.bst
-There is no name in "" for entry rrl-ToB2
-while executing---line 5079 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5079 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5079 of file apacite.bst
-Name 1 in "Verkhivker, Yakov, and Altmann, Ella" has a comma at the end for entry rrl-FATSC4
-while executing---line 5079 of file apacite.bst
-You've used 36 entries,
+You've used 37 entries,
             6951 wiz_defined-function locations,
-            1466 strings with 19962 characters,
-and the built_in function-call counts, 74968 in all, are:
-= -- 9215
-> -- 682
-< -- 3872
-+ -- 4182
-- -- 81
-* -- 4728
-:= -- 14054
-add.period$ -- 174
-call.type$ -- 36
-change.case$ -- 628
+            1475 strings with 20735 characters,
+and the built_in function-call counts, 79188 in all, are:
+= -- 9717
+> -- 708
+< -- 4190
++ -- 4546
+- -- 76
+* -- 5047
+:= -- 15082
+add.period$ -- 179
+call.type$ -- 37
+change.case$ -- 629
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 2074
-empty$ -- 2679
-format.name$ -- 1229
-if$ -- 13956
+cite$ -- 74
+duplicate$ -- 2167
+empty$ -- 2755
+format.name$ -- 1281
+if$ -- 14607
 int.to.chr$ -- 0
-int.to.str$ -- 112
+int.to.str$ -- 111
 missing$ -- 0
-newline$ -- 945
-num.names$ -- 288
-pop$ -- 2626
+newline$ -- 977
+num.names$ -- 296
+pop$ -- 2699
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 148
 quote$ -- 0
-skip$ -- 3185
+skip$ -- 3295
 stack$ -- 0
-substring$ -- 4517
-swap$ -- 893
-text.length$ -- 76
+substring$ -- 4902
+swap$ -- 925
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2880
+type$ -- 2960
 warning$ -- 0
-while$ -- 409
+while$ -- 425
 width$ -- 0
-write$ -- 1229
-(There were 21 error messages)
+write$ -- 1278
+(There was 1 error message)

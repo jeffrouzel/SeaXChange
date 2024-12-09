@@ -1,7 +1,7 @@
 %   Filename    : chapter_4.tex 
 \chapter{Preliminary Results/System Prototype}
 \section{Overview}
-This chapter  presents the preliminary results or the system prototype.  Included in this chapter are screenhots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the prototype's operations. 
+This chapter  presents the preliminary results or the system prototype.  Included in this chapter are screenshots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the prototype's operations. 
 
 
 \section{Smart Contract Deployment and Installation}
@@ -150,7 +150,7 @@ After setting up the prerequisites, including Docker containers, the test networ
 	\end{figure}
 	
 	\item \textbf{Query Smart Contract and check updated assets:}\\
-	The final step involves querying the smart contract to get a complete overview of all the assets in the supply chain. This includes all tuna assets from fishing to retail, allowing stakeholders to monitor and manage inventory effectively. It provides transparency in the supply chain, helping to maintain freshness and authenticity of the tuna as it moves through the market.
+	The final step involves querying the smart contract to get a complete overview of all the assets in the supply chain. This includes all tuna assets from fishing to retail, allowing stakeholders to monitor and manage inventory effectively. It provides traceability in the supply chain, helping to maintain freshness and authenticity of the tuna as it moves through the market.
 	
 	\begin{figure}[H]
 		\centering
@@ -161,6 +161,14 @@ After setting up the prerequisites, including Docker containers, the test networ
 	
 		
 	\end{itemize}
+\section{Mockups}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\textwidth]{mockups.png}
+		\caption{SeaXChange Mockups}
+		\label{fig: eight step}
+	\end{figure}
+
 	
 \section{Discussion}
-After modifying the Hyperledger Fabric smart contract to assess necessary processes involved in the tuna supply chain, the 
+After modifying the Hyperledger Fabric smart contract to assess necessary processes involved in the tuna supply chain, the blockchain is ready to be invoked wherein the smart contract can be activated. To start, a new tuna asset is added and registered to the blockchain. Each tuna asset has its attributes or details. Before proceeding to the transfer of tuna asset, the smart contract is queried to verify if the creation of the asset is successful and if it is part of the current inventory. After that, the tuna asset can be transferred from fisher to supplier and the asset's owner is updated. The smart contract is queried again to verify if the asset details have been updated successfully. With the same process, the tuna asset is transferred from supplier to retailer using the smart contract and the owner is updated again. To ensure that the asset details are successfully updated, the smart contract is queried again. The final step is to query the smart contract to show the overview of all the assets in the supply chain. With this, it can be seen all the tuna assets from fishing to retail. Overall, the steps and process provides transparency and traceability in the tuna supply chain.

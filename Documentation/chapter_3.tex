@@ -82,15 +82,22 @@ The system architecture of the project consists of many nodes that communicate w
 			\\- Encodes the date when the fish was captured.
 			\\- Encodes the location where the fish was captured.
 			\\- Encodes the fishing method used.
+			\\- Query the origin and exchange of the tuna asset.
 			
 			\item \textbf{Supplier}
 			\\- Encodes when the product was transferred from fishing vessel to supplier.
+			\\- Query the origin and exchange of the tuna asset.
+			\\- Generate supplier's location during retrieval of tuna asset.
 			
 			\item \textbf{Retailer}
 			\\- Encodes when the product was retrieved from the supplier.
+			\\- Query the origin and exchange of the tuna asset.
+			\\- Generate retailer's location during retrieval of tuna asset.
 			
 			\item \textbf{Consumer}
+			\\- Retrieve data from retailer.
 			\\- Query the origin and exchange of the tuna asset.
+			\\- Generate user's address during retrieval of tuna asset.
 		
 			\begin{figure}[h]  
 				\centering

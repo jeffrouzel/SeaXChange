@@ -77,34 +77,35 @@ The system architecture of the project consists of many nodes that communicate w
 		\item \textbf{Use Case}
 		\\The use case shows the outline on how the user will interact with the SeaExchange App. It will follow the major stages or participants in the tuna supply chain. 
 		\begin{enumerate}
-			\item \textbf{Fishing Vessel}
-			\\- Encodes batch I.D. of fish.
+			\item \textbf{Fisher}
+			\\- Encodes tuna I.D. of fish.
 			\\- Encodes the date when the fish was captured.
 			\\- Encodes the location where the fish was captured.
 			\\- Encodes the fishing method used.
 			\\- Query the origin and exchange of the tuna asset.
 			
 			\item \textbf{Supplier}
-			\\- Encodes when the product was transferred from fishing vessel to supplier.
+			\\- Encodes when the product was transferred from fisher to supplier.
 			\\- Query the origin and exchange of the tuna asset.
 			\\- Generate supplier's location during retrieval of tuna asset.
 			
 			\item \textbf{Retailer}
-			\\- Encodes when the product was retrieved from the supplier.
+			\\- Encodes when the product was retrieved from the supplier or another retailer.
 			\\- Query the origin and exchange of the tuna asset.
 			\\- Generate retailer's location during retrieval of tuna asset.
 			
 			\item \textbf{Consumer}
 			\\- Retrieve data from retailer.
 			\\- Query the origin and exchange of the tuna asset.
-			\\- Generate user's address during retrieval of tuna asset.
 		
 			\begin{figure}[h]  
 				\centering
-				\includegraphics[width=0.8\textwidth]{UseCase.png}
-				\caption{Use case diagram for SeaXchange.}
+				\includegraphics[width=0.8\textwidth]{seaxchange.png}
+				\caption{Use case diagram for SeaXChange.}
 				\label{fig:usecase}  
 			\end{figure}
+			
+			There will be four (4) types of users that will use the app. The first user type is the Fisher, which will be the starting point of the blockchain. It will encode the catch details of a tuna product such as the date of capture, location, and fishing method. The second user type is the Supplier, which will encode when the product was transferred from the fisher to the supplier, as well as generate their location during the retrieval of the tuna asset. The third type is the Retailer, which will encode when the product was transferred from the supplier to the retailer or in the case of multiple retailers, from the previous retailer to the current retailer, their location is also generated during the retrieval of the tuna asset. Lastly, the Consumers, which can only query the origin and exchange of tuna assets.
 			
 		\end{enumerate}
 	\end{itemize}

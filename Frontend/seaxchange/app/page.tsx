@@ -11,7 +11,7 @@ export default function Home() {
         {/* Login and Register */}
         <div className="space-x-2">
           <Button variant="outline">
-            <Link href="/login">Login</Link>
+            <Link href="/auth/login">Login</Link>
           </Button>
           <Button>
             <Link href="/register">Getting Started</Link>

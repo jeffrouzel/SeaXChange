@@ -10,9 +10,9 @@ export default function Login() {
       {/* ~~~~~ Left Column ~~~~~  */}
       <div className="w-1/2 flex flex-col bg-white p-6">
         {/* SeaXChange Logo */}
-        <header className="flex justify-between items-center p-4 border-b">
-          <h1 className="text-teal-800 font-bold text-lg">SeaXChange</h1>
-        </header>
+        <h1 className="absolute top-6 left-10 text-2xl font-bold mb-6 text-teal-700">
+          SeaXChange
+        </h1>
         {/* Input Login Details */}
         <form className="w-full max-w-sm justify-center items-center mx-auto my-auto">
           <div className="mb-4">
@@ -39,13 +39,13 @@ export default function Login() {
             />
           </div>
 
-          <Button className="w-full bg-teal-800 hover:bg-teal-900">
+          <Button className="w-full bg-teal-800 hover:bg-teal-900 mt-4">
             Log In
           </Button>
 
-          <p className="text-center text-sm text-gray-600">
+          <p className="text-center text-sm text-gray-600 mt-4">
             Don't have an account?{" "}
-            <Link href="/register" className="text-teal-800 underline">
+            <Link href="/auth/signup" className="text-teal-800 underline">
               Sign up
             </Link>
           </p>

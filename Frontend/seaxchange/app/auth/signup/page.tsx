@@ -1,10 +1,17 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
 export default function Signup() {
+  const router = useRouter();
+
+  const handleSignUp = () => {
+    router.push("/auth/signup-roles");
+  }
   return (
     <div className="flex h-screen">
       {/* Left Side (Form) */}
@@ -36,18 +43,19 @@ export default function Signup() {
               className="w-full h-16"
             />
           </div>
-          <Button className="w-full bg-teal-800 hover:bg-teal-900 mt-4">
+          {/* <Button className="w-full bg-teal-800 hover:bg-teal-900 mt-4">
+            Sign Up
+          </Button> */}
+          <Button 
+            type="button"
+            onClick={handleSignUp}
+            className="w-full bg-teal-800 hover:bg-teal-900 mt-4"
+          >
             Sign Up
           </Button>
         </form>
         <p className="mt-4 text-gray-500">or sign up with</p>
         <div className="flex space-x-4 mt-2">
-          <button className="border border-teal-700 p-2 w-20 h-12 rounded">
-            Google
-          </button>
-          <button className="border border-teal-700 p-2 w-20 h-12 rounded">
-            Google
-          </button>
           <button className="border border-teal-700 p-2 w-20 h-12 rounded">
             Google
           </button>

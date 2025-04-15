@@ -184,3 +184,35 @@ After setting up the prerequisites, including Docker containers, the test networ
 	
 \section{Discussion}
 After modifying the Hyperledger Fabric smart contract to assess necessary processes involved in the tuna supply chain, the blockchain is ready to be invoked wherein the smart contract can be activated. To start, a new tuna asset is added and registered to the blockchain. Each tuna asset has its attributes or details. Before proceeding to the transfer of tuna asset, the smart contract is queried to verify if the creation of the asset is successful and if it is part of the current inventory. After that, the tuna asset can be transferred from fisher to supplier and the asset's owner is updated. The smart contract is queried again to verify if the asset details have been updated successfully. With the same process, the tuna asset is transferred from supplier to retailer using the smart contract and the owner is updated again. To ensure that the asset details are successfully updated, the smart contract is queried again. The final step is to query the smart contract to show the overview of all the assets in the supply chain. With this, it can be seen all the tuna assets from fishing to retail. Overall, the steps and process provides transparency and traceability in the tuna supply chain.
+
+\section{Operational Flow of the Web Application}
+This will discuss the flow in using the SeaXChange Web Application.
+
+\subsection{Landing Page}
+Users are be greeted with the landing page, where it shows a ocean visuals and a tagline “Discover the Journey your tuna made from the ocean to your dinner plate”. Users are given the option to Login, where they are redirected to the login page or Get Started, where they are redirected to the sign up page. 
+
+\subsection{Sign Up Page}
+First time users will be required to create an account. They are to provide their name, email and password. For their user type, there are four roles to choose from: Fisher, Supplier, Retailer and Consumer. 
+
+\subsection{Login Page}
+Returning user are required to login with their email and password.
+
+\subsection{Homepage}
+Each user type has their own respective homepages and features.
+	\begin{itemize}
+		\item \textbf{Fisher}
+		Fishers can add a fish catch using the "Add catch" button, where they are to input the species of the fish, weight in kg, catch location, catch date, fishing method used and vessel name. The remaining text fields like the Supplier name, Retailer name and Consumer name are left null and cannot be edited because they will be filled out by the other users receiving the tuna asset. Users can send a tuna asset to the Supplier. Users can also browse existing tuna assets. 
+		\item \textbf{Supplier}
+		Suppliers can browse existing tuna assets. Upon clicking a tuna asset, the user can only edit the Supplier text field. They can send the tuna asset to the Retailer.
+		\item \textbf{Retailer}
+		Retailers can browse existing tuna assets and can send it to the Consumer.
+		\item \textbf{Consumer}
+		Consumers can only view the tuna asset and cannot edit anything else
+	\end{itemize}
+	
+\subsection{Profile}
+The user's profile information is shown on the homepage through a pop-up. It shows the user's name and role.
+
+\subsection{Logout}
+Users can logout of their accounts and is redirected to the Signup Page. 
+

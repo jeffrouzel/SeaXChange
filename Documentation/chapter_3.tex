@@ -74,6 +74,15 @@ The system architecture of the project were consisted of many nodes that communi
 			\label{fig:blockchain_model}
 		\end{figure}
 		
+		\item \textbf{Overall System Architecture}
+		\\The overall system architecture contains a web application built with Next.js for the frontend, utilizing Firebase for user authentication and account management. The application follows a role-based access model (Fisher, Supplier, Retailer, Consumer) where each role has specific permissions for interacting with tuna assets in the supply chain. The backend runs on Google Cloud Platform, consisting of an Express.js API that interfaces with a Hyperledger Fabric blockchain network (containerized in Docker) which stores and manages the immutable record of tuna assets and their transfers between supply chain participants. This architecture enables secure tracking of tuna from creation by fishers through the supply chain to consumers, with appropriate viewing and transfer capabilities assigned to each role in the process.
+		
+		\begin{figure} [H]
+			\centering
+			\includegraphics[width=0.8\textwidth]{overall-system.png}
+			\caption{Overall System Architecture of SeaXChange}
+		\end{figure}
+		
 		
 		
 		\item \textbf{Use Case}

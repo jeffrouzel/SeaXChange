@@ -247,11 +247,10 @@ Access to virtual machines and services was restricted using secure access metho
 \subsubsection{Infrastructure and Operational Security}
 GCP's underlying infrastructure benefits from Google's proprietary hardware designs, including the Titan security chip, secure boot mechanisms, and service identity enforcement. Google's physical data centers use multi-layered defenses such as biometrics and intrusion detection systems. Operational security practices, including binary authorization and extensive monitoring, reduce insider risks and enforce software integrity throughout the lifecycle.
 
-By deploying the blockchain network on GCP, the project leveraged a highly secure environment, benefiting from Google’s layered security architecture across networking, identity management, encryption, access control, and operational practices.
+\noindent By deploying the blockchain network on GCP, the project leveraged a highly secure environment, benefiting from Google’s layered security architecture across networking, identity management, encryption, access control, and operational practices.
 
 \subsection{Threat Model and Mitigations}
-Potential threats to the system were identified and mitigation strategies were applied, as summarized in Table 4.1.
-
+Potential threats to the system were identified and mitigation strategies were applied, as summarized in Table~\ref{tab:threat}.
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|c|c|}
@@ -267,7 +266,10 @@ Potential threats to the system were identified and mitigation strategies were a
 		Data leakage & Private channels and access controls \\
 		\hline
 	\end{tabular}
+	\caption{Potential Threat and Mitigation}
+	\label{tab:threat}
 \end{table}
+
 
 \section{Mockups}
 \begin{figure}[H]

@@ -161,6 +161,114 @@ After setting up the prerequisites, including Docker containers, the test networ
 	
 		
 	\end{itemize}
+\section{Backend Security Analysis (Hyperledger Fabric on GCP)}
+
+\subsection{System Architecture and Deployment Overview}
+The backend of the system’s tuna assets was developed using a containerized Hyperledger Fabric deployed on Google Cloud Platform (GCP). The network of Hyperledger Fabric consists of a peer node, an ordering node, and Certificate Authorities (CAs). 
+
+\subsection{Blockchain Network Security}
+The blockchain network leverages Hyperledger Fabric’s security model to ensure authenticated transactions and controlled access. A Membership Service Provider (MSP) manages identities and issues certificates based on a Public Key Infrastructure (PKI) model, ensuring that only verified participants can interact with the network.
+
+Key security features include:
+
+\subsubsection{Channel Privacy}
+Channels act as private communication subnets, isolating transaction data so that only authorized organizations can access and process specific transactions.
+
+\subsubsection{Policies and Access Control}
+Policies, including endorsement policies and access control lists (ACLs), govern how transactions are validated, how channel resources are accessed, and how changes to the network are approved. Endorsement policies specifically define which peer nodes must approve a transaction before it is committed to the ledger.
+
+\subsubsection{Secure Communication}
+Transport Layer Security (TLS) is enforced across node communications to protect data in transit. Mutual TLS is used for operational endpoints like monitoring services.
+
+\subsubsection{Identity and Role Management}
+Every network participant—peer nodes, orderer nodes, client applications (SeaXChange Web Application)—has a cryptographically verifiable identity, with roles defined within the framework to control access and permissions within channels.
+
+\subsubsection{Hardware Security Modules (HSMs)}
+Critical cryptographic operations, such as signing transactions under the blockchain assets invocation, can optionally be handled by HSMs to secure private keys outside of the software environment.
+
+These layered mechanisms collectively ensure the confidentiality, integrity, and authenticity of transactions in the blockchain network.
+
+\subsection{Smart Contract Automated Test Result}
+To validate the security and functionality of the deployed smart contracts on the Hyperledger Fabric network, an automated testing script (app.js) under asset-transfer-basic directory was executed. The script interacted with the blockchain network through the gateway application, utilizing the defined channel (mychannel) and chaincode (basic). The automated tests performed the following operations:
+
+\subsubsection{InitLedger Transaction}
+The ledger was initialized by creating a predefined set of tuna asset entries. The transaction was successfully committed, confirming the proper initialization of asset data.
+(See Figure \ref{fig:initledger} for initialization confirmation.)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{chaincode_security1.png} % Adjust the path and size as needed
+	\caption{Initialization Confirmation of the Ledger}
+	\label{fig:initledger}
+\end{figure}
+
+
+\subsubsection{GetAllAssets Query}
+A query operation retrieved all existing assets recorded on the ledger. The results displayed multiple tuna asset entries with details such as species, weight, catch location, catch date, fishing method, fisher, supplier, retailers, selling locations, and consumers.
+(See Figure \ref{fig:getallledger} for the asset retrieval output.)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{chaincode_security2.png} % Adjust the path and size as needed
+	\caption{Initialization Confirmation of the Ledger}
+	\label{fig:getallledger}
+\end{figure}
+
+\subsubsection{CreateAsset Transaction}
+A new asset was successfully created and appended to the blockchain. The transaction was committed without errors, validating the chaincode’s ability to handle new data insertion.
+
+\subsubsection{TransferAsset Transaction}
+Ownership transfer of an existing asset was simulated. The transaction was successfully submitted and committed, demonstrating the correct application of asset updates in the blockchain ledger.
+
+\subsubsection{ReadAsset Query}
+The updated asset was retrieved and verified to ensure the correctness of the transfer. The retrieved asset data reflected the changes made through the previous transaction, confirming data consistency.
+
+\subsubsection{UpdateAsset Error Handling}
+An attempt to update a non-existent asset (asset70) was performed to test the smart contract’s error-handling mechanism. The application correctly caught and reported the error, verifying that improper transactions are adequately handled and rejected.
+
+\subsubsection{Summary of Results}
+All positive transactions (initialization, creation, transfer, and reading) were successfully executed and committed. The smart contract exhibited robust error handling during invalid operations. Endorsement policies and Membership Service Provider (MSP) enforcement ensured transaction authenticity and integrity during the process. These tests confirm the functional reliability and transaction security of the smart contracts used within the tuna supply chain blockchain network.
+
+\subsection{GCP Infrastructure Security}
+The Hyperledger Fabric network deployment on Google Cloud Platform (GCP) was secured by leveraging multiple layers of Google's infrastructure security model, following best practices in network, identity, and data protection.
+
+\subsubsection{Firewall Rules and Network Control}
+Only essential ports (e.g., 7051 for peer communication and 7050 for the ordering service) were opened to minimize network exposure. GCP’s VPC firewall rules, ingress and egress controls, and options like VPC Service Controls help further isolate services and prevent unauthorized access. Traffic between virtual machines and Google APIs is securely routed through Google’s internal network infrastructure using Private Google Access when available.
+
+\subsubsection{IAM Roles and Access Management}
+The principle of least privilege was enforced by assigning minimal permissions to users and services through GCP Identity and Access Management (IAM). Access decisions involve authentication, authorization checks, and enforcement of policies through centralized services, helping reduce the risk of unauthorized actions or privilege escalation.
+
+\subsubsection{Encryption}
+GCP ensures that data is encrypted both at rest and in transit by default. Storage systems use multiple layers of encryption, with cryptographic keys managed by Google. For additional control, Cloud Key Management Service (KMS) enables customers to manage their own encryption keys. Data in transit between services is protected using Application Layer Transport Security (ALTS), and all external communication with Google services is encrypted via TLS.
+
+\subsubsection{Access Control}
+Access to virtual machines and services was restricted using secure access methods. Identity-Aware Proxy (IAP) or VPN connections were employed to safeguard SSH and administrative access. GCP’s zero-trust model emphasizes verifying identity and device security rather than relying solely on network location, aligning with best practices for modern infrastructure protection.
+
+\subsubsection{Infrastructure and Operational Security}
+GCP's underlying infrastructure benefits from Google's proprietary hardware designs, including the Titan security chip, secure boot mechanisms, and service identity enforcement. Google's physical data centers use multi-layered defenses such as biometrics and intrusion detection systems. Operational security practices, including binary authorization and extensive monitoring, reduce insider risks and enforce software integrity throughout the lifecycle.
+
+By deploying the blockchain network on GCP, the project leveraged a highly secure environment, benefiting from Google’s layered security architecture across networking, identity management, encryption, access control, and operational practices.
+
+\subsection{Threat Model and Mitigations}
+Potential threats to the system were identified and mitigation strategies were applied, as summarized in Table 4.1.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Threat} & \textbf{Mitigation} \\
+		\hline
+		Unauthorized access to network & Use of MSP and Certificate Authorities \\
+		\hline
+		Tampering with transactions & Endorsement policies and consensus mechanisms \\
+		\hline
+		Denial of Service (DoS) attacks & GCP Firewall and rate limiting rules \\
+		\hline
+		Data leakage & Private channels and access controls \\
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Mockups}
 \begin{figure}[H]
 	\centering
@@ -173,6 +281,7 @@ After setting up the prerequisites, including Docker containers, the test networ
 
 \clearpage % Forces the next content to a new page
 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{mockup3.png}
@@ -180,10 +289,6 @@ After setting up the prerequisites, including Docker containers, the test networ
 	\label{fig:eight_step}
 \end{figure}
 
-
-	
-\section{Discussion}
-After modifying the Hyperledger Fabric smart contract to assess necessary processes involved in the tuna supply chain, the blockchain is ready to be invoked wherein the smart contract can be activated. To start, a new tuna asset is added and registered to the blockchain. Each tuna asset has its attributes or details. Before proceeding to the transfer of tuna asset, the smart contract is queried to verify if the creation of the asset is successful and if it is part of the current inventory. After that, the tuna asset can be transferred from fisher to supplier and the asset's owner is updated. The smart contract is queried again to verify if the asset details have been updated successfully. With the same process, the tuna asset is transferred from supplier to retailer using the smart contract and the owner is updated again. To ensure that the asset details are successfully updated, the smart contract is queried again. The final step is to query the smart contract to show the overview of all the assets in the supply chain. With this, it can be seen all the tuna assets from fishing to retail. Overall, the steps and process provides transparency and traceability in the tuna supply chain.
 
 \section{Operational Flow of the Web Application}
 This will discuss the flow in using the SeaXChange Web Application.
@@ -289,6 +394,9 @@ Users can logout of their accounts and is redirected to the Signup Page.
 		\caption{Log Out}
 		\label{fig:signout}
 	\end{figure} 
+	
+\section{System Discussion}
+After modifying the Hyperledger Fabric smart contract to assess necessary processes involved in the tuna supply chain, the blockchain is ready to be invoked wherein the smart contract can be activated. To start, a new tuna asset is added and registered to the blockchain. Each tuna asset has its attributes or details. Before proceeding to the transfer of tuna asset, the smart contract is queried to verify if the creation of the asset is successful and if it is part of the current inventory. After that, the tuna asset can be transferred from fisher to supplier and the asset's owner is updated. The smart contract is queried again to verify if the asset details have been updated successfully. With the same process, the tuna asset is transferred from supplier to retailer using the smart contract and the owner is updated again. To ensure that the asset details are successfully updated, the smart contract is queried again. The final step is to query the smart contract to show the overview of all the assets in the supply chain. With this, it can be seen all the tuna assets from fishing to retail. Overall, the steps and process provides transparency and traceability in the tuna supply chain.
 
 \section{User Demonstration and Feedback Results}
 \subsection{Demo Setup and Scenario}

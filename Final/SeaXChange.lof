@@ -1,0 +1,36 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Blockchain Architecture of SeaXChange}}{34}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overall System Architecture of SeaXChange}}{35}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Use case diagram for SeaXChange.}}{37}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Query Smart Contract: Check assets}}{43}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Invoke Smart Contract: Create/Add new tuna asset}}{43}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Query Smart Contract: Check assets with new tuna asset}}{43}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Invoke Smart Contract: Transfer asset to a supplier}}{44}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Query Smart Contract: Check asset after transfer}}{44}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Invoke Smart Contract: Transfer asset to a retailer}}{44}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Query Smart Contract: Check asset after transfer}}{45}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Query Smart Contract: Check updated assets}}{45}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Initialization Confirmation of the Ledger}}{48}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Initialization Confirmation of the Ledger}}{49}{}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces SeaXChange Mockups}}{55}{}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Landing Page}}{56}{}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Mobile View: Landing Page}}{57}{}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces SignUp Page}}{58}{}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces LogIn Page}}{58}{}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Fisher Homepage}}{59}{}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Supplier Homepage}}{60}{}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Retailer Homepage}}{60}{}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Consumer Homepage}}{61}{}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces View Profile}}{61}{}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Log Out}}{62}{}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Add Catch (Asset)}}{64}{}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Save Details}}{65}{}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces After Save Details}}{66}{}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Send Asset}}{67}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -86,3 +86,43 @@
 %  \renewcommand{\contentsname}{Table of Contents}
 \usepackage{adjustbox} 
 \usepackage{array} 
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstdefinelanguage{JavaScript}{
+	keywords={break, case, catch, continue, debugger, default, delete, do, else, finally, for, function, if, in, instanceof, new, return, switch, this, throw, try, typeof, var, let, const, void, while, with, yield, class, export, extends, import, super},
+	keywordstyle=\color{blue}\bfseries,
+	ndkeywords={boolean, null, true, false, undefined, await, async},
+	ndkeywordstyle=\color{teal}\bfseries,
+	identifierstyle=\color{black},
+	sensitive=true,
+	comment=[l]//,
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{gray}\itshape,
+	stringstyle=\color{red},
+	morestring=[b]',
+	morestring=[b]"
+}
+
+\lstdefinestyle{customjs}{
+	language=JavaScript,
+	backgroundcolor=\color{gray!10},
+	basicstyle=\ttfamily\small,
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	numbersep=8pt,
+	frame=single,
+	breaklines=true,
+	showstringspaces=false,
+	captionpos=b
+}
+
+\lstdefinestyle{appendixstyle}{
+	xleftmargin=0pt,
+	language=bash,
+	basicstyle=\ttfamily\small,
+	breaklines=true,
+	frame=single
+}
+

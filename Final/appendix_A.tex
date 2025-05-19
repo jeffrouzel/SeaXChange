@@ -9,6 +9,362 @@
 \chapter{Code Snippets}
 \label{sec:appendixa}
 
+\begin{lstlisting}[style=customjs, caption={Role-based access logic for tuna asset visibility}]
+	const checkAssetAccess = (
+	asset, userIdentifier, role
+	) => {
+		switch (role.toLowerCase()) {
+			case 'fisher':
+			if (asset.Fisher === userIdentifier)
+			return { hasAccess: true, accessType: 'full' };
+			break;
+			case 'supplier':
+			if (asset.Supplier === userIdentifier)
+			return { hasAccess: true, accessType: 'full' };
+			break;
+			case 'retailer':
+			if (asset.Retailers?.includes(userIdentifier))
+			return { hasAccess: true, accessType: 'full' };
+			break;
+			case 'consumer':
+			if (asset.Consumers?.includes(userIdentifier))
+			return { hasAccess: true, accessType: 'full' };
+			break;
+		}
+		
+		if (role.toLowerCase() === 'consumer') {
+			return { hasAccess: true, accessType: 'readonly' };
+		}
+		
+		return { hasAccess: false, accessType: 'none' };
+	};
+\end{lstlisting}
+
+\begin{lstlisting}[style=customjs, caption={Node.js configuration for Hyperledger Fabric Gateway}]
+	const grpc = require('@grpc/grpc-js');
+	const { connect, hash, signers } = require('@hyperledger/fabric-gateway');
+	const crypto = require('node:crypto');
+	const fs = require('node:fs/promises');
+	const path = require('node:path');
+	const { TextDecoder } = require('node:util');
+	
+	const channelName = envOrDefault('CHANNEL_NAME', 'mychannel');
+	const chaincodeName = envOrDefault('CHAINCODE_NAME', 'basic');
+	const mspId = envOrDefault('MSP_ID', 'Org1MSP');
+	
+	// Path to crypto materials.
+	const cryptoPath = envOrDefault(
+	'CRYPTO_PATH',
+	path.resolve(
+	__dirname,
+	'..',
+	'..',
+	'..',
+	'test-network',
+	'organizations',
+	'peerOrganizations',
+	'org1.example.com'
+	)
+	);
+	
+	const keyDirectoryPath = envOrDefault(
+	'KEY_DIRECTORY_PATH',
+	path.resolve(
+	cryptoPath,
+	'users',
+	'User1@org1.example.com',
+	'msp',
+	'keystore'
+	)
+	);
+	
+	const certDirectoryPath = envOrDefault(
+	'CERT_DIRECTORY_PATH',
+	path.resolve(
+	cryptoPath,
+	'users',
+	'User1@org1.example.com',
+	'msp',
+	'signcerts'
+	)
+	);
+	
+	const tlsCertPath = envOrDefault(
+	'TLS_CERT_PATH',
+	path.resolve(cryptoPath, 'peers', 'peer0.org1.example.com', 'tls', 'ca.crt')
+	);
+	
+	const peerEndpoint = envOrDefault('PEER_ENDPOINT', 'localhost:7051');
+	const peerHostAlias = envOrDefault('PEER_HOST_ALIAS', 'peer0.org1.example.com');
+	
+	const utf8Decoder = new TextDecoder();
+	const assetId = asset${String(Date.now())};
+\end{lstlisting}
+
+
+% Asset Struct Definition
+\begin{lstlisting}[style=customjs, caption={Asset Data Structure}, label={lst:asset-struct}]
+	type Asset struct {
+		ID             					string `json:"ID"`
+		Species							string `json:"Species"`
+		Weight							float64 `json:"Weight"`
+		CatchLocation					string `json:"CatchLocation"`
+		CatchDate						string `json:"CatchDate"`
+		FishingMethod					string `json:"FishingMethod"`   
+		Fisher							string `json:"Fisher"`
+		Supplier						string `json:"Supplier"`
+		SellingLocationSupplier			string `json:"SellingLocationSupplier"`
+		Retailers						[]string `json:"Retailers"`
+		SellingLocationRetailers		[]string `json:"SellingLocationRetailers"`
+		Consumers						[]string `json:"Consumers"`
+	}
+\end{lstlisting}
+
+% CreateAsset Function
+\begin{lstlisting}[style=customjs, caption={CreateAsset Function}, label={lst:create-asset}]
+	func (s *SmartContract) CreateAsset(ctx contractapi.TransactionContextInterface, id string, species string, weight float64, catchLocation string, catchDate string, fishingMethod string, fisher string) error {
+		exists, err := s.AssetExists(ctx, id)
+		if err != nil {
+			return err
+		}
+		if exists {
+			return fmt.Errorf("the asset %s already exists", id)
+		}
+		
+		asset := Asset{
+			ID:             id,
+			Species:		species,
+			Weight:			weight,
+			CatchLocation:	catchLocation,
+			CatchDate:		catchDate,
+			FishingMethod:	fishingMethod,
+			Fisher:			fisher,
+			Retailers:		[]string{},
+			SellingLocationRetailers:	[]string{},
+			Consumers:      []string{},
+		}
+		assetJSON, err := json.Marshal(asset)
+		if err != nil {
+			return err
+		}
+		
+		return ctx.GetStub().PutState(id, assetJSON)
+	}
+\end{lstlisting}
+
+% TransferAsset Function
+\begin{lstlisting}[style=customjs, caption={TransferAsset Function}, label={lst:transfer-asset}]
+	func (s *SmartContract) TransferAsset(ctx contractapi.TransactionContextInterface, id string, role string, newParticipant string, newLocation string) (string, error) {
+		asset, err := s.ReadAsset(ctx, id)
+		if err != nil {
+			return "", fmt.Errorf("failed to fetch asset: %v", err)
+		}
+		
+		switch role{
+			case "Supplier":
+			oldSupplier := asset.Supplier
+			asset.Supplier = newParticipant
+			asset.SellingLocationSupplier = newLocation
+			return oldSupplier, s.SaveAsset(ctx, id, asset)
+			case "Retailer":
+			if !contains(asset.Retailers, newParticipant){
+				asset.Retailers = append(asset.Retailers, newParticipant)
+				asset.SellingLocationRetailers = append(asset.SellingLocationRetailers, newLocation)
+			}
+			return "", s.SaveAsset(ctx, id, asset)
+			case "Consumer":
+			if !contains(asset.Consumers, newParticipant){
+				asset.Consumers = append(asset.Consumers, newParticipant)
+			}
+			return "", s.SaveAsset(ctx, id, asset)
+			default:
+			return "", fmt.Errorf("invalid role specified: %s", role)
+		}
+	}
+\end{lstlisting}
+
+% ReadAsset Function
+\begin{lstlisting}[style=customjs, caption={ReadAsset Function}, label={lst:read-asset}]
+	func (s *SmartContract) ReadAsset(ctx contractapi.TransactionContextInterface, id string) (*Asset, error) {
+		assetJSON, err := ctx.GetStub().GetState(id)
+		if err != nil {
+			return nil, fmt.Errorf("failed to read from world state: %v", err)
+		}
+		if assetJSON == nil {
+			return nil, fmt.Errorf("the asset %s does not exist", id)
+		}
+		var asset Asset
+		err = json.Unmarshal(assetJSON, &asset)
+		if err != nil {
+			return nil, err
+		}
+		if asset.Consumers == nil {
+			asset.Consumers = []string{}
+		}	
+		
+		return &asset, nil
+	}
+\end{lstlisting}
+
+% GetAllAssets Function
+\begin{lstlisting}[style=customjs, caption={GetAllAssets Function}, label={lst:get-all-assets}]
+	func (s *SmartContract) GetAllAssets(ctx contractapi.TransactionContextInterface) ([]*Asset, error) {
+		resultsIterator, err := ctx.GetStub().GetStateByRange("", "")
+		if err != nil {
+			return nil, err
+		}
+		defer resultsIterator.Close()
+		
+		var assets []*Asset
+		for resultsIterator.HasNext() {
+			queryResponse, err := resultsIterator.Next()
+			if err != nil {
+				return nil, err
+			}
+			
+			var asset Asset
+			err = json.Unmarshal(queryResponse.Value, &asset)
+			if err != nil {
+				return nil, err
+			}
+			if asset.Consumers == nil {
+				asset.Consumers = []string{}
+			}
+			assets = append(assets, &asset)
+		}
+		
+		return assets, nil
+	}
+\end{lstlisting}
+
+
+\begin{lstlisting}[style=customjs, caption={\texttt{main()} Function and Gateway Logic}, label={lst:main-gateway}]
+	async function main() {
+		displayInputParameters();
+		
+		const client = await newGrpcConnection();
+		
+		const gateway = connect({
+			client,
+			identity: await newIdentity(),
+			signer: await newSigner(),
+			hash: hash.sha256,
+			evaluateOptions: () => ({ deadline: Date.now() + 5000 }),
+			endorseOptions: () => ({ deadline: Date.now() + 15000 }),
+			submitOptions: () => ({ deadline: Date.now() + 5000 }),
+			commitStatusOptions: () => ({ deadline: Date.now() + 60000 }),
+		});
+		
+		try {
+			const network = gateway.getNetwork(channelName);
+			const contract = network.getContract(chaincodeName);
+			
+			await initLedger(contract);
+			await getAllAssets(contract);
+			await createAsset(contract);
+			await transferAssetAsync(contract);
+			await readAssetByID(contract);
+			await updateNonExistentAsset(contract);
+		} finally {
+			gateway.close();
+			client.close();
+		}
+	}
+	
+	main().catch((error) => {
+		console.error('** FAILED to run the application:', error);
+		process.exitCode = 1;
+	});
+\end{lstlisting}
+
+
+\section{Hyperledger Fabric Deployment Instructions}
+\label{sec:deployment}
+
+The following steps outline the process for deploying and testing the fish supply chain smart contract on Hyperledger Fabric using Google Cloud Platform.
+
+\subsection{Environment Setup}
+\begin{enumerate}
+	\item \textbf{Open GCP and access the VM instance:}
+	\begin{itemize}
+		\item Navigate to Console $\rightarrow$ Compute Engine $\rightarrow$ VM instances $\rightarrow$ start $\rightarrow$ click SSH
+		\item Alternatively: Virtual Machine $\rightarrow$ start $\rightarrow$ instance $\rightarrow$ SSH
+	\end{itemize}
+	
+	\item \textbf{Connect to the instance:}
+	\begin{lstlisting}[style=appendixstyle, caption={Connect to GCP VM via \texttt{gcloud}}, label={lst:connect-gcp}]
+		gcloud compute ssh instance-20250322-102900 --zone=us-central1-c
+	\end{lstlisting}
+	
+	
+	
+	\item \textbf{Navigate to the test network directory:}
+	\begin{lstlisting}[style=appendixstyle, caption={Navigate to Compose Directory}, label={lst:navigate-compose}]
+		cd ~/fabric-samples/test-network/compose
+	\end{lstlisting}
+\end{enumerate}
+
+\subsection{Network Startup and Smart Contract Deployment}
+\begin{enumerate}
+	\item \textbf{Start the Hyperledger Fabric network:}
+	\begin{itemize}
+		\begin{lstlisting}[style=appendixstyle, caption={Start Fabric Network}, label={lst:start-network}]
+			sudo docker-compose -f compose-test-net.yaml start
+		\end{lstlisting}
+		
+		\item \textbf{Deploy the chaincode:}
+		\begin{lstlisting}[style=appendixstyle, caption={Deploy Chaincode}, label={lst:deploy-chaincode}]
+			cd ../
+			./network.sh deployCC -ccn basic -ccp ../asset-transfer-basic/chaincode-go -ccl go
+		\end{lstlisting}
+		
+		\item \textbf{Set environment path variables:}
+		\begin{lstlisting}[style=appendixstyle, caption={Path Environment Variables}, label={lst:path-vars}]
+			export PATH=${PWD}/../bin:$PATH
+			export FABRIC_CFG_PATH=$PWD/../config/
+		\end{lstlisting}
+	
+	\item \textbf{Configure organization environment variables:}
+	\begin{lstlisting}[style=appendixstyle, caption={Org1 Environment Configuration}, label={lst:org-vars}]
+			# Environment variables for Org1
+			export CORE_PEER_TLS_ENABLED=true
+			export CORE_PEER_LOCALMSPID="Org1MSP"
+			export CORE_PEER_TLS_ROOTCERT_FILE=${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+			export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+			export CORE_PEER_ADDRESS=localhost:7051
+	
+	\end{lstlisting}
+	\end{itemize}
+\end{enumerate}
+\subsection{Testing the Smart Contract}
+\begin{enumerate}
+	\item \textbf{Initialize the ledger:}
+	\begin{lstlisting}[style=appendixstyle, breaklines=true, caption={Invoke InitLedger}, label={lst:init-ledger}]
+		peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile "${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem" -C mychannel -n basic --peerAddresses localhost:7051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt" --peerAddresses localhost:9051 --tlsRootCertFiles "${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt" -c '{"function":"InitLedger","Args":[]}'
+	\end{lstlisting}
+	
+	\item \textbf{Query assets:}
+	\begin{lstlisting}[style=appendixstyle, caption={Query Fish Asset}, label={lst:query-asset}]
+		# Query a specific fish asset
+		peer chaincode query -C mychannel -n basic -c '{"Args":["ReadAsset","tuna1"]}'
+		
+		# Query all assets in the ledger
+		peer chaincode query -C mychannel -n basic -c '{"Args":["GetAllAssets"]}'
+	\end{lstlisting}
+	
+	\item \textbf{Shut down the network:}
+	\begin{lstlisting}[style=appendixstyle, caption={Stop Fabric Network}, label={lst:stop-network}]
+		sudo docker-compose -f compose-test-net.yaml stop
+	\end{lstlisting}
+\end{enumerate}
+
+\subsection{Important Notes}
+\begin{itemize}
+	\item Ensure proper network connectivity when working with Google Cloud Platform.
+	\item The environment variables must be set correctly for the organization context.
+	\item TLS certificates are required for secure communication between nodes.
+	\item The commands assume the blockchain network is already provisioned on GCP.
+\end{itemize}
 
 
 % Save the file you want to include in PDF format.

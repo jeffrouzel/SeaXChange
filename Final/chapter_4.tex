@@ -1,7 +1,7 @@
 %   Filename    : chapter_4.tex 
 \chapter{Results and Discussions}
 \section{Overview}
-This chapter  presents the preliminary results or the system prototype.  Included in this chapter are screenshots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the prototype's operations. 
+This chapter  presents the results of the system.  Included in this chapter are screenshots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the system's operations. 
 
 
 \section{Smart Contract Deployment and Installation}
@@ -272,6 +272,17 @@ Potential threats to the system were identified and mitigation strategies were a
 
 
 \section{Mockups}
+The mockups represent the preliminary design for the SeaXChange web application, created using Figma to facilitate collaboration and incorporate feedback efficiently. The visual design features a teal-based color scheme to evoke an oceanic theme, aligning with the app’s focus on tuna products supply chain. This aesthetic choice reinforces the app’s identity and enhances user engagement.
+
+Upon launching the app, users are first directed to the Login or Sign-Up page, where authentication is required to access any data. This ensures security and role-specific access within the blockchain system.
+
+Once authenticated, users are redirected to their personalized homepages, which include their profile information and a dashboard showing relevant tuna product assets. The user experience is role-dependent:
+
+\item All users can view available assets on the blockchain.,
+\item Fishermen are the only users who can create new assets, representing newly caught tuna.,
+\item Suppliers and Retailers have the ability to pass on assets down the supply chain, updating the product's status, location, or freshness.,
+
+This role-based structure ensures traceability, accountability, and clarity across the supply chain, while maintaining a clean and intuitive interface tailored to each user type.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{mockup1.png}
@@ -287,7 +298,7 @@ Potential threats to the system were identified and mitigation strategies were a
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\textwidth]{mockup3.png}
-	\caption{SeaXChange Mockups}
+	\caption{SeaXChange Mockups showing the Authentication Page, Role-Based Homepage, Asset Transfer Interfaces for Fishermen, Suppliers, and Retailers, and Asset Viewing page for the Consumers}
 	\label{fig:eight_step}
 \end{figure}
 
@@ -609,7 +620,7 @@ When taken as a whole, it shows that the respondents have good feedback in the s
 \subsection{Results and Analysis}	
 For functionality, fishermen rated asset tracking positively but identified challenges in real-time updates and smart contract execution. Suppliers and retailers similarly found strengths in verification and real-time updates, although asset tracking averaged slightly lower. Consumers consistently rated functionality highly, particularly appreciating the system's ability to support smart contracts.
 
-\noindent Regarding end-user needs, fishermen provided the lowest ratings, highlighting difficulties with seamless interaction. Suppliers, retailers, and consumers gave higher scores, suggesting that while transparency was generally achieved, the system's ease of interaction required further improvement for all users.
+\noindent Regarding end-user needs, fishermen provided the lowest ratings, highlighting difficulties with seamless interaction, considering the digital barrier that they experience while interacting with the app. Suppliers, retailers, and consumers gave higher scores, suggesting that while transparency was generally achieved, the system's ease of interaction required further improvement for all users.
 
 \noindent In terms of performance, fishermen and suppliers reported average transaction efficiency but noted concerns regarding data integrity and security. Consumers, on the other hand, expressed confidence in both areas.
 

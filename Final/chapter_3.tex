@@ -70,7 +70,7 @@ The system architecture of the project were consisted of many nodes that communi
 
 \begin{itemize}
 	\item \textbf{Blockchain Architecture}
-	\\The project involved peer, ordering services, ledger, and client application to perform various transaction such as tracing the origin and the stop points of a tuna asset. Peers are nodes in the blockchain network that maintained a copy of the distributed ledger and execute chaincode (smart contracts). The ordering service is the central component of the blockchain for ordering transactions and creating blocks to distribute to peers through consensus mechanism. The ledger is the immutable record of all transaction in the tuna supply chain network, stored across all peers. The client application is the interface through which users or tuna supply chain participants interact with the blockchain network.
+	\\The project involved peer, ordering services, ledger, and client application to perform various transaction such as tracing the origin and the stop points of a tuna asset. Peers are nodes in the blockchain network that maintained a copy of the distributed ledger and execute chaincode (smart contracts). The ordering service is the central component of the blockchain for ordering transactions and creating blocks to distribute to peers through consensus mechanism. The ledger is the immutable record of all transaction in the tuna supply chain network, stored across all peers. The client application is the interface through which users or tuna supply chain participants interact with the blockchain network. Figure~\ref{fig:blockchain_model} below shows the blockchain architecture of SeaXChange.
 	
 	\begin{figure}[H]
 		\centering
@@ -80,18 +80,19 @@ The system architecture of the project were consisted of many nodes that communi
 	\end{figure}
 	
 	\item \textbf{Overall System Architecture}
-	\\The overall system architecture contains a web application built with Next.js for the frontend, utilizing Firebase for user authentication and account management. The application follows a role-based access model (Fisher, Supplier, Retailer, Consumer) where each role has specific permissions for interacting with tuna assets in the supply chain. The backend runs on Google Cloud Platform, consisting of an Express.js API that interfaces with a Hyperledger Fabric blockchain network (containerized in Docker) which stores and manages the immutable record of tuna assets and their transfers between supply chain participants. This architecture enables secure tracking of tuna from creation by fishers through the supply chain to consumers, with appropriate viewing and transfer capabilities assigned to each role in the process.
+	\\The overall system architecture contains a web application built with Next.js for the frontend, utilizing Firebase for user authentication and account management. As shown in Figure~\ref{fig:system_architecture}, the application follows a role-based access model (Fisher, Supplier, Retailer, Consumer) where each role has specific permissions for interacting with tuna assets in the supply chain. The backend runs on Google Cloud Platform, consisting of an Express.js API that interfaces with a Hyperledger Fabric blockchain network (containerized in Docker) which stores and manages the immutable record of tuna assets and their transfers between supply chain participants. This architecture enables secure tracking of tuna from creation by fishers through the supply chain to consumers, with appropriate viewing and transfer capabilities assigned to each role in the process.
 	
 	\begin{figure} [H]
 		\centering
 		\includegraphics[width=0.8\textwidth]{overall-system.png}
 		\caption{Overall System Architecture of SeaXChange}
+		\label{fig:system_architecture}
 	\end{figure}
 	
 	
 	
 	\item \textbf{Use Case}
-	\\The use case shows the outline on how the user will interact with the SeaXChange App. It followed the major stages or participants in the tuna supply chain. 
+	\\The use case shows the outline on how the user will interact with the SeaXChange App. It followed the major stages or participants in the tuna supply chain. Figure~\ref{fig:usecase} shows the use case diagram for SeaXChange.
 	\begin{enumerate}
 		\item \textbf{Fisher}
 		\\- Encodes tuna I.D. of fish.

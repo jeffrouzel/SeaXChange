@@ -256,7 +256,7 @@ Potential threats to the system were identified and mitigation strategies were a
 
 
 \section{Mockups}
-The mockups represent the preliminary design for the SeaXChange web application, created using Figma to facilitate collaboration and incorporate feedback efficiently. The visual design features a teal-based color scheme to evoke an oceanic theme, aligning with the app’s focus on tuna products supply chain. This aesthetic choice reinforces the app’s identity and enhances user engagement.
+The mockups represent the preliminary design for the SeaXChange web application, created using Figma to facilitate collaboration and incorporate feedback efficiently (see Figures showing initial mockup designs). The visual design features a teal-based color scheme to evoke an oceanic theme, aligning with the app’s focus on tuna products supply chain. This aesthetic choice reinforces the app’s identity and enhances user engagement.
 
 Upon launching the app, users are first directed to the Login or Sign-Up page, where authentication is required to access any data. This ensures security and role-specific access within the blockchain system.
 
@@ -274,6 +274,7 @@ This role-based structure ensures traceability, accountability, and clarity acro
 	\vspace{20pt} % Adjust space 
 	
 	\includegraphics[width=0.9\textwidth]{mockup2.png}
+	\label{fig:initial_mockups}
 \end{figure}
 
 \clearpage % Forces the next content to a new page
@@ -291,7 +292,7 @@ This role-based structure ensures traceability, accountability, and clarity acro
 This section will discuss the flow in using the SeaXChange Web Application. It will show the respective interface for every page and how the users can interact with it. 
 
 \subsection{Landing Page}
-Users are be greeted with the landing page, where it shows a ocean visuals and a tagline “Discover the Journey your tuna made from the ocean to your dinner plate”. Users are given the option to Login, where they are redirected to the login page or Get Started, where they are redirected to the sign up page. 
+Users are be greeted with the landing page (Figure \ref{fig:landing_page}), where it shows a ocean visuals and a tagline “Discover the Journey your tuna made from the ocean to your dinner plate”. Users are given the option to Login, where they are redirected to the login page or Get Started, where they are redirected to the sign up page. 
 
 \begin{figure}[H]
 	\centering
@@ -308,7 +309,7 @@ Users are be greeted with the landing page, where it shows a ocean visuals and a
 \end{figure}	
 
 \subsection{Sign Up Page}
-First time users will be required to create an account. They are to provide their name, email and password. For their user type, there are four roles to choose from: Fisher, Supplier, Retailer and Consumer. 
+First time users will be required to create an account (Figure \ref{fig:signup_page}). They are to provide their name, email and password. For their user type, there are four roles to choose from: Fisher, Supplier, Retailer and Consumer. 
 
 \begin{figure}[H]
 	\centering
@@ -318,7 +319,7 @@ First time users will be required to create an account. They are to provide thei
 \end{figure}
 
 \subsection{Login Page}
-Returning user are required to login with their email and password.
+Returning users are required to login with their email and password (Figure \ref{fig:login_page}).
 
 \begin{figure}[H]
 	\centering
@@ -328,10 +329,10 @@ Returning user are required to login with their email and password.
 \end{figure}
 
 \subsection{Homepage}
-Each user type has their own respective homepages and features.
+Each user type has their own respective homepages and features, as shown in the following interface designs.
 \begin{itemize}
 	\item \textbf{Fisher}
-	Fishers can add a fish catch using the "Add catch" button, where they are to input the species of the fish, weight in kg, catch location, catch date, fishing method used and vessel name. The remaining text fields like the Supplier name, Retailer name and Consumer name are left null and cannot be edited because they will be filled out by the other users receiving the tuna asset. Users can send a tuna asset to the Supplier. Users can also browse existing tuna assets. 
+	Fishers can add a fish catch using the "Add catch" button (Figure \ref{fig:fisherhome_page}), where they are to input the species of the fish, weight in kg, catch location, catch date, fishing method used and vessel name. The remaining text fields like the Supplier name, Retailer name and Consumer name are left null and cannot be edited because they will be filled out by the other users receiving the tuna asset. Users can send a tuna asset to the Supplier. Users can also browse existing tuna assets. 
 	
 	\begin{figure}[H]
 		\centering
@@ -341,7 +342,7 @@ Each user type has their own respective homepages and features.
 	\end{figure}
 	
 	\item \textbf{Supplier}
-	Suppliers can browse existing tuna assets. Upon clicking a tuna asset, the user can only edit the Supplier text field. They can send the tuna asset to the Retailer.
+	Suppliers can browse existing tuna assets (Figure \ref{fig:supplierhome_page}). Upon clicking a tuna asset, the user can only edit the Supplier text field. They can send the tuna asset to the Retailer.
 	
 	\begin{figure}[H]
 		\centering
@@ -351,7 +352,7 @@ Each user type has their own respective homepages and features.
 	\end{figure}
 	
 	\item \textbf{Retailer}
-	Retailers can browse existing tuna assets and can send it to the Consumer.
+	Retailers can browse existing tuna assets and can send it to the Consumer (Figure \ref{fig:retailerhome_page}).
 	
 	\begin{figure}[H]
 		\centering
@@ -361,7 +362,7 @@ Each user type has their own respective homepages and features.
 	\end{figure}
 	
 	\item \textbf{Consumer}
-	Consumers can only view the tuna asset and cannot edit anything else
+	Consumers can only view the tuna asset and cannot edit anything else (Figure \ref{fig:consumerhome_page}).
 	
 	\begin{figure}[H]
 		\centering
@@ -373,7 +374,7 @@ Each user type has their own respective homepages and features.
 \end{itemize}
 
 \subsection{Profile}
-The user's profile information is shown on the homepage through a pop-up. It shows the user's name and role.
+The user's profile information is shown on the homepage through a pop-up (Figure \ref{fig:view_profile}). It shows the user's name and role.
 
 \begin{figure}[H]
 	\centering
@@ -383,7 +384,7 @@ The user's profile information is shown on the homepage through a pop-up. It sho
 \end{figure}
 
 \subsection{Logout}
-Users can logout of their accounts and is redirected to the Signup Page.
+Users can logout of their accounts and is redirected to the Signup Page (Figure \ref{fig:signout}).
 
 \begin{figure}[H]
 	\centering
@@ -397,7 +398,7 @@ After modifying the Hyperledger Fabric smart contract to assess necessary proces
 
 \section{User Demonstration and Feedback Results}
 \subsection{Demo Setup and Scenario}
-During the demonstration of the system, the participants had a brief introduction of the key functionalities of the SeaXChange app. They were shown how to create an account, input and send tuna assets from one stakeholder to another. Participants were also shown how real-time updates were reflected on the app. Finally, they were introduced on how to view transaction histories and traceability information on each tuna asset. Throughout the demonstration, participants were encouraged to ask questions and provide feedback on the usability and functionality of the system. After the demonstration, they were given feedback forms in order to assess the SeaXChange app. 
+During the demonstration of the system, the participants had a brief introduction of the key functionalities of the SeaXChange app. They were shown how to create an account, input and send tuna assets from one stakeholder to another. The demonstration included the asset creation process (Figure \ref{fig:add_catch}), saving asset details (Figure \ref{fig:save_details}), and transferring assets between stakeholders (Figure \ref{fig:sendto_supplier}). Participants were also shown how real-time updates were reflected on the app. Finally, they were introduced on how to view transaction histories and traceability information on each tuna asset. Throughout the demonstration, participants were encouraged to ask questions and provide feedback on the usability and functionality of the system. After the demonstration, they were given feedback forms in order to assess the SeaXChange app. 
 
 \begin{figure}[H]
 	\centering

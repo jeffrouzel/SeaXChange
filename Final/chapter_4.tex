@@ -1,16 +1,13 @@
 %   Filename    : chapter_4.tex 
 \chapter{Results and Discussions}
-\section{Overview}
-This chapter  presents the results of the system.  Included in this chapter are screenshots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the system's operations. 
-
-
+\section{Overview} 
+This chapter  presents the results of the system. Included in this chapter are screenshots and the discussion of results. The tuna supply chain management smart contract on Hyperledger Fabric has been initiated and tested within a controlled blockchain environment. Results indicated that the system was functionally robust and reliable, having managed assets, transaction integrity, and the ability to query and update the ledger in the blockchain. This chapter presents the details of the major steps executed during the process, results for those steps, and the current status of the system's operations. 
 \section{Smart Contract Deployment and Installation}
 
 \subsection{Hyperledger Fabric Prerequisites}
 
 Before executing a smart contract framework and blockchain system, it is crucial to first install and set up the necessary tools and technologies. This includes setting up Hyperledger Fabric, which involves installing the Fabric binaries, configuring the network, and ensuring all necessary dependencies like Docker, Docker Compose, and Node.js are installed and properly configured. Additionally, setting up the required certificates, defining the channel configurations, and ensuring that peer nodes and orderers are correctly connected and synchronized are all essential steps in preparing the environment for blockchain and smart contract operations.
 \begin{itemize}
-	
 	\item \textbf{Software Requirements:}
 	\begin{itemize}
 		\item \textbf{Docker and Docker Compose:} Hyperledger Fabric needs to have Docker installed and running on the system. Docker is required to run the peer and ordering services of the blockchain system.
@@ -26,11 +23,7 @@ Before executing a smart contract framework and blockchain system, it is crucial
 		\begin{verbatim}
 			curl -sSL https://bit.ly/2ysbOFE | bash -s
 		\end{verbatim}
-		
-		
 	\end{itemize}
-	
-	
 	\item \textbf{Network Setup:}
 	\begin{itemize}
 		\item Run the \texttt{test-network} script to start the Hyperledger Fabric test network:
@@ -38,26 +31,21 @@ Before executing a smart contract framework and blockchain system, it is crucial
 			./network.sh up
 		\end{verbatim}
 		This script starts a peer, an ordering service, and a CA (Certificate Authority) on the local machine.
-		
 		\item After starting the network to docker in the same directory (test-network), a channel must be created:
 		\begin{verbatim}
 			./network.sh createChannel
 		\end{verbatim}
-		
 	\end{itemize}
-	
 	\item \textbf{Deploying Chaincode (Smart Contract):}
 	\begin{itemize}
 		\item Step 1:
 		\begin{verbatim}
 			export PATH=${PWD}/../bin:$PATH
 		\end{verbatim}
-		
 		\item Step 2:
 		\begin{verbatim}
 			export FABRIC_CFG_PATH=$PWD/../config/
 		\end{verbatim}
-		
 		\item Step 3:
 		\begin{verbatim}
 			export CORE_PEER_TLS_ENABLED=true
@@ -69,14 +57,9 @@ Before executing a smart contract framework and blockchain system, it is crucial
 			/peerOrganizations/org1.example.com/users
 			/Admin@org1.example.com/msp
 			export CORE_PEER_ADDRESS=localhost:7051
-			
 		\end{verbatim}
-		
 	\end{itemize}
-	
-	
 \end{itemize}
-
 \subsection{Invoking the Blockchain System}
 
 After setting up the prerequisites, including Docker containers, the test network, and chaincode, the tuna supply chain system can now be invoked for creating, transferring, and querying tuna assets. The figures provided below demonstrate the processes involved in invoking the blockchain system.
@@ -562,7 +545,6 @@ As a whole, the respondents have an average feedback on efficient transactions (
 
 It shows the frequency of intuitive interface among the respondents when taken as a whole is average (M = 3.83). When classified according to stakeholder, both fishermen (M = 4.0) and consumers (M = 4.0) have good ratings, while the supplier and retailers (M = 3.5) have average ratings. For cross-platform usage, the entire group rated good (M = 4.14). When classified according to stakeholder, both fishermen (M = 4.0) and consumers (M = 4.1) also have good ratings, while supplier and retailers (M = 3.75) have average. For visual clarity, the entire group rated average (M = 3.80). When classified by each stakeholder, both fishermen (M = 3.33) and supplier and retailers (M = 3.75) have average ratings, while consumers (M = 4.33)  have good ratings.
 
-\clearpage
 \begin{table}[h]
 	\centering
 	\begin{tabular}{|l|l|c|l|}

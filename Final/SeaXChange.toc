@@ -1,8 +1,8 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{}%
 \contentsline {section}{\numberline {1.1}Overview}{1}{}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{2}{}%
-\contentsline {section}{\numberline {1.3}Research Objectives}{2}{}%
-\contentsline {subsection}{\numberline {1.3.1}General Objective}{2}{}%
+\contentsline {section}{\numberline {1.3}Research Objectives}{3}{}%
+\contentsline {subsection}{\numberline {1.3.1}General Objective}{3}{}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{3}{}%
 \contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
@@ -11,66 +11,77 @@
 \contentsline {section}{\numberline {2.2}Fishing Regulations in the Philippines}{9}{}%
 \contentsline {section}{\numberline {2.3}Tuna and Fish Supply Chain}{11}{}%
 \contentsline {section}{\numberline {2.4}Tuna Supply Chain Stages and Roles}{12}{}%
-\contentsline {section}{\numberline {2.5}Factors Affecting the Tuna Supply Chain}{13}{}%
-\contentsline {section}{\numberline {2.6}Technology of Blockchain}{15}{}%
+\contentsline {section}{\numberline {2.5}Factors Affecting the Tuna Supply Chain}{14}{}%
+\contentsline {section}{\numberline {2.6}Technology of Blockchain}{16}{}%
 \contentsline {section}{\numberline {2.7}Opportunities of Blockchain Technology for Supply Chain Management}{17}{}%
 \contentsline {section}{\numberline {2.8}Supply Chain Model with Blockchain Technology of Fishing Industry in Indonesia}{20}{}%
-\contentsline {section}{\numberline {2.9}Existing Technology Intended for Traceability and Supply Chain}{20}{}%
-\contentsline {section}{\numberline {2.10}Developing a Traceability System for Tuna Supply Chains}{23}{}%
+\contentsline {section}{\numberline {2.9}Existing Technology Intended for Traceability and Supply Chain}{21}{}%
+\contentsline {section}{\numberline {2.10}Developing a Traceability System for Tuna Supply Chains}{24}{}%
 \contentsline {section}{\numberline {2.11}Chapter Summary}{25}{}%
-\contentsline {subsection}{\numberline {2.11.1}Comparison Table of Related Studies}{25}{}%
-\contentsline {subsection}{\numberline {2.11.2}Research Gaps and Problem}{25}{}%
-\contentsline {subsection}{\numberline {2.11.3}Summary}{26}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{27}{}%
-\contentsline {section}{\numberline {3.1}Software Development}{27}{}%
-\contentsline {section}{\numberline {3.2}Research Activities}{28}{}%
-\contentsline {subsection}{\numberline {3.2.1}Data Gathering}{28}{}%
-\contentsline {subsection}{\numberline {3.2.2}Designing and Developing the System}{29}{}%
-\contentsline {subsection}{\numberline {3.2.3}Implementing Algorithms and Services}{30}{}%
-\contentsline {subsection}{\numberline {3.2.4}Modeling the System Architecture}{33}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussions}{39}{}%
-\contentsline {section}{\numberline {4.1}Overview}{39}{}%
-\contentsline {section}{\numberline {4.2}Smart Contract Deployment and Installation}{40}{}%
-\contentsline {subsection}{\numberline {4.2.1}Hyperledger Fabric Prerequisites}{40}{}%
-\contentsline {subsection}{\numberline {4.2.2}Invoking the Blockchain System}{42}{}%
-\contentsline {section}{\numberline {4.3}Backend Security Analysis (Hyperledger Fabric on GCP)}{46}{}%
-\contentsline {subsection}{\numberline {4.3.1}System Architecture and Deployment Overview}{46}{}%
-\contentsline {subsection}{\numberline {4.3.2}Blockchain Network Security}{46}{}%
-\contentsline {subsubsection}{Channel Privacy}{46}{}%
-\contentsline {subsubsection}{Policies and Access Control}{47}{}%
-\contentsline {subsubsection}{Secure Communication}{47}{}%
-\contentsline {subsubsection}{Identity and Role Management}{47}{}%
-\contentsline {subsubsection}{Hardware Security Modules (HSMs)}{47}{}%
-\contentsline {subsection}{\numberline {4.3.3}Smart Contract Automated Test Result}{48}{}%
-\contentsline {subsubsection}{InitLedger Transaction}{48}{}%
-\contentsline {subsubsection}{GetAllAssets Query}{48}{}%
-\contentsline {subsubsection}{CreateAsset Transaction}{49}{}%
-\contentsline {subsubsection}{TransferAsset Transaction}{49}{}%
-\contentsline {subsubsection}{ReadAsset Query}{50}{}%
-\contentsline {subsubsection}{UpdateAsset Error Handling}{50}{}%
-\contentsline {subsubsection}{Summary of Results}{50}{}%
-\contentsline {subsection}{\numberline {4.3.4}GCP Infrastructure Security}{51}{}%
-\contentsline {subsubsection}{Firewall Rules and Network Control}{51}{}%
-\contentsline {subsubsection}{IAM Roles and Access Management}{51}{}%
-\contentsline {subsubsection}{Encryption}{52}{}%
-\contentsline {subsubsection}{Access Control}{52}{}%
-\contentsline {subsubsection}{Infrastructure and Operational Security}{52}{}%
-\contentsline {subsection}{\numberline {4.3.5}Threat Model and Mitigations}{53}{}%
-\contentsline {section}{\numberline {4.4}Mockups}{54}{}%
-\contentsline {section}{\numberline {4.5}Operational Flow of the Web Application}{55}{}%
-\contentsline {subsection}{\numberline {4.5.1}Landing Page}{55}{}%
-\contentsline {subsection}{\numberline {4.5.2}Sign Up Page}{58}{}%
-\contentsline {subsection}{\numberline {4.5.3}Login Page}{58}{}%
-\contentsline {subsection}{\numberline {4.5.4}Homepage}{59}{}%
-\contentsline {subsection}{\numberline {4.5.5}Profile}{61}{}%
-\contentsline {subsection}{\numberline {4.5.6}Logout}{61}{}%
-\contentsline {section}{\numberline {4.6}System Discussion}{62}{}%
-\contentsline {section}{\numberline {4.7}User Demonstration and Feedback Results}{63}{}%
-\contentsline {subsection}{\numberline {4.7.1}Demo Setup and Scenario}{63}{}%
-\contentsline {subsection}{\numberline {4.7.2}Feedback Collection Method}{68}{}%
-\contentsline {subsection}{\numberline {4.7.3}Summarized Feedback}{69}{}%
-\contentsline {subsection}{\numberline {4.7.4}Results and Analysis}{74}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{77}{}%
+\contentsline {subsection}{\numberline {2.11.1}Comparison Table of Related Studies}{26}{}%
+\contentsline {subsection}{\numberline {2.11.2}Research Gaps and Problem}{26}{}%
+\contentsline {subsection}{\numberline {2.11.3}Summary}{27}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{29}{}%
+\contentsline {section}{\numberline {3.1}Software Development}{29}{}%
+\contentsline {section}{\numberline {3.2}Research Activities}{30}{}%
+\contentsline {subsection}{\numberline {3.2.1}Feedback Collection Method}{31}{}%
+\contentsline {subsection}{\numberline {3.2.2}Data Gathering}{31}{}%
+\contentsline {subsection}{\numberline {3.2.3}Designing and Developing the System}{32}{}%
+\contentsline {subsection}{\numberline {3.2.4}Implementing Algorithms and Services}{33}{}%
+\contentsline {subsection}{\numberline {3.2.5}Modeling the System Architecture}{36}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{41}{}%
+\contentsline {section}{\numberline {4.1}Overview}{41}{}%
+\contentsline {section}{\numberline {4.2}Smart Contract Deployment and Installation}{42}{}%
+\contentsline {subsection}{\numberline {4.2.1}Hyperledger Fabric Prerequisites}{42}{}%
+\contentsline {subsection}{\numberline {4.2.2}Invoking the Blockchain System}{44}{}%
+\contentsline {section}{\numberline {4.3}Backend Security Analysis (Hyperledger Fabric on GCP)}{47}{}%
+\contentsline {subsection}{\numberline {4.3.1}System Architecture and Deployment Overview}{47}{}%
+\contentsline {subsection}{\numberline {4.3.2}Blockchain Network Security}{48}{}%
+\contentsline {subsubsection}{Channel Privacy}{48}{}%
+\contentsline {subsubsection}{Policies and Access Control}{48}{}%
+\contentsline {subsubsection}{Secure Communication}{49}{}%
+\contentsline {subsubsection}{Identity and Role Management}{49}{}%
+\contentsline {subsubsection}{Hardware Security Modules (HSMs)}{49}{}%
+\contentsline {subsection}{\numberline {4.3.3}Smart Contract Automated Test Result}{49}{}%
+\contentsline {subsubsection}{InitLedger Transaction}{50}{}%
+\contentsline {subsubsection}{GetAllAssets Query}{50}{}%
+\contentsline {subsubsection}{CreateAsset Transaction}{51}{}%
+\contentsline {subsubsection}{TransferAsset Transaction}{51}{}%
+\contentsline {subsubsection}{ReadAsset Query}{52}{}%
+\contentsline {subsubsection}{UpdateAsset Error Handling}{52}{}%
+\contentsline {subsubsection}{Summary of Results}{52}{}%
+\contentsline {subsection}{\numberline {4.3.4}GCP Infrastructure Security}{53}{}%
+\contentsline {subsubsection}{Firewall Rules and Network Control}{53}{}%
+\contentsline {subsubsection}{IAM Roles and Access Management}{53}{}%
+\contentsline {subsubsection}{Encryption}{54}{}%
+\contentsline {subsubsection}{Access Control}{54}{}%
+\contentsline {subsubsection}{Infrastructure and Operational Security}{54}{}%
+\contentsline {subsection}{\numberline {4.3.5}Threat Model and Mitigations}{55}{}%
+\contentsline {section}{\numberline {4.4}Mockups}{55}{}%
+\contentsline {section}{\numberline {4.5}Operational Flow of the Web Application}{58}{}%
+\contentsline {subsection}{\numberline {4.5.1}Landing Page}{58}{}%
+\contentsline {subsection}{\numberline {4.5.2}Sign Up Page}{61}{}%
+\contentsline {subsection}{\numberline {4.5.3}Login Page}{61}{}%
+\contentsline {subsection}{\numberline {4.5.4}Homepage}{62}{}%
+\contentsline {subsection}{\numberline {4.5.5}Profile}{64}{}%
+\contentsline {subsection}{\numberline {4.5.6}Logout}{64}{}%
+\contentsline {section}{\numberline {4.6}System Discussion}{65}{}%
+\contentsline {section}{\numberline {4.7}User Demonstration and Feedback Results}{66}{}%
+\contentsline {subsection}{\numberline {4.7.1}Demo Setup and Scenario}{66}{}%
+\contentsline {subsection}{\numberline {4.7.2}Summarized Feedback}{69}{}%
+\contentsline {subsection}{\numberline {4.7.3}Results and Analysis}{73}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{75}{}%
+\contentsline {section}{\numberline {5.1}Overview}{75}{}%
+\contentsline {section}{\numberline {5.2}Conclusion}{75}{}%
+\contentsline {section}{\numberline {5.3}Recommendations}{76}{}%
+\contentsline {section}{\numberline {5.4}Summary}{77}{}%
 \contentsline {chapter}{\numberline {6}References}{79}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{81}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{83}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{87}{}%
+\contentsline {section}{\numberline {A.1}Hyperledger Fabric Deployment Instructions}{99}{}%
+\contentsline {subsection}{\numberline {A.1.1}Environment Setup}{99}{}%
+\contentsline {subsection}{\numberline {A.1.2}Network Startup and Smart Contract Deployment}{100}{}%
+\contentsline {subsection}{\numberline {A.1.3}Testing the Smart Contract}{102}{}%
+\contentsline {subsection}{\numberline {A.1.4}Important Notes}{103}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{105}{}%
+\contentsline {chapter}{\numberline {C}Interview Request Letter}{107}{}%
+\contentsline {chapter}{\numberline {D}App Demo Documentation}{109}{}%

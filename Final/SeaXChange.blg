@@ -36,6 +36,10 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_B.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_C.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_D.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -46,87 +50,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
-Warning--I didn't find a database entry for "rrl-SoTIP1"
-Warning--I didn't find a database entry for "rrl-SoTIP2"
-Warning--I didn't find a database entry for "rrl-FRP1"
-Warning--I didn't find a database entry for "rrl-FRP2"
-Warning--I didn't find a database entry for "rrl-FRP3"
-Warning--I didn't find a database entry for "rrl-FRP4"
-Warning--I didn't find a database entry for "rrl-TFSC4"
-Warning--I didn't find a database entry for "rrl-TFSC1"
-Warning--I didn't find a database entry for "rrl-TFSC2"
-Warning--I didn't find a database entry for "rrl-TFSC3"
-Warning--I didn't find a database entry for "rrl-TFSC5"
-Warning--I didn't find a database entry for "rrl-TSCSR1"
-Warning--I didn't find a database entry for "rrl-TSCSR2"
-Warning--I didn't find a database entry for "rrl-FATSC1"
-Warning--I didn't find a database entry for "rrl-FATSC2"
-Warning--I didn't find a database entry for "rrl-FATSC3"
-Warning--I didn't find a database entry for "rrl-FATSC4"
-Warning--I didn't find a database entry for "rrl-FATSC5"
-Warning--I didn't find a database entry for "rrl-FATSC6"
-Warning--I didn't find a database entry for "rrl-FATSC7"
-Warning--I didn't find a database entry for "rrl-ToB1"
-Warning--I didn't find a database entry for "rrl-ToB2"
-Warning--I didn't find a database entry for "rrl-ToB3"
-Warning--I didn't find a database entry for "rrl-ToB4"
-Warning--I didn't find a database entry for "rrl-OBTSCM2"
-Warning--I didn't find a database entry for "rrl-OBTSCM3"
-Warning--I didn't find a database entry for "rrl-OBTSCM4"
-Warning--I didn't find a database entry for "rrl-OBTSCM1"
-Warning--I didn't find a database entry for "rrl-OBTSCM5"
-Warning--I didn't find a database entry for "rrl-OBTSCM6"
-Warning--I didn't find a database entry for "rrl-OBTSCM7"
-Warning--I didn't find a database entry for "rrl-SCMBTFII1"
-Warning--I didn't find a database entry for "rrl-ETITSC1"
-Warning--I didn't find a database entry for "rrl-ETITSC2"
-Warning--I didn't find a database entry for "rrl-ETITSC3"
-Warning--I didn't find a database entry for "rrl-DTSTSC1"
-Warning--I didn't find a database entry for "rrl-DTSTSC2"
-Warning--I didn't find a database entry for "method-1"
-Warning--I didn't find a database entry for "method-2"
-Warning--I didn't find a database entry for "method-3"
-Warning--I didn't find a database entry for "method-4"
+I was expecting a `,' or a `}'---line 319 of file myreferences.bib
+ :  title        = {Impact of {Gaseous Ozone Coupled} to Passive Refrigeration System} 
+ :                                                                                     to {Maximize Shelf-life} and {Quality of Four Different Fresh Fish Products}},
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 0 entries,
+You've used 47 entries,
             6951 wiz_defined-function locations,
-            1360 strings with 11609 characters,
-and the built_in function-call counts, 43 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 1
-:= -- 32
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1538 strings with 23538 characters,
+and the built_in function-call counts, 102549 in all, are:
+= -- 12496
+> -- 919
+< -- 5464
++ -- 5885
+- -- 100
+* -- 6657
+:= -- 19550
+add.period$ -- 220
+call.type$ -- 47
+change.case$ -- 789
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 94
+duplicate$ -- 2829
+empty$ -- 3598
+format.name$ -- 1665
+if$ -- 18831
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 141
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 1265
+num.names$ -- 376
+pop$ -- 3042
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 189
 quote$ -- 0
-skip$ -- 1
+skip$ -- 4659
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 6324
+swap$ -- 1277
+text.length$ -- 98
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 0
+type$ -- 3824
 warning$ -- 0
-while$ -- 0
+while$ -- 551
 width$ -- 0
-write$ -- 2
-(There was 1 error message)
+write$ -- 1657
+(There were 2 error messages)

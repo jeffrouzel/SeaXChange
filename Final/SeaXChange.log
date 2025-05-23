@@ -1,211 +1,209 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.8)  16 MAY 2025 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.8)  23 MAY 2025 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./SeaXChange.tex
 (SeaXChange.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-10-09>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 3.
 
 (preamble.tex
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
-File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@chapter=\count197
-\c@section=\count198
-\c@subsection=\count199
-\c@subsubsection=\count266
-\c@paragraph=\count267
-\c@subparagraph=\count268
-\c@figure=\count269
-\c@table=\count270
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count271
-\calc@Bcount=\count272
-\calc@Adimen=\dimen142
-\calc@Bdimen=\dimen143
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count273
-\calc@Cskip=\skip53
+\calc@Ccount=\count198
+\calc@Cskip=\skip52
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen144
-\ESO@tempdimb=\dimen145
+\ESO@tempdima=\dimen143
+\ESO@tempdimb=\dimen144
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
-g
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.lt
-x)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
-.cfg
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen146
-\Gin@req@width=\dimen147
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
 )
-\AM@pagewidth=\dimen148
-\AM@pageheight=\dimen149
-\AM@fboxrule=\dimen150
+\AM@pagewidth=\dimen147
+\AM@pageheight=\dimen148
+\AM@fboxrule=\dimen149
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count274
-\AM@pagebox=\box52
+\pdfpages@includegraphics@status=\count199
+\AM@pagebox=\box51
 \AM@global@opts=\toks18
-\AM@pagecnt=\count275
+\AM@pagecnt=\count266
 \AM@toc@title=\toks19
 \AM@lof@heading=\toks20
-\c@AM@survey=\count276
-\AM@templatesizebox=\box53
-)
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+\c@AM@survey=\count267
+\AM@templatesizebox=\box52
+) (C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip54
-\multirow@cntb=\count277
-\multirow@dima=\skip55
-\bigstrutjot=\dimen151
-) (C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\multirow@colwidth=\skip53
+\multirow@cntb=\count268
+\multirow@dima=\skip54
+\bigstrutjot=\dimen150
+) (C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count278
+\c@float@type=\count269
 \float@exts=\toks21
-\float@box=\box54
+\float@box=\box53
 \@float@everytoks=\toks22
-\@floatcapt=\box55
+\@floatcapt=\box54
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count279
-\bibleftmargin=\skip56
-\bibindent=\skip57
-\bibparsep=\skip58
-\bibitemsep=\skip59
-\biblabelsep=\skip60
+\c@BibCnt=\count270
+\bibleftmargin=\skip55
+\bibindent=\skip56
+\bibparsep=\skip57
+\bibitemsep=\skip58
+\biblabelsep=\skip59
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2024/10/30 v2.17s AMS math features
-\@mathmargin=\skip61
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
-\ex@=\dimen152
+\ex@=\dimen151
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
+\pmbraise@=\dimen152
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count280
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count281
-\leftroot@=\count282
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count283
-\DOTSCASE@=\count284
-LaTeX Info: Redefining \ldots on input line 502.
-LaTeX Info: Redefining \dots on input line 505.
-LaTeX Info: Redefining \cdots on input line 638.
-\Mathstrutbox@=\box56
-\strutbox@=\box57
-LaTeX Info: Redefining \big on input line 740.
-LaTeX Info: Redefining \Big on input line 741.
-LaTeX Info: Redefining \bigg on input line 742.
-LaTeX Info: Redefining \Bigg on input line 743.
-\big@size=\dimen154
-LaTeX Font Info:    Redeclaring font encoding OML on input line 761.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 762.
-\macc@depth=\count285
-LaTeX Info: Redefining \bmod on input line 923.
-LaTeX Info: Redefining \pmod on input line 928.
-LaTeX Info: Redefining \smash on input line 958.
-LaTeX Info: Redefining \relbar on input line 988.
-LaTeX Info: Redefining \Relbar on input line 989.
-\c@MaxMatrixCols=\count286
-\dotsspace@=\muskip17
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count276
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip16
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
 \tag@help=\toks24
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
 \andhelp@=\toks25
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks26
-\multlinegap=\skip62
-\multlinetaggap=\skip63
+\multlinegap=\skip61
+\multlinetaggap=\skip62
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2972.
-LaTeX Info: Redefining \] on input line 2973.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -213,163 +211,186 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks28
 \verbatim@line=\toks29
 \verbatim@in@stream=\read2
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip18
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.s
-ty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
-x
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
 )
-\XKV@depth=\count292
+\XKV@depth=\count283
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.st
-y
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox
-.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box58
+\collectedbox=\box57
 )
-\tc@llx=\dimen161
-\tc@lly=\dimen162
-\tc@urx=\dimen163
-\tc@ury=\dimen164
+\tc@llx=\dimen160
+\tc@lly=\dimen161
+\tc@urx=\dimen162
+\tc@ury=\dimen163
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.d
-ef
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen165
-\adjbox@Height=\dimen166
-\adjbox@Depth=\dimen167
-\adjbox@Totalheight=\dimen168
-\adjbox@pwidth=\dimen169
-\adjbox@pheight=\dimen170
-\adjbox@pdepth=\dimen171
-\adjbox@ptotalheight=\dimen172
+\adjbox@Width=\dimen164
+\adjbox@Height=\dimen165
+\adjbox@Depth=\dimen166
+\adjbox@Totalheight=\dimen167
+\adjbox@pwidth=\dimen168
+\adjbox@pheight=\dimen169
+\adjbox@pdepth=\dimen170
+\adjbox@ptotalheight=\dimen171
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.s
-ty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count293
+\c@checkoddpage=\count284
+) (C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box58
+\sift@deathcycles=\count285
+\@vwid@loff=\dimen172
+\@vwid@roff=\dimen173
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengi
-ne.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine
+.sty
 Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
 ways
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
+\etb@tempcnta=\count286
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofite
-ms.sty
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofi
-tems.tex
-\loi_cnt_foreach_nest=\count295
-\loi_nestcnt=\count296
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems
+.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofite
+ms.tex
+\loi_cnt_foreach_nest=\count287
+\loi_nestcnt=\count288
 )
 Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
 sep char (CT)
 )
-\c@@stackindex=\count297
-\@boxshift=\skip64
-\stack@tmplength=\skip65
-\temp@stkl=\skip66
-\@stackedboxwidth=\skip67
+\c@@stackindex=\count289
+\@boxshift=\skip63
+\stack@tmplength=\skip64
+\temp@stkl=\skip65
+\@stackedboxwidth=\skip66
 \@addedbox=\box59
 \@anchorbox=\box60
 \@insetbox=\box61
 \se@backgroundbox=\box62
 \stackedbox=\box63
 \@centerbox=\box64
-\c@ROWcellindex@=\count298
+\c@ROWcellindex@=\count290
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen173
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen174
 \ar@mcellbox=\box65
-\extrarowheight=\dimen174
+\extrarowheight=\dimen175
 \NC@list=\toks32
-\extratabsurround=\skip68
-\backup@length=\skip69
+\extratabsurround=\skip67
+\backup@length=\skip68
 \ar@cellbox=\box66
 )
-\TX@col@width=\dimen175
-\TX@old@table=\dimen176
-\TX@old@col=\dimen177
-\TX@target=\dimen178
-\TX@delta=\dimen179
-\TX@cols=\count299
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
+\TX@cols=\count291
 \TX@ftn=\toks33
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
-ty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
-ty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\linenopenalty=\count300
+\linenopenalty=\count292
 \output=\toks34
-\linenoprevgraf=\count301
-\linenumbersep=\dimen180
-\linenumberwidth=\dimen181
-\c@linenumber=\count302
-\c@pagewiselinenumber=\count303
-\c@LN@truepage=\count304
-\c@internallinenumber=\count305
-\c@internallinenumbers=\count306
-\quotelinenumbersep=\dimen182
-\bframerule=\dimen183
-\bframesep=\dimen184
+\linenoprevgraf=\count293
+\linenumbersep=\dimen181
+\linenumberwidth=\dimen182
+\c@linenumber=\count294
+\c@pagewiselinenumber=\count295
+\c@LN@truepage=\count296
+\c@internallinenumber=\count297
+\c@internallinenumbers=\count298
+\quotelinenumbersep=\dimen183
+\bframerule=\dimen184
+\bframesep=\dimen185
 \bframebox=\box67
-\linenoamsmath@ams@eqpen=\count307
+\linenoamsmath@ams@eqpen=\count299
 LaTeX Info: Redefining \\ on input line 3180.
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count300
+\lst@gtempboxa=\box68
+\lst@token=\toks35
+\lst@length=\count301
+\lst@currlwidth=\dimen186
+\lst@column=\count302
+\lst@pos=\count303
+\lst@lostspace=\dimen187
+\lst@width=\dimen188
+\lst@newlines=\count304
+\lst@lineno=\count305
+\lst@maxwidth=\dimen189
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count306
+\lst@skipnumbers=\count307
+\lst@framebox=\box69
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count308
-\l__pdf_internal_box=\box68
+\l__pdf_internal_box=\box70
 )
 
 LaTeX Warning: Unused global option(s):
@@ -378,7 +399,7 @@ LaTeX Warning: Unused global option(s):
 (SeaXChange.aux (title_page.aux) (approval.aux) (declaration.aux)
 (dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
-(appendix_A.aux) (appendix_B.aux))
+(appendix_A.aux) (appendix_B.aux) (appendix_C.aux) (appendix_D.aux))
 \openout1 = `SeaXChange.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -396,84 +417,81 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count309
-\scratchdimen=\dimen185
-\scratchbox=\box69
+\scratchdimen=\dimen190
+\scratchbox=\box71
 \nofMPsegments=\count310
 \nofMParguments=\count311
-\everyMPshowfont=\toks35
+\everyMPshowfont=\toks36
 \MPscratchCnt=\count312
-\MPscratchDim=\dimen186
+\MPscratchDim=\dimen191
 \MPnumerator=\count313
 \makeMPintoPDFobject=\count314
-\everyMPtoPDFconversion=\toks36
+\everyMPtoPDFconversion=\toks37
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
-.cfg
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
-ty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
-ometadata.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 \c@maskedRefs=\count315
- (C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
+\c@lstlisting=\count316
 \openout2 = `title_page.aux'.
 
- (title_page.tex
 
-[1
-
+(title_page.tex [1
 
 
-{C:/Users/Maxinne/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+
+{C:/Users/Zyrex/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \openout2 = `approval.aux'.
 
-
-(approval.tex
+ (approval.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
-(C:\Users\Maxinne\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 Overfull \hbox (13.75838pt too wide) in paragraph at lines 15--12
 [][] 
  []
-
-
 
 [2
 
@@ -482,313 +500,82 @@ Overfull \hbox (13.75838pt too wide) in paragraph at lines 15--12
 ]
 \openout2 = `declaration.aux'.
 
- (declaration.tex)
-
-[3
+ (declaration.tex) [3
 
 
 
 ]
 \openout2 = `dedication.aux'.
 
- (dedication.tex)
-
-[4
+ (dedication.tex) [4
 
 
 
 ]
 \openout2 = `acknowledgment.aux'.
 
- (acknowledgment.tex)
-
-[5
+ (acknowledgment.tex [5
 
 
 
-]
+])
+[6]
 \openout2 = `abstract.aux'.
 
- (abstract.tex)
-
-[6
+ (abstract.tex) [7
 
 
 
-] (SeaXChange.toc
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [8
 
 
 
-[7
-
-
-
-]
-
-[8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[9])
+] (SeaXChange.toc [9] [10] [11] [12])
 \tf@toc=\write3
 \openout3 = `SeaXChange.toc'.
 
+ [13] [14
 
+]
+(SeaXChange.lof [15]
+Overfull \hbox (4.97656pt too wide) in paragraph at lines 18--18
+ [][] []\OT1/cmr/m/n/12 SeaXChange Mock-ups show-ing the Au-then-ti-ca-tion Pag
+e, Role-Based 
+ []
 
-[10] (SeaXChange.lof
-
-[11
-
-])
+[16])
 \tf@lof=\write4
 \openout4 = `SeaXChange.lof'.
 
+ [17] [18
 
-
-[12] (SeaXChange.lot
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[13
-
-])
+] (SeaXChange.lot [19])
 \tf@lot=\write5
 \openout5 = `SeaXChange.lot'.
 
-
-
-[14]
+ [20]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
 Chapter 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [1
 
 
-]
-
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[3]
-
-[4]
-
-[5])
-
-[6]
+] [2] [3] [4] [5]) [6]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
 Chapter 2.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [7
 
 
 
 
-]
-
-LaTeX Warning: Citation `rrl-SoTIP1' undefined on input line 16.
-
-
-LaTeX Warning: Citation `rrl-SoTIP2' undefined on input line 16.
-
-
-LaTeX Warning: Citation `rrl-SoTIP2' undefined on input line 16.
-
-
-LaTeX Warning: Citation `rrl-SoTIP1' undefined on input line 17.
-
-
-LaTeX Warning: Citation `rrl-SoTIP1' undefined on input line 17.
-
-
-
-[8]
-
-LaTeX Warning: Citation `rrl-FRP1' undefined on input line 22.
-
-
-LaTeX Warning: Citation `rrl-FRP2' undefined on input line 22.
-
-
-LaTeX Warning: Citation `rrl-FRP2' undefined on input line 22.
-
-
-
-[9]
-
-LaTeX Warning: Citation `rrl-FRP3' undefined on input line 24.
-
-
-LaTeX Warning: Citation `rrl-FRP4' undefined on input line 24.
-
-
-LaTeX Warning: Citation `rrl-TFSC4' undefined on input line 24.
-
-
-LaTeX Warning: Citation `rrl-FRP2' undefined on input line 24.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[10]
-
-LaTeX Warning: Citation `rrl-TFSC1' undefined on input line 29.
-
-
-LaTeX Warning: Citation `rrl-TFSC2' undefined on input line 29.
-
-
-LaTeX Warning: Citation `rrl-TFSC3' undefined on input line 29.
-
-
-LaTeX Warning: Citation `rrl-TFSC3' undefined on input line 29.
-
-
-LaTeX Warning: Citation `rrl-TFSC4' undefined on input line 31.
-
-
-LaTeX Warning: Citation `rrl-TFSC5' undefined on input line 31.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[11]
-
-LaTeX Warning: Citation `rrl-TSCSR1' undefined on input line 36.
-
-
-LaTeX Warning: Citation `rrl-TSCSR1' undefined on input line 36.
-
-
-
-[12]
-
-LaTeX Warning: Citation `rrl-TSCSR2' undefined on input line 38.
-
-
-LaTeX Warning: Citation `rrl-TSCSR2' undefined on input line 38.
-
-
-LaTeX Warning: Citation `rrl-FATSC1' undefined on input line 43.
-
-
-LaTeX Warning: Citation `rrl-FATSC2' undefined on input line 43.
-
-
-LaTeX Warning: Citation `rrl-FATSC3' undefined on input line 43.
-
-
-LaTeX Warning: Citation `rrl-FATSC4' undefined on input line 43.
-
-
-LaTeX Warning: Citation `rrl-FATSC5' undefined on input line 43.
-
-
-LaTeX Warning: Citation `rrl-FATSC1' undefined on input line 43.
-
-
-Underfull \vbox (badness 3724) has occurred while \output is active []
-
-
-
-[13]
-
-LaTeX Warning: Citation `rrl-FATSC6' undefined on input line 45.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[14]
-
-LaTeX Warning: Citation `rrl-FATSC7' undefined on input line 47.
-
-
-LaTeX Warning: Citation `rrl-ToB1' undefined on input line 52.
-
-
-LaTeX Warning: Citation `rrl-ToB2' undefined on input line 52.
-
-
-LaTeX Warning: Citation `rrl-ToB3' undefined on input line 52.
-
-
-LaTeX Warning: Citation `rrl-ToB2' undefined on input line 52.
-
-
-LaTeX Warning: Citation `rrl-ToB3' undefined on input line 54.
-
-
-LaTeX Warning: Citation `rrl-ToB3' undefined on input line 54.
-
-
-LaTeX Warning: Citation `rrl-ToB3' undefined on input line 54.
-
-
-
-[15]
-
-LaTeX Warning: Citation `rrl-ToB4' undefined on input line 56.
-
-
-Overfull \hbox (4.68022pt too wide) in paragraph at lines 56--57
+] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+Overfull \hbox (4.68022pt too wide) in paragraph at lines 53--54
 \OT1/cmr/m/n/12 si-fied into 3 types: Pub-lic Blockchain, Pri-vate Blockchain,.
  Con-sor-tium Blockchain.
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[16]
-
-LaTeX Warning: Citation `rrl-OBTSCM2' undefined on input line 62.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM3' undefined on input line 62.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM4' undefined on input line 62.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 64.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 64.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 64.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 64.
-
-
-Underfull \vbox (badness 3375) has occurred while \output is active []
-
-
 
 
 Overfull \hbox (124.85197pt too wide) has occurred while \output is active
@@ -796,715 +583,532 @@ Overfull \hbox (124.85197pt too wide) has occurred while \output is active
 MANAGEMENT \OT1/cmr/m/n/12 17
  []
 
-[17]
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM5' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM5' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM6' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM6' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM1' undefined on input line 66.
-
-
-LaTeX Warning: Citation `rrl-OBTSCM7' undefined on input line 66.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[18]
-
-LaTeX Warning: Citation `rrl-SCMBTFII1' undefined on input line 71.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (188.12938pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 2.8.  SUPPLY CHAIN MODEL WITH BLOCKCHAIN TECHNOLOGY OF FISHING
- INDUSTRY IN INDONESIA \OT1/cmr/m/n/12 19
+[17] [18]
+Overfull \hbox (124.85197pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 2.7.  OPPORTUNITIES OF BLOCKCHAIN TECHNOLOGY FOR SUPPLY CHAIN 
+MANAGEMENT \OT1/cmr/m/n/12 19
  []
 
-[19]
-
-LaTeX Warning: Citation `rrl-ETITSC1' undefined on input line 76.
-
-
-LaTeX Warning: Citation `rrl-ETITSC2' undefined on input line 76.
-
-
-LaTeX Warning: Citation `rrl-ETITSC2' undefined on input line 76.
-
-
-LaTeX Warning: Citation `rrl-ETITSC1' undefined on input line 76.
-
-
-LaTeX Warning: Citation `rrl-ETITSC1' undefined on input line 76.
-
-
-LaTeX Warning: Citation `rrl-ETITSC1' undefined on input line 76.
-
-
-
-[20]
-
-LaTeX Warning: Citation `rrl-ETITSC3' undefined on input line 78.
-
-
-LaTeX Warning: Citation `rrl-ETITSC3' undefined on input line 78.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
+[19] [20]
 Overfull \hbox (78.67052pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 2.9.  EXISTING TECHNOLOGY INTENDED FOR TRACEABILITY AND SUPPLY
  CHAIN \OT1/cmr/m/n/12 21
  []
 
-[21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[22]
-
-LaTeX Warning: Citation `rrl-DTSTSC1' undefined on input line 83.
-
-
-LaTeX Warning: Citation `rrl-DTSTSC2' undefined on input line 85.
-
-
-LaTeX Warning: Citation `rrl-DTSTSC2' undefined on input line 85.
-
-
-
-
+[21] [22]
 Overfull \hbox (28.996pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 2.10.  DEVELOPING A TRACEABILITY SYSTEM FOR TUNA SUPPLY CHAINS
  \OT1/cmr/m/n/12 23
  []
 
-[23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/cmr/bx/n/12 Technology
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\OT1/cmr/bx/n/12 Focus
  []
 
 
-Overfull \hbox (11.70073pt too wide) in paragraph at lines 96--96
+Overfull \hbox (11.70073pt too wide) in paragraph at lines 93--93
 []|\OT1/cmr/m/n/12 Shamsuzzoha
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 et al.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/cmr/m/n/12 Blockchain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 (hy-brid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/cmr/m/n/12 Mobile app
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 (Tracey) for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/cmr/m/n/12 Demonstrated fea-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 cer-ti-fi-ca-tion, trans-
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 96--96
+Underfull \hbox (badness 6236) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 parency; high user
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 \OT1/cmr/m/n/12 ac-cept-abil-ity among
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 []|\OT1/cmr/m/n/12 Connectivity
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 96--97
+Underfull \hbox (badness 4120) in paragraph at lines 93--94
 \OT1/cmr/m/n/12 is-sues, tech-nol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 \OT1/cmr/m/n/12 ogy us-abil-ity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 \OT1/cmr/m/n/12 in-cen-tives and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Cocco &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 Man-naro
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Blockchain,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 IoT (RFID,
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 98--98
+Underfull \hbox (badness 1715) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 IPFS), NFC,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Italian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 tra-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 (Carasau
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Agri-food
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 98--98
+Underfull \hbox (badness 3557) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 sup-ply chain
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 trace-abil-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Proposed a model
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 98--98
+Underfull \hbox (badness 6691) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 com-bin-ing IoT and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/cmr/m/n/12 blockchain to en-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 []|\OT1/cmr/m/n/12 High com-plex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/cmr/m/n/12 ity; re-quires
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/cmr/m/n/12 in-te-gra-tion of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/cmr/m/n/12 mul-ti-ple tech-
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 100--100
+Underfull \hbox (badness 5036) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/12 Kresna et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 tem, RFID,
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 100--100
+Underfull \hbox (badness 1603) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/12 Tuna sup-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 100--100
+Underfull \hbox (badness 1931) in paragraph at lines 97--97
 []|\OT1/cmr/m/n/12 Identified weak-nesses
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 100--100
+Underfull \hbox (badness 1226) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 in tra-di-tional paper-
  []
 
 
-Underfull \hbox (badness 2020) in paragraph at lines 100--100
+Underfull \hbox (badness 2020) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 based sys-tems; pro-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 100--100
+Underfull \hbox (badness 2452) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 posed IT lay-ers for
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 100--100
+Underfull \hbox (badness 2073) in paragraph at lines 97--97
 \OT1/cmr/m/n/12 com-pre-hen-sive track-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 []|\OT1/cmr/m/n/12 Infrastructure
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \OT1/cmr/m/n/12 re-quire-ments
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \OT1/cmr/m/n/12 (CCTV, GPS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 \OT1/cmr/m/n/12 RFID); lim-
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 100--101
+Underfull \hbox (badness 7907) in paragraph at lines 97--98
 \OT1/cmr/m/n/12 ited de-tail on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Tiwari
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 (2020) -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 Prove-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Blockchain,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 smart con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Tuna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 track-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 cer-ti-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Provenance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 sys-tem for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 tuna sup-ply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Enhanced trans-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 102--102
+Underfull \hbox (badness 2096) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 parency, cer-ti-fi-ca-tion
  []
 
 
-Underfull \hbox (badness 5893) in paragraph at lines 102--102
+Underfull \hbox (badness 5893) in paragraph at lines 99--99
 \OT1/cmr/m/n/12 IUU fish-ing, fraud,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Tiwari
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 (2020) -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Blockchain,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
-\OT1/cmr/m/n/12 GTIN/UPC
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+\OT1/cmr/m/n/12 GT-IN/UPC
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 104--104
+Underfull \hbox (badness 2547) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Food sup-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 track-ing,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 prod-uct
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/cmr/m/n/12 Improved trans-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 parency, ef-fi-ciency;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 en-abled real-time
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 sta-tus, fresh-ness
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []|\OT1/cmr/m/n/12 Focused on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/cmr/m/n/12 gen-eral food
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 104--105
+Underfull \hbox (badness 5533) in paragraph at lines 101--102
 \OT1/cmr/m/n/12 prod-ucts; high
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 \OT1/cmr/m/n/12 de-pen-dency on
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25])
-
-[26]
+[25] [26]) [27]
 \openout2 = `chapter_3.aux'.
 
- (chapter_3.tex
-Chapter 3.
-
-
-[27
+ (chapter_3.tex [28
 
 
 
 
 ]
-Overfull \hbox (0.45427pt too wide) in paragraph at lines 16--17
+Chapter 3.
+[29] [30]
+Overfull \hbox (0.45427pt too wide) in paragraph at lines 21--22
 []\OT1/cmr/m/n/12 Stakeholder(Fishermen, Sup-plier, Re-tail-ers, and Con-sumers
 ) in-ter-views
  []
 
-
-
-[28]
-
-[29]
-
-LaTeX Warning: Citation `method-1' undefined on input line 48.
-
-
-LaTeX Warning: Citation `method-2' undefined on input line 50.
-
-
-
-[30]
-
-LaTeX Warning: Citation `method-3' undefined on input line 54.
-
-
-
-[31]
-
-LaTeX Warning: Citation `method-4' undefined on input line 58.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[32]
-<SeaXChange_model.png, id=157, 932.48375pt x 489.83pt>
+[31] [32] [33] [34] [35]
+<SeaXChange_model.png, id=186, 932.48375pt x 489.83pt>
 File: SeaXChange_model.png Graphic file (type png)
 <use SeaXChange_model.png>
-Package pdftex.def Info: SeaXChange_model.png  used on input line 72.
+Package pdftex.def Info: SeaXChange_model.png  used on input line 77.
 (pdftex.def)             Requested size: 332.44325pt x 174.62706pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[33]
-<overall-system.png, id=162, 844.15375pt x 844.15375pt>
+ [36]
+<overall-system.png, id=191, 844.15375pt x 844.15375pt>
 File: overall-system.png Graphic file (type png)
 <use overall-system.png>
-Package pdftex.def Info: overall-system.png  used on input line 82.
+Package pdftex.def Info: overall-system.png  used on input line 87.
 (pdftex.def)             Requested size: 332.44325pt x 332.4517pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[34 <./SeaXChange_model.png>]
-
-[35 <./overall-system.png>]
-<figures/seaxchange.png, id=172, 453.19313pt x 389.95688pt>
+ [37 <./SeaXChange_model.png>] [38 <./overall-system.png>]
+<figures/seaxchange.png, id=200, 453.19313pt x 389.95688pt>
 File: figures/seaxchange.png Graphic file (type png)
 <use figures/seaxchange.png>
-Package pdftex.def Info: figures/seaxchange.png  used on input line 114.
+Package pdftex.def Info: figures/seaxchange.png  used on input line 120.
 (pdftex.def)             Requested size: 332.44325pt x 286.0585pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
-
-[36]
-
-[37 <./figures/seaxchange.png>]
+) [39] [40 <./figures/seaxchange.png>]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
-
-[38
+Chapter 4.
+[41
 
 
 
 
 ]
-Chapter 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[39]
-Overfull \hbox (3.06215pt too wide) in paragraph at lines 19--20
+Overfull \hbox (3.06215pt too wide) in paragraph at lines 17--18
 []\OT1/cmr/bx/n/12 Fabric Sam-ples: \OT1/cmr/m/n/12 Clone the of-fi-cial Hy-per
 -ledger Fab-ric's fabric-samples
  []
 
-
-
-[40]
-Overfull \hbox (7.04724pt too wide) in paragraph at lines 42--43
+[42]
+Overfull \hbox (7.04724pt too wide) in paragraph at lines 35--36
 []\OT1/cmr/m/n/12 After start-ing the net-work to docker in the same di-rec-tor
 y (test-network),
  []
 
-
-
-[41]
-Overfull \hbox (53.3971pt too wide) in paragraph at lines 66--66
+[43]
+Overfull \hbox (53.3971pt too wide) in paragraph at lines 55--55
  []   \OT1/cmtt/m/n/12 /peerOrganizations/org1.example.com/peers/peer0.org1.exa
 mple.com[] 
  []
 
-<figures/invoke step 2.png, id=193, 1927.2pt x 307.1475pt>
+<figures/invoke step 2.png, id=218, 1927.2pt x 307.1475pt>
 File: figures/invoke step 2.png Graphic file (type png)
 <use figures/invoke step 2.png>
-Package pdftex.def Info: figures/invoke step 2.png  used on input line 86.
+Package pdftex.def Info: figures/invoke step 2.png  used on input line 70.
 (pdftex.def)             Requested size: 332.44325pt x 52.98299pt.
-
-Underfull \vbox (badness 7362) has occurred while \output is active []
-
-
-
-[42]
-<figures/invoke step 3.png, id=197, 1927.2pt x 180.675pt>
+[44 <./figures/invoke step 2.png>]
+<figures/invoke step 3.png, id=223, 1927.2pt x 180.675pt>
 File: figures/invoke step 3.png Graphic file (type png)
 <use figures/invoke step 3.png>
-Package pdftex.def Info: figures/invoke step 3.png  used on input line 97.
+Package pdftex.def Info: figures/invoke step 3.png  used on input line 81.
 (pdftex.def)             Requested size: 332.44325pt x 31.16646pt.
-<figures/invoke step 4.png, id=198, 1927.2pt x 182.6825pt>
+<figures/invoke step 4.png, id=224, 1927.2pt x 182.6825pt>
 File: figures/invoke step 4.png Graphic file (type png)
 <use figures/invoke step 4.png>
-Package pdftex.def Info: figures/invoke step 4.png  used on input line 107.
+Package pdftex.def Info: figures/invoke step 4.png  used on input line 91.
 (pdftex.def)             Requested size: 332.44325pt x 31.51276pt.
-
-
-[43 <./figures/invoke step 2.png> <./figures/invoke step 3.png> <./figures/invo
-ke step 4.png>]
-<figures/invoke step 5.png, id=205, 1927.2pt x 165.61874pt>
+<figures/invoke step 5.png, id=225, 1927.2pt x 165.61874pt>
 File: figures/invoke step 5.png Graphic file (type png)
 <use figures/invoke step 5.png>
-Package pdftex.def Info: figures/invoke step 5.png  used on input line 117.
+Package pdftex.def Info: figures/invoke step 5.png  used on input line 101.
 (pdftex.def)             Requested size: 332.44325pt x 28.56926pt.
-<figures/invoke step 6.png, id=206, 1927.2pt x 220.825pt>
+ [45 <./figures/invoke step 3.png> <./figures/invoke step 4.png>]
+<figures/invoke step 6.png, id=231, 1927.2pt x 220.825pt>
 File: figures/invoke step 6.png Graphic file (type png)
 <use figures/invoke step 6.png>
-Package pdftex.def Info: figures/invoke step 6.png  used on input line 127.
+Package pdftex.def Info: figures/invoke step 6.png  used on input line 111.
 (pdftex.def)             Requested size: 332.44325pt x 38.09235pt.
-<figures/invoke step 7.png, id=207, 1927.2pt x 174.6525pt>
+<figures/invoke step 7.png, id=232, 1927.2pt x 174.6525pt>
 File: figures/invoke step 7.png Graphic file (type png)
 <use figures/invoke step 7.png>
-Package pdftex.def Info: figures/invoke step 7.png  used on input line 137.
+Package pdftex.def Info: figures/invoke step 7.png  used on input line 121.
 (pdftex.def)             Requested size: 332.44325pt x 30.12758pt.
-
-
-[44 <./figures/invoke step 5.png> <./figures/invoke step 6.png> <./figures/invo
-ke step 7.png>]
-<figures/invoke step 8.png, id=214, 1927.2pt x 234.8775pt>
+ [46 <./figures/invoke step 5.png> <./figures/invoke step 6.png> <./figures/inv
+oke step 7.png>]
+<figures/invoke step 8.png, id=239, 1927.2pt x 234.8775pt>
 File: figures/invoke step 8.png Graphic file (type png)
 <use figures/invoke step 8.png>
-Package pdftex.def Info: figures/invoke step 8.png  used on input line 147.
+Package pdftex.def Info: figures/invoke step 8.png  used on input line 131.
 (pdftex.def)             Requested size: 332.44325pt x 40.5164pt.
 
-Overfull \hbox (3.06955pt too wide) in paragraph at lines 152--154
+Overfull \hbox (3.06955pt too wide) in paragraph at lines 136--138
 \OT1/cmr/m/n/12 The fi-nal step in-volves query-ing the smart con-tract to get 
 a com-plete overview
  []
 
-<figures/invoke step 9.png, id=215, 1927.2pt x 397.485pt>
+<figures/invoke step 9.png, id=240, 1927.2pt x 397.485pt>
 File: figures/invoke step 9.png Graphic file (type png)
 <use figures/invoke step 9.png>
-Package pdftex.def Info: figures/invoke step 9.png  used on input line 157.
+Package pdftex.def Info: figures/invoke step 9.png  used on input line 141.
 (pdftex.def)             Requested size: 332.44325pt x 68.56622pt.
 
-Overfull \hbox (8.72331pt too wide) in paragraph at lines 164--164
+Overfull \hbox (8.72331pt too wide) in paragraph at lines 148--148
 []\OT1/cmr/bx/n/17.28 Backend Se-cu-rity Ana-lysis (Hy-per-ledger Fab-
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-Overfull \hbox (8.68921pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 4.3.  BACKEND SECURITY ANALYSIS (HYPERLEDGER FABRIC ON GCP) \O
-T1/cmr/m/n/12 45
- []
-
-[45 <./figures/invoke step 8.png> <./figures/invoke step 9.png>]
-Underfull \vbox (badness 2512) has occurred while \output is active []
-
-
-
-[46]
-Overfull \hbox (4.83203pt too wide) in paragraph at lines 187--188
-\OT1/cmr/m/n/12 Critical cryp-to-graphic op-er-a-tions, such as sign-ing trans-
-ac-tions un-der the blockchain
- []
-
-
 
 
 Overfull \hbox (8.68921pt too wide) has occurred while \output is active
@@ -1512,21 +1116,11 @@ Overfull \hbox (8.68921pt too wide) has occurred while \output is active
 T1/cmr/m/n/12 47
  []
 
-[47]
-<chaincode_security1.png, id=228, 1901.1025pt x 352.31625pt>
-File: chaincode_security1.png Graphic file (type png)
-<use chaincode_security1.png>
-Package pdftex.def Info: chaincode_security1.png  used on input line 200.
-(pdftex.def)             Requested size: 332.44325pt x 61.60788pt.
-
-
-[48 <./chaincode_security1.png>]
-<chaincode_security2.png, id=233, 765.86125pt x 603.25375pt>
-File: chaincode_security2.png Graphic file (type png)
-<use chaincode_security2.png>
-Package pdftex.def Info: chaincode_security2.png  used on input line 212.
-(pdftex.def)             Requested size: 332.44325pt x 261.86096pt.
-
+[47 <./figures/invoke step 8.png> <./figures/invoke step 9.png>] [48]
+Overfull \hbox (4.83203pt too wide) in paragraph at lines 171--172
+\OT1/cmr/m/n/12 Critical cryp-to-graphic op-er-a-tions, such as sign-ing trans-
+ac-tions un-der the blockchain
+ []
 
 
 Overfull \hbox (8.68921pt too wide) has occurred while \output is active
@@ -1534,270 +1128,177 @@ Overfull \hbox (8.68921pt too wide) has occurred while \output is active
 T1/cmr/m/n/12 49
  []
 
-[49 <./chaincode_security2.png>]
-Underfull \vbox (badness 1960) has occurred while \output is active []
-
-
-
-[50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
+[49]
+<chaincode_security1.png, id=253, 1901.1025pt x 352.31625pt>
+File: chaincode_security1.png Graphic file (type png)
+<use chaincode_security1.png>
+Package pdftex.def Info: chaincode_security1.png  used on input line 184.
+(pdftex.def)             Requested size: 332.44325pt x 61.60788pt.
+<chaincode_security2.png, id=254, 765.86125pt x 603.25375pt>
+File: chaincode_security2.png Graphic file (type png)
+<use chaincode_security2.png>
+Package pdftex.def Info: chaincode_security2.png  used on input line 196.
+(pdftex.def)             Requested size: 332.44325pt x 261.86096pt.
+ [50 <./chaincode_security1.png>]
 Overfull \hbox (8.68921pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 4.3.  BACKEND SECURITY ANALYSIS (HYPERLEDGER FABRIC ON GCP) \O
 T1/cmr/m/n/12 51
  []
 
-[51]
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
-
-
-[52]
-Overfull \hbox (23.26962pt too wide) in paragraph at lines 256--269
- [][] 
- []
-
-<figures/mockup1.png, id=247, 3793.17125pt x 2362.8275pt>
-File: figures/mockup1.png Graphic file (type png)
-<use figures/mockup1.png>
-Package pdftex.def Info: figures/mockup1.png  used on input line 277.
-(pdftex.def)             Requested size: 373.99469pt x 232.94359pt.
-<figures/mockup2.png, id=248, 3793.17125pt x 2280.52pt>
-File: figures/mockup2.png Graphic file (type png)
-<use figures/mockup2.png>
-Package pdftex.def Info: figures/mockup2.png  used on input line 281.
-(pdftex.def)             Requested size: 373.99469pt x 224.82915pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
+[51 <./chaincode_security2.png>] [52]
 Overfull \hbox (8.68921pt too wide) has occurred while \output is active
 \OT1/cmr/m/sl/12 4.3.  BACKEND SECURITY ANALYSIS (HYPERLEDGER FABRIC ON GCP) \O
 T1/cmr/m/n/12 53
  []
 
-[53]
+[53] [54]
+Overfull \hbox (23.26962pt too wide) in paragraph at lines 240--253
+ [][] 
+ []
 
-[54 <./figures/mockup1.png> <./figures/mockup2.png>]
-<figures/mockup3.png, id=258, 3793.17125pt x 1238.6275pt>
+[55]
+<figures/mockup1.png, id=276, 3793.17125pt x 2362.8275pt>
+File: figures/mockup1.png Graphic file (type png)
+<use figures/mockup1.png>
+Package pdftex.def Info: figures/mockup1.png  used on input line 272.
+(pdftex.def)             Requested size: 373.99469pt x 232.94359pt.
+<figures/mockup2.png, id=277, 3793.17125pt x 2280.52pt>
+File: figures/mockup2.png Graphic file (type png)
+<use figures/mockup2.png>
+Package pdftex.def Info: figures/mockup2.png  used on input line 276.
+(pdftex.def)             Requested size: 373.99469pt x 224.82915pt.
+ [56] [57 <./figures/mockup1.png> <./figures/mockup2.png>]
+<figures/mockup3.png, id=286, 3793.17125pt x 1238.6275pt>
 File: figures/mockup3.png Graphic file (type png)
 <use figures/mockup3.png>
-Package pdftex.def Info: figures/mockup3.png  used on input line 289.
+Package pdftex.def Info: figures/mockup3.png  used on input line 285.
 (pdftex.def)             Requested size: 373.99469pt x 122.1123pt.
-<figures/LandingPage.png, id=259, 1155.1155pt x 548.64975pt>
+<figures/LandingPage.png, id=287, 1155.1155pt x 548.64975pt>
 File: figures/LandingPage.png Graphic file (type png)
 <use figures/LandingPage.png>
-Package pdftex.def Info: figures/LandingPage.png  used on input line 303.
+Package pdftex.def Info: figures/LandingPage.png  used on input line 299.
 (pdftex.def)             Requested size: 332.44325pt x 157.89882pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[55
+ [58
 
  <./figures/mockup3.png>]
-<figures/MobileLandingPage.png, id=264, 344.487pt x 483.0045pt>
+<figures/MobileLandingPage.png, id=292, 344.487pt x 483.0045pt>
 File: figures/MobileLandingPage.png Graphic file (type png)
 <use figures/MobileLandingPage.png>
-Package pdftex.def Info: figures/MobileLandingPage.png  used on input line 310.
+Package pdftex.def Info: figures/MobileLandingPage.png  used on input line 306.
 
 (pdftex.def)             Requested size: 332.44325pt x 466.14064pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[56 <./figures/LandingPage.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[57 <./figures/MobileLandingPage.png>]
-<figures/SignupPage.png, id=273, 1155.1155pt x 546.843pt>
+ [59 <./figures/LandingPage.png>] [60 <./figures/MobileLandingPage.png>]
+<figures/SignupPage.png, id=302, 1155.1155pt x 546.843pt>
 File: figures/SignupPage.png Graphic file (type png)
 <use figures/SignupPage.png>
-Package pdftex.def Info: figures/SignupPage.png  used on input line 320.
+Package pdftex.def Info: figures/SignupPage.png  used on input line 316.
 (pdftex.def)             Requested size: 332.44325pt x 157.37885pt.
-<figures/LoginPage.png, id=274, 1155.1155pt x 549.252pt>
+<figures/LoginPage.png, id=303, 1155.1155pt x 549.252pt>
 File: figures/LoginPage.png Graphic file (type png)
 <use figures/LoginPage.png>
-Package pdftex.def Info: figures/LoginPage.png  used on input line 330.
+Package pdftex.def Info: figures/LoginPage.png  used on input line 326.
 (pdftex.def)             Requested size: 332.44325pt x 158.07214pt.
-
-
-[58 <./figures/SignupPage.png> <./figures/LoginPage.png>]
-<figures/FisherHomepage.png, id=280, 1155.1155pt x 549.85425pt>
+ [61 <./figures/SignupPage.png> <./figures/LoginPage.png>]
+<figures/FisherHomepage.png, id=309, 1155.1155pt x 549.85425pt>
 File: figures/FisherHomepage.png Graphic file (type png)
 <use figures/FisherHomepage.png>
-Package pdftex.def Info: figures/FisherHomepage.png  used on input line 343.
+Package pdftex.def Info: figures/FisherHomepage.png  used on input line 339.
 (pdftex.def)             Requested size: 332.44325pt x 158.24547pt.
-<figures/SupplierHomepage.png, id=281, 1155.1155pt x 549.252pt>
+<figures/SupplierHomepage.png, id=310, 1155.1155pt x 549.252pt>
 File: figures/SupplierHomepage.png Graphic file (type png)
 <use figures/SupplierHomepage.png>
-Package pdftex.def Info: figures/SupplierHomepage.png  used on input line 353.
+Package pdftex.def Info: figures/SupplierHomepage.png  used on input line 349.
 (pdftex.def)             Requested size: 332.44325pt x 158.07214pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[59 <./figures/FisherHomepage.png>]
-<figures/RetailerHomepage.png, id=287, 1155.1155pt x 548.0475pt>
+ [62 <./figures/FisherHomepage.png>]
+<figures/RetailerHomepage.png, id=315, 1155.1155pt x 548.0475pt>
 File: figures/RetailerHomepage.png Graphic file (type png)
 <use figures/RetailerHomepage.png>
-Package pdftex.def Info: figures/RetailerHomepage.png  used on input line 363.
+Package pdftex.def Info: figures/RetailerHomepage.png  used on input line 359.
 (pdftex.def)             Requested size: 332.44325pt x 157.7255pt.
-<figures/ConsumerHomepage.png, id=288, 1155.1155pt x 549.252pt>
+<figures/ConsumerHomepage.png, id=316, 1155.1155pt x 549.252pt>
 File: figures/ConsumerHomepage.png Graphic file (type png)
 <use figures/ConsumerHomepage.png>
-Package pdftex.def Info: figures/ConsumerHomepage.png  used on input line 373.
+Package pdftex.def Info: figures/ConsumerHomepage.png  used on input line 369.
 (pdftex.def)             Requested size: 332.44325pt x 158.07214pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[60 <./figures/SupplierHomepage.png> <./figures/RetailerHomepage.png>]
-<figures/ProfileHomepage.png, id=294, 1155.1155pt x 549.252pt>
+ [63 <./figures/SupplierHomepage.png> <./figures/RetailerHomepage.png>]
+<figures/ProfileHomepage.png, id=322, 1155.1155pt x 549.252pt>
 File: figures/ProfileHomepage.png Graphic file (type png)
 <use figures/ProfileHomepage.png>
-Package pdftex.def Info: figures/ProfileHomepage.png  used on input line 385.
-(pdftex.def)             Requested size: 332.44325pt x 158.07214pt.
-<figures/Signout.png, id=295, 1151.502pt x 546.24075pt>
+Package pdftex.def Info: figures/ProfileHomepage.png  used on input line 381.
+(pdftex.def)             Requested size: 166.21844pt x 79.03188pt.
+<figures/Signout.png, id=323, 1151.502pt x 546.24075pt>
 File: figures/Signout.png Graphic file (type png)
 <use figures/Signout.png>
-Package pdftex.def Info: figures/Signout.png  used on input line 395.
+Package pdftex.def Info: figures/Signout.png  used on input line 391.
 (pdftex.def)             Requested size: 332.44325pt x 157.70563pt.
-
-
-[61 <./figures/ConsumerHomepage.png> <./figures/ProfileHomepage.png>]
-
-[62 <./figures/Signout.png>]
-<figures/AddCatch.png, id=305, 347.49825pt x 483.0045pt>
+ [64 <./figures/ConsumerHomepage.png> <./figures/ProfileHomepage.png>] [65 <./f
+igures/Signout.png>]
+<figures/AddCatch.png, id=334, 347.49825pt x 483.0045pt>
 File: figures/AddCatch.png Graphic file (type png)
 <use figures/AddCatch.png>
-Package pdftex.def Info: figures/AddCatch.png  used on input line 409.
-(pdftex.def)             Requested size: 332.44325pt x 462.1166pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[63]
-<figures/SaveAddCatch.png, id=309, 344.487pt x 483.0045pt>
+Package pdftex.def Info: figures/AddCatch.png  used on input line 405.
+(pdftex.def)             Requested size: 166.21844pt x 231.04355pt.
+ [66]
+<figures/SaveAddCatch.png, id=338, 344.487pt x 483.0045pt>
 File: figures/SaveAddCatch.png Graphic file (type png)
 <use figures/SaveAddCatch.png>
-Package pdftex.def Info: figures/SaveAddCatch.png  used on input line 416.
-(pdftex.def)             Requested size: 332.44325pt x 466.14064pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[64 <./figures/AddCatch.png>]
-<figures/AfterSaving.png, id=314, 344.487pt x 483.0045pt>
+Package pdftex.def Info: figures/SaveAddCatch.png  used on input line 412.
+(pdftex.def)             Requested size: 166.21844pt x 233.05557pt.
+<figures/AfterSaving.png, id=339, 344.487pt x 483.0045pt>
 File: figures/AfterSaving.png Graphic file (type png)
 <use figures/AfterSaving.png>
-Package pdftex.def Info: figures/AfterSaving.png  used on input line 423.
-(pdftex.def)             Requested size: 332.44325pt x 466.14064pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[65 <./figures/SaveAddCatch.png>]
-<figures/SendToSupplier.png, id=320, 344.487pt x 483.0045pt>
+Package pdftex.def Info: figures/AfterSaving.png  used on input line 414.
+(pdftex.def)             Requested size: 166.21844pt x 233.05557pt.
+<figures/SendToSupplier.png, id=340, 344.487pt x 483.0045pt>
 File: figures/SendToSupplier.png Graphic file (type png)
 <use figures/SendToSupplier.png>
-Package pdftex.def Info: figures/SendToSupplier.png  used on input line 430.
+Package pdftex.def Info: figures/SendToSupplier.png  used on input line 421.
 (pdftex.def)             Requested size: 332.44325pt x 466.14064pt.
+ [67 <./figures/AddCatch.png> <./figures/SaveAddCatch.png> <./figures/AfterSavi
+ng.png>]
+Overfull \hbox (17.11827pt too wide) in paragraph at lines 430--458
+ [][] 
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[66 <./figures/AfterSaving.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[67 <./figures/SendToSupplier.png>]
-Overfull \hbox (17.11827pt too wide) in paragraph at lines 443--471
+[68 <./figures/SendToSupplier.png>] [69]
+Overfull \hbox (18.7502pt too wide) in paragraph at lines 466--482
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[68]
-
-[69]
-Overfull \hbox (18.7502pt too wide) in paragraph at lines 479--495
+Overfull \hbox (30.63063pt too wide) in paragraph at lines 491--507
  [][] 
  []
-
-
-Overfull \hbox (30.63063pt too wide) in paragraph at lines 504--520
- [][] 
- []
-
-
 
 [70]
-Overfull \hbox (82.9523pt too wide) in paragraph at lines 530--552
+Overfull \hbox (82.9523pt too wide) in paragraph at lines 517--539
  [][] 
  []
-
-
 
 [71]
-
-[72]
-Overfull \hbox (12.90997pt too wide) in paragraph at lines 561--577
+Overfull \hbox (12.90997pt too wide) in paragraph at lines 547--563
  [][] 
  []
 
 
-Overfull \hbox (42.21939pt too wide) in paragraph at lines 587--603
+Overfull \hbox (42.21939pt too wide) in paragraph at lines 573--589
  [][] 
  []
 
-
-
-[73
-
-]
-
-[74])
-
-[75]
+[72] [73]) [74]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
-
-[76
-
-
-
-
-]
 Chapter 5.
-)
+[75
 
-[77]
+
+
+
+] [76]) [77]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex
-
-[78
+ (chapter_6.tex [78
 
 
 
@@ -1805,31 +1306,205 @@ Chapter 5.
 ]
 Chapter 6.
 (SeaXChange.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-))
+Underfull \hbox (badness 10000) in paragraph at lines 14--36
+\OT1/cmtt/m/n/12 publication / 327578781 [] []Contribution [] []of [] []aquacul
+ture [] []on [] []livelihood []
+ []
 
 [79]
+Underfull \hbox (badness 3601) in paragraph at lines 257--272
+[]\OT1/cmr/m/n/12 Cole, R., Steven-son, M., & Aitken, J.  (2019).  \OT1/cmr/m/i
+t/12 Blockchain Tech-
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 257--272
+\OT1/cmr/m/it/12 nol-ogy: Im-pli-ca-tions for Op-er-a-tions and Sup-ply Chain M
+an-age-
+ []
+
+[80]
+Underfull \hbox (badness 4144) in paragraph at lines 428--441
+\OT1/cmr/m/it/12 Trick or Treat?  $\OT1/cmtt/m/n/12 https :// www [] .researchg
+ate [] .net / publication /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--441
+\OT1/cmtt/m/n/12 318724655 [] []Blockchain [] []in [] []Logistics [] []and [] [
+]Supply [] []Chain [] []Trick [] []or []
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 491--506
+[]\OT1/cmr/m/n/12 Hugos, M. H.  (2024).  \OT1/cmr/m/it/12 Es-sen-tials of Sup-p
+ly Chain Man-age-ment \OT1/cmr/m/n/12 (Edi-
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 491--506
+\OT1/cmr/m/n/12 tion Num-ber (5) ed.[]).  Hobo-ken, New Jer-sey: Wi-ley.  Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--506
+\OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// books [] .google [] .c
+om [] .ph / books [] ?hl = en&lr =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--506
+\OT1/cmtt/m/n/12 &id = zpz0EAAAQBAJ&oi = fnd&pg = PP7&dq = supply + chain + &ot
+s =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--506
+\OT1/cmtt/m/n/12 jAuHDxF99j&sig = zl0Tue18LKtl3pIQWcr2uZT4pRw&redir [] []esc = 
+y # v =
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 518--532
+[]\OT1/cmr/m/n/12 Hyperledger Foun-da-tion.  (2024).  Hy-per-ledger Fab-ric Doc
+-u-men-ta-tion
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 518--532
+\OT1/cmr/m/n/12 [Com-puter soft-ware man-ual].  Re-trieved from $\OT1/cmtt/m/n/
+12 https :// hyperledger []
+ []
+
+[81] [82]
+Underfull \hbox (badness 1831) in paragraph at lines 788--803
+\OT1/cmr/m/it/12 A Re-view.  $\OT1/cmtt/m/n/12 https :// www [] .sciencedirect 
+[] .com / science / article / pii /
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 847--864
+[]\OT1/cmr/m/n/12 Nassar, M., Rot-ten-stre-ich, O., & Orda, A.  (2024, Febru-ar
+y).  Cfto:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--896
+\OT1/cmtt/m/n/12 Abundance [] , % 20Distribution [] , % 20and % 20Diversity % 2
+0of % 20Tuna %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 879--896
+\OT1/cmtt/m/n/12 20Larvae % 20(Family % 20Scombridae ) %20in % 20the % 20Philip
+pine %
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 940--959
+[]\OT1/cmr/m/n/12 Obura, D. O., Aeby, G., Amorn-tham-marong, N., Ap-peltans, W.
+, Bax,
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 940--959
+\OT1/cmr/m/n/12 N., Bishop, J., ... Wong-busarakum, S.  (2019).  \OT1/cmr/m/it/
+12 Coral Reef
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 940--959
+\OT1/cmr/m/it/12 age-ment.  $\OT1/cmtt/m/n/12 https :// www [] .frontiersin [] 
+.org / journals / marine [] -science /
+ []
+
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 973--988
+\OT1/cmtt/m/n/12 publication / 340827869 [] []Health [] []Risk [] []Assessment 
+[] []Total [] []Mercury [] []in []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 973--988
+[]\OT1/cmtt/m/n/12 Canned [] []Tuna [] []and [] []in [] []Yellowfin [] []and []
+ []Frigate [] []Tuna [] []Caught [] []from [] []Leyte []
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1004--1021
+\OT1/cmr/m/it/12 Risk As-sess-ment and Risk Mit-i-ga-tion in a Sus-tain-able Tu
+na Sup-
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 1004--1021
+\OT1/cmr/m/it/12 ply Chain.  $\OT1/cmtt/m/n/12 https :// www [] .actalogistica 
+[] .eu / issues / 2022 / I [] []2022 [] []06 []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1052
+\OT1/cmtt/m/n/12 handle / 11250 / 3052893 / Cristin [] -id [] []1318891 [] []en
+gelseth [] .pdf [] ?sequence =
+ []
+
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1225
+\OT1/cmtt/m/n/12 books [] .google [] .com [] .ph / books [] ?hl = en&lr = &id =
+ sJSaDwAAQBAJ&oi = fnd&pg =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1225
+\OT1/cmtt/m/n/12 PR21&dq = supply + chain + &ots = IDNDcy0t37&sig = ssnh [] -6I
+DRAi1JzBRpohxT []
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 1296--1310
+[]\OT1/cmr/m/n/12 Verkhivker, Y., & Alt-mann, E.  (2018).  \OT1/cmr/m/it/12 In-
+flu-ence Pa-ram-e-ters of Stor-
+ []
+
+[85])) [86]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
-
-[80
-
-
-
-
-]
 Appendix A.
-)
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 13.
+[87
 
-[81]
+
+
+
+] [88] [89] [90]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+101.
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+[91] [92] [93] [94] [95] [96] [97] [98]
+Overfull \hbox (8.78333pt too wide) in paragraph at lines 281--281
+[]\OT1/cmr/bx/n/17.28 Hyperledger Fab-ric De-ploy-ment In-struc-tions 
+ []
+
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(C:\Users\Zyrex\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+[99] [100]
+Overfull \hbox (11.49532pt too wide) in paragraph at lines 332--333
+[][] 
+ []
+
+[101] [102]) [103]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex
-
-[82
+ (appendix_B.tex [104
 
 
 
@@ -1837,48 +1512,124 @@ Appendix A.
 ]
 Appendix B.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 29--36
+Underfull \hbox (badness 10000) in paragraph at lines 35--34
 
  []
 
+[105] [106]
+\openout2 = `appendix_C.aux'.
+
+ (appendix_C.tex
+Appendix C.
+<figures/interview_request_letter.png, id=475, 464.937pt x 551.661pt>
+File: figures/interview_request_letter.png Graphic file (type png)
+<use figures/interview_request_letter.png>
+Package pdftex.def Info: figures/interview_request_letter.png  used on input li
+ne 13.
+(pdftex.def)             Requested size: 332.44325pt x 394.47672pt.
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[107
 
 
-[83] (SeaXChange.aux (title_page.aux) (approval.aux) (declaration.aux)
-(dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
-(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
-(appendix_A.aux) (appendix_B.aux))
+
+
+] [108 <./figures/interview_request_letter.png>]
+\openout2 = `appendix_D.aux'.
+
+ (appendix_D.tex
+Appendix D.
+<figures/respondent_sapa1.png, id=484, 628.07846pt x 289.82506pt>
+File: figures/respondent_sapa1.png Graphic file (type png)
+<use figures/respondent_sapa1.png>
+Package pdftex.def Info: figures/respondent_sapa1.png  used on input line 16.
+(pdftex.def)             Requested size: 186.99734pt x 86.28925pt.
+<figures/respondent_sapa2.png, id=485, 803.91061pt x 506.63506pt>
+File: figures/respondent_sapa2.png Graphic file (type png)
+<use figures/respondent_sapa2.png>
+Package pdftex.def Info: figures/respondent_sapa2.png  used on input line 18.
+(pdftex.def)             Requested size: 186.99734pt x 117.84554pt.
+<figures/respondent_sapa3.png, id=486, 4143.48pt x 2330.7075pt>
+File: figures/respondent_sapa3.png Graphic file (type png)
+<use figures/respondent_sapa3.png>
+Package pdftex.def Info: figures/respondent_sapa3.png  used on input line 20.
+(pdftex.def)             Requested size: 186.99734pt x 105.16182pt.
+<figures/respondent_sapa4.png, id=487, 1434.96928pt x 804.65567pt>
+File: figures/respondent_sapa4.png Graphic file (type png)
+<use figures/respondent_sapa4.png>
+Package pdftex.def Info: figures/respondent_sapa4.png  used on input line 22.
+(pdftex.def)             Requested size: 186.99734pt x 104.85446pt.
+<figures/respondent_maty1.png, id=488, 885.3075pt x 498.86375pt>
+File: figures/respondent_maty1.png Graphic file (type png)
+<use figures/respondent_maty1.png>
+Package pdftex.def Info: figures/respondent_maty1.png  used on input line 29.
+(pdftex.def)             Requested size: 186.99734pt x 105.36583pt.
+<figures/respondent_maty2.png, id=489, 707.64375pt x 396.48125pt>
+File: figures/respondent_maty2.png Graphic file (type png)
+<use figures/respondent_maty2.png>
+Package pdftex.def Info: figures/respondent_maty2.png  used on input line 31.
+(pdftex.def)             Requested size: 186.99734pt x 104.77058pt.
+<figures/respondent_maty3.png, id=490, 1525.86557pt x 1144.39917pt>
+File: figures/respondent_maty3.png Graphic file (type png)
+<use figures/respondent_maty3.png>
+Package pdftex.def Info: figures/respondent_maty3.png  used on input line 33.
+(pdftex.def)             Requested size: 186.99734pt x 140.23814pt.
+<figures/respondent_maty4.png, id=491, 4039.2pt x 3029.4pt>
+File: figures/respondent_maty4.png Graphic file (type png)
+<use figures/respondent_maty4.png>
+Package pdftex.def Info: figures/respondent_maty4.png  used on input line 35.
+(pdftex.def)             Requested size: 186.99734pt x 140.24623pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [109
+
+
+
+
+ <./figures/respondent_sapa1.png (PNG copy)> <./figures/respondent_sapa2.png> <
+./figures/respondent_sapa3.png (PNG copy)> <./figures/respondent_sapa4.png (PNG
+ copy)>] [110 <./figures/respondent_maty1.png> <./figures/respondent_maty2.png>
+ <./figures/respondent_maty3.png (PNG copy)> <./figures/respondent_maty4.png (P
+NG copy)>] (SeaXChange.aux (title_page.aux) (approval.aux)
+(declaration.aux) (dedication.aux) (acknowledgment.aux) (abstract.aux)
+(chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux)
+(chapter_6.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux)
+(appendix_D.aux))
  ***********
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-10-09>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 7931 strings out of 473701
- 133517 string characters out of 5718465
- 542699 words of memory out of 5000000
- 30743 multiletter control sequences out of 15000+600000
- 567588 words of font info for 71 fonts, out of 8000000 for 9000
+ 10228 strings out of 474486
+ 169494 string characters out of 5743755
+ 2078542 words of memory out of 5000000
+ 32223 multiletter control sequences out of 15000+600000
+ 568222 words of font info for 74 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,11n,84p,2967b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Maxinne\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1200.pk><C:/Users/Maxinne/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb><C:/Users/Maxinne/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Maxinne/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Maxinne/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Maxinne/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Maxi
-nne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/
-Users/Maxinne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb><C:/Users/Maxinne/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmti12.pfb><C:/Users/Maxinne/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmtt12.pfb>
-Output written on SeaXChange.pdf (97 pages, 4701958 bytes).
+ 79i,11n,121p,2966b,1958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Zyrex\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
+1095.pk> <C:\Users\Zyrex\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Zyrex/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/Zyrex/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Zyrex/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Zy
+rex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:
+/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8
+.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti12.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Zyrex/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on SeaXChange.pdf (130 pages, 37193151 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
+ 565 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
